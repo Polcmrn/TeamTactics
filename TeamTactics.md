@@ -19,8 +19,8 @@ Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team T
 ```bash
 # 00ff00 
 
-## LOGO DEL EQUIPO
 
-## LOGO DEL EQUIPO
-```bash
-# Comando para instalar
+## TAREAS DE LOS INTEGRANTES
+
+## OBLIGATORIO DE APLICAR
+
