@@ -13,17 +13,13 @@ Hemos diseñado un mockup de la aplicación a través de Canva, basándonos prin
 
 Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team Tactics. En él, se pueden ver dos "T" que hacen referencia al nombre del equipo.
 
+## TAREAS DE LOS INTEGRANTES
+
+## OBLIGATORIO DE APLICAR
+
 ## PALETA DEL EQUIPO
 
 ```bash
 # 111111
 
-```bash
 # 00ff00 
-
- PALETA DEL EQUIPO
-div style="display: flex; gap: 10px;">
-  <button style="background-color: #111111; color: white; border: none; padding: 10px 20px; cursor: default;">#111111</button>
-  <button style="background-color: #00ff00; color: white; border: none; padding: 10px 20px; cursor: default;">#00ff00</button>
-</div>
-
