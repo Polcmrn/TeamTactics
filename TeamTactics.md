@@ -16,6 +16,7 @@ Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team T
 ## PALETA DEL EQUIPO
 ```bash
 # 111111
+```bash
 # 00ff00 
 
 ## LOGO DEL EQUIPO
