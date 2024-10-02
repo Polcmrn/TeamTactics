@@ -5,7 +5,7 @@ Nuestra idea del proyecto se basa en diseñar una aplicación web inspirada en e
 Nuestro objetivo será aplicar todas las tecnologías necesarias para aspirar a la máxima nota posible y poner en práctica los conocimientos aprendidos en el primer año, así como lo que aprenderemos en este segundo año, para hacerlo lo mejor posible.
 
 
-### NUESTRO MOCKUP
+## NUESTRO MOCKUP
 
 Hemos diseñado un mockup de la aplicación a través de Canva, basándonos principalmente en nuestra paleta de colores. Además, hemos realizado un diseño lo más visual posible para atraer la atención del público que creemos podría estar interesado en nuestra aplicación. Nuestro público objetivo son hombres entre 13 y 40 años.
 
@@ -20,6 +20,6 @@ Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team T
 ## PALETA DEL EQUIPO
 
 ```bash
-# 111111
+111111
 
-# 00ff00 
+00ff00 
