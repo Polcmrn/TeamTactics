@@ -12,8 +12,7 @@ Hemos diseñado un mockup de la aplicación a través de Canva, basándonos prin
 ## LOGO DEL EQUIPO
 
 Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team Tactics. En él, se pueden ver dos "T" que hacen referencia al nombre del equipo.
-![Logo del equipo](logo_teamtactics_negro.png)
-<img src="ruta/a/la/logo_teamtactics_negro.png" alt="Logo del equipo" width="200"/>
+![Logo del equipo](logo_teamtactics_negro.png width="200")
 
 
 ## TAREAS DE LOS INTEGRANTES
