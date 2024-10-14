@@ -27,7 +27,7 @@ Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos,
 
 -NODE.JS  &  MYSQL  
 -NGINX o APACHE  
--.DNS + DHCP
+-DNS + DHCP
 
 ## PALETA DEL EQUIPO
 
