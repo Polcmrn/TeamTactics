@@ -35,6 +35,8 @@ Los colores con los que vamos a trabajar son los siguientes, hemos considerado q
 ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
 
 ```bash
-111111
+#111111
 
-00ff00 
+#00ff00
+
+#FFFFFF
