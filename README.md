@@ -31,6 +31,9 @@ Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos,
 
 ## PALETA DEL EQUIPO
 
+Los colores con los que vamos a trabajar son los siguientes, hemos considerado que esta paleta de colores puede cuadrar muy bien con la funcionalidad de la web y puede atraer visualmente a nuestro público objetivo
+ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
+
 ```bash
 111111
 
