@@ -29,7 +29,7 @@ DHCP (Protocolo de Configuración Dinámica de Host) asigna automáticamente dir
 
 Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team Tactics. En él, se pueden ver dos "T" que hacen referencia al nombre del equipo. Tambien, hemos pensado este logo ya que con la forma y sus colores tiene mucha relación con el mundo del futbol.
 
-![Logo del equipo](logo_teamtactics_negro.png)
+![Logo del equipo](carpeta_fotos/logo_teamtactics_negro.png)
 
 ## PALETA DEL EQUIPO
 
