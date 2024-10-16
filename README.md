@@ -118,3 +118,8 @@ Y en el boton de inicio de sección, el usuario podrá hacer registro para poder
 ![Logo del equipo](carpeta_fotos/arboldenavegacion.png)
 
 El mockup y nuestra idea del trabajo creo que lo hemos entendido perfectamente. Sabemos que el al árbol de navegación no será el mejor de la história, pero para nosotros nos sirve cómo una buena guia de cómo funcionará la página.
+
+
+## ARQUITECTURA DEL SISTEMA
+
+## DIAGRAMA DE LA BASE DE DATOS
