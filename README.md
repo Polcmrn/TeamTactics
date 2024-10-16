@@ -5,7 +5,7 @@ Nuestra idea del proyecto se basa en diseñar una aplicación web inspirada en e
 
 Nuestro objetivo será aplicar todas las tecnologías necesarias para aspirar a la máxima nota posible y poner en práctica los conocimientos aprendidos en el primer año, así como lo que aprenderemos en este segundo año, para hacerlo lo mejor posible.
 
-## OBLIGATORIO DE APLICAR
+## OBLIGATORIO A APLICAR
 
 __-Node.js & MySQL:__
 
