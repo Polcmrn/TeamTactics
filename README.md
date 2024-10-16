@@ -38,9 +38,9 @@ ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
 
 -000000
 
--00ff00
+-00FF00
 
--ffffff
+-FFFFFF
 
 
 ![Paleta de la web](carpeta_fotos/tabladecolores.png)
