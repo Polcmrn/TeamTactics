@@ -124,4 +124,4 @@ El mockup y nuestra idea del trabajo creo que lo hemos entendido perfectamente. 
 
 ## DIAGRAMA DE LA BASE DE DATOS
 
-![Logo del equipo](carpeta_fotos/arboldenavegacion.png)
+![Logo del equipo](carpeta_carpeta_fotos/basededatos.png)
