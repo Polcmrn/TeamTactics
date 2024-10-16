@@ -5,12 +5,24 @@ Nuestra idea del proyecto se basa en diseñar una aplicación web inspirada en e
 
 Nuestro objetivo será aplicar todas las tecnologías necesarias para aspirar a la máxima nota posible y poner en práctica los conocimientos aprendidos en el primer año, así como lo que aprenderemos en este segundo año, para hacerlo lo mejor posible.
 
+## OBLIGATORIO DE APLICAR
 
-## NUESTRO MOCKUP
+__-Node.js & MySQL:__
 
-Hemos diseñado un mockup de la aplicación a través de Canva, basándonos principalmente en nuestra paleta de colores. Además, hemos realizado un diseño lo más visual posible para atraer la atención del público que creemos podría estar interesado en nuestra aplicación. Nuestro público objetivo son hombres entre 13 y 40 años.
+Node.js es un entorno de ejecución para JavaScript en el servidor, ideal para construir aplicaciones web rápidas y escalables. 
 
-Mockup y Arbol de Navegació.pdf
+MySQL es un sistema de gestión de bases de datos relacional que almacena y organiza datos de manera eficiente, facilitando consultas rápidas.
+
+__-NGINX o Apache:__ 
+
+Ambos son servidores web populares. NGINX es conocido por su rendimiento y capacidad para manejar múltiples conexiones simultáneas, 
+mientras que Apache es altamente configurable y tiene una gran cantidad de módulos disponibles.
+
+__-DNS + DHCP:__ 
+
+DNS (Sistema de Nombres de Dominio) traduce nombres de dominio en direcciones IP, facilitando la navegación web. 
+
+DHCP (Protocolo de Configuración Dinámica de Host) asigna automáticamente direcciones IP a dispositivos en una red, simplificando la gestión de redes.
 
 
 ## LOGO DEL EQUIPO
@@ -31,24 +43,11 @@ ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
 
 Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos, hagamos la base de datos, etc.
 
-## OBLIGATORIO DE APLICAR
+## NUESTRO MOCKUP
 
-__-Node.js & MySQL:__
+Hemos diseñado un mockup de la aplicación a través de Canva, basándonos principalmente en nuestra paleta de colores. Además, hemos realizado un diseño lo más visual posible para atraer la atención del público que creemos podría estar interesado en nuestra aplicación. Nuestro público objetivo son hombres entre 13 y 40 años.
 
-Node.js es un entorno de ejecución para JavaScript en el servidor, ideal para construir aplicaciones web rápidas y escalables. 
-
-MySQL es un sistema de gestión de bases de datos relacional que almacena y organiza datos de manera eficiente, facilitando consultas rápidas.
-
-__-NGINX o Apache:__ 
-
-Ambos son servidores web populares. NGINX es conocido por su rendimiento y capacidad para manejar múltiples conexiones simultáneas, 
-mientras que Apache es altamente configurable y tiene una gran cantidad de módulos disponibles.
-
-__-DNS + DHCP:__ 
-
-DNS (Sistema de Nombres de Dominio) traduce nombres de dominio en direcciones IP, facilitando la navegación web. 
-
-DHCP (Protocolo de Configuración Dinámica de Host) asigna automáticamente direcciones IP a dispositivos en una red, simplificando la gestión de redes.
+Mockup y Arbol de Navegació.pdf
 
 ## ARBOL DE NAVEGACIÓN
 
