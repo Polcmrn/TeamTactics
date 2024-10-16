@@ -47,7 +47,7 @@ Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos,
 
 Hemos diseñado un mockup de la aplicación a través de Canva, basándonos principalmente en nuestra paleta de colores. Además, hemos realizado un diseño lo más visual posible para atraer la atención del público que creemos podría estar interesado en nuestra aplicación. Nuestro público objetivo son hombres entre 13 y 40 años.
 
-Mockup y Arbol de Navegació.pdf
+Todo la información del mockup será explicada en el arbol de navegación
 
 ## ARBOL DE NAVEGACIÓN
 
