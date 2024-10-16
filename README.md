@@ -36,6 +36,7 @@ Ambos son servidores web populares. NGINX es conocido por su rendimiento y capac
 mientras que Apache es altamente configurable y tiene una gran cantidad de módulos disponibles.
 
 DNS + DHCP: 
+
 DNS (Sistema de Nombres de Dominio) traduce nombres de dominio en direcciones IP, facilitando la navegación web. 
 DHCP (Protocolo de Configuración Dinámica de Host) asigna automáticamente direcciones IP a dispositivos en una red, simplificando la gestión de redes.
 
