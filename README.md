@@ -36,11 +36,11 @@ Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team T
 Los colores con los que vamos a trabajar son los siguientes, hemos considerado que esta paleta de colores puede cuadrar muy bien con la funcionalidad de la web y puede atraer visualmente a nuestro público objetivo
 ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
 
--000000
+__-000000__
 
--00FF00
+__-00FF00__
 
--FFFFFF
+__-FFFFFF__
 
 
 ![Paleta de la web](carpeta_fotos/tabladecolores.png)
