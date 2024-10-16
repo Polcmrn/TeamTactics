@@ -37,7 +37,10 @@ Los colores con los que vamos a trabajar son los siguientes, hemos considerado q
 ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
 
 -000000
+
 -00ff00
+
+-ffffff
 
 
 ![Paleta de la web](carpeta_fotos/tabladecolores.png)
