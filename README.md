@@ -75,7 +75,6 @@ Està pàgina de estadisticas tambien se podra llegar a parte del boton arriba d
 Y si le damos al boton de ver todos los partidos, que se encuentra a abajo del todo de la página principal, nos llevara a otra página donde 
 
 ## PALETA DEL EQUIPO
-## PALETA DEL EQUIPO
 
 Los colores con los que vamos a trabajar son los siguientes, hemos considerado que esta paleta de colores puede cuadrar muy bien con la funcionalidad de la web y puede atraer visualmente a nuestro público objetivo
 ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
