@@ -52,9 +52,13 @@ Para empezar tendremos una página principal, donde a la parte superior derecha 
  - Plantillas
  - Estadísticas
  - Contacto
+
 El boton de inicio es para que cuando accedas a otro boton te lleve a la pagina principal.
+
 El boton de plantillas te llevara al apartado de tu plantilla/equipo
+
 El boton de estadísticas te llevara a la parte de estadisticas globales
+
 EL boton de contacto es para que el usuario acceda a la pagina con su usuario creado. En ese apartado podrà iniciar sección.
 
 Abajo de todo esto, se veràn los 20 escudos de la liga, donde si hacemos click a un escudo te llevara a ver información de ese equipo como: Plantilla, sitio en la clasificación etc..
