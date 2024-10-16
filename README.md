@@ -96,6 +96,8 @@ Entonces si le damos al boton de arriba derecha de estadisticas, te llevera a un
 Està pàgina de estadisticas tambien se podra llegar a parte del boton arriba derecha en la parte que he comentado donde decia: Ver todas las estadísticas
 Y si le damos al boton de ver todos los partidos, que se encuentra a abajo del todo de la página principal, nos llevara a otra página donde veremos todos los partidos jugados, y los puntos que todo el equipo ha conseguido, esto servira para que el usuario mire los puntos que ha hecho cada jugador
 
+![Logo del equipo](estadisiticas.png)
+
 Ahora, en la pagina principal, si le damos a crea tu equipo, te llevara a la página donde el usuario podra crear el equipo. En esta pagina, se vera de fondo como un campo de futbol negro, para que el usuario ponga sus jugadores a cada posición que corresponde.
 Arriba dentro de la misma página, se vera un balance, el balance principal empeiza con 100.000.000, luego si el usuario hace incorporaciones entonces el balance bajara. 
 Abajo de esto, se vera un apartado de puntos, donde el usuario verá la suma total que ha realizado su equipo.
