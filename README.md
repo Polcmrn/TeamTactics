@@ -36,7 +36,7 @@ Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team T
 Los colores con los que vamos a trabajar son los siguientes, hemos considerado que esta paleta de colores puede cuadrar muy bien con la funcionalidad de la web y puede atraer visualmente a nuestro público objetivo
 ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
 
-![Paleta de la web](tabladecolores.png)
+![Paleta de la web](carpeta_fotos/tabladecolores.png)
 
 
 ## TAREAS DE LOS INTEGRANTES
@@ -66,11 +66,11 @@ Abajo de todo esto, se veràn los 20 escudos de la liga, donde si hacemos click 
 
 Entonces abajo de esto mostraremos el mensaje de Juega a teamtactics, esto es para que el usuario vea de una forma un esquema de lo que va la web
 
-![Logo del equipo](INICIO.png)
+![Logo del equipo](carpeta_fotos/INICIO.png)
 
 Abajo de esto, veremos un apartado de pròximos partidos y lideres de la liga, ambas son como una mínima información. En cada apartado tendrá abajo derecha un boton que pondra como: Ver todos los partidos/Estadísticas, que te llevara a otro sitio, para ver toda la información.
 
-![Logo del equipo](proximospartidos.png)
+![Logo del equipo](carpeta_fotos/proximospartidos.png)
 
 Entonces si le damos al boton de arriba derecha de estadisticas, te llevera a una pagina donde salga todas las estadisticas, donde podremos ver:
 
@@ -91,21 +91,21 @@ Entonces si le damos al boton de arriba derecha de estadisticas, te llevera a un
 Està pàgina de estadisticas tambien se podra llegar a parte del boton arriba derecha en la parte que he comentado donde decia: Ver todas las estadísticas
 Y si le damos al boton de ver todos los partidos, que se encuentra a abajo del todo de la página principal, nos llevara a otra página donde veremos todos los partidos jugados, y los puntos que todo el equipo ha conseguido, esto servira para que el usuario mire los puntos que ha hecho cada jugador
 
-![Logo del equipo](estadisiticas.png)
+![Logo del equipo](carpeta_fotos/estadisiticas.png)
 
-![Logo del equipo](proximospartidos2.png)
+![Logo del equipo](carpeta_fotos/proximospartidos2.png)
 
 Ahora, en la pagina principal, si le damos a crea tu equipo, te llevara a la página donde el usuario podra crear el equipo. En esta pagina, se vera de fondo como un campo de futbol negro, para que el usuario ponga sus jugadores a cada posición que corresponde.
 Arriba dentro de la misma página, se vera un balance, el balance principal empeiza con 100.000.000, luego si el usuario hace incorporaciones entonces el balance bajara. 
 Abajo de esto, se vera un apartado de puntos, donde el usuario verá la suma total que ha realizado su equipo.
 Y arriba derecha se vera el numero de jugadores que tiene puestos en el campo de futbol, normalmente esto será simpre 11/11.
 
-![Logo del equipo](creatuequipo.png)
+![Logo del equipo](carpeta_fotos/creatuequipo.png)
 
 La opcion de numero de jugadores funcionará como un boton, donde si hacemos click a esto, veremos nuestros jugadores, nombre, club, media puntos, puntos que ha hecho en una jornada y el valor de mercado
 La media de puntos se hara haciendo una media de los 37 partidos jugados.
 
-![Logo del equipo](tusjugadores.png)
+![Logo del equipo](carpeta_fotos/tusjugadores.png)
 
 Tambien se verà un boton de Mercado, para que el usuario podra comprar jugadores en el mercado.
 Todos los jugadores que el usuario ha comprado, tambien pueden ser vendidos.
@@ -114,6 +114,6 @@ Luego en el boton contacto pondremos un poco de información de nosotros para ex
 
 Y en el boton de inicio de sección, el usuario podrá hacer registro para poder acceder con su cuenta a la página, claro que si no tiene cuenta, tendra que darle a crear cuenta, y luego de crear cuenta le tendrá que dar a iniciar sección
 
-![Logo del equipo](arboldenavegacion.png)
+![Logo del equipo](carpeta_fotos/arboldenavegacion.png)
 
 El mockup y nuestra idea creo que el equipo la ha entendido muy bien, sabemos perfectamente como hacer y como quedará la página web. Sabemos que el al árbol de navegación no será el mejor de la historia, pero para nosotros nos sirve como una buena guia de como funcionará la página
