@@ -114,5 +114,5 @@ Luego en el boton contacto pondremos un poco de información de nosotros para ex
 
 Y en el boton de inicio de sección, el usuario podrá hacer registro para poder acceder con su cuenta a la página, claro que si no tiene cuenta, tendra que darle a crear cuenta, y luego de crear cuenta le tendrá que dar a iniciar sección
 
-
+![Logo del equipo](arboldenavegacion.png)
 
