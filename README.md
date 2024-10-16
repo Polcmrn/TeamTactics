@@ -53,6 +53,7 @@ Para empezar tendremos una página principal, donde a la parte superior derecha 
  - Plantillas
  - Estadísticas
  - Contacto
+ - Login
 
 El boton de inicio es para que cuando accedas a otro boton te lleve a la pagina principal.
 
