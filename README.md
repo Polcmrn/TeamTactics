@@ -43,16 +43,11 @@ ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
 
 Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos, hagamos la base de datos, etc.
 
-## NUESTRO MOCKUP
+## NUESTRO MOCKUP Y ARBOL DE NAVEGACIÓN
 
 Hemos diseñado un mockup de la aplicación a través de Canva, basándonos principalmente en nuestra paleta de colores. Además, hemos realizado un diseño lo más visual posible para atraer la atención del público que creemos podría estar interesado en nuestra aplicación. Nuestro público objetivo son hombres entre 13 y 40 años.
 
-Todo la información del mockup será explicada en el arbol de navegación
-
-## ARBOL DE NAVEGACIÓN
-
-
-Aquí explicaremos nuestro arbol de navegación de nuestra página web.
+Aquí explicaremos el arbol de navegación de nuestra página web.
 Para empezar tendremos una página principal, donde a la parte superior derecha se vera los siguentes botones:
  - Inicio
  - Plantillas
