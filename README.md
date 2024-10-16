@@ -1,5 +1,6 @@
-# IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
+# TeamTactics©
 
+## IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
 Nuestra idea del proyecto se basa en diseñar una aplicación web inspirada en el popular juego de Fantasy Football. Hemos elegido esta idea porque ambos integrantes sabemos más o menos cómo funciona. Creemos que es una gran opción escoger este tema, ya que nos parece muy interesante.
 
 Nuestro objetivo será aplicar todas las tecnologías necesarias para aspirar a la máxima nota posible y poner en práctica los conocimientos aprendidos en el primer año, así como lo que aprenderemos en este segundo año, para hacerlo lo mejor posible.
@@ -28,6 +29,10 @@ Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos,
 -NODE.JS  &  MYSQL  
 -NGINX o APACHE  
 -DNS + DHCP
+
+## ARBOL DE NAVEGACIÓN
+
+Este es nuestro arbol de navegación, como podemos observar
 
 ## PALETA DEL EQUIPO
 
