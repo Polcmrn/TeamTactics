@@ -129,6 +129,8 @@ El mockup y nuestra idea del trabajo creo que lo hemos entendido perfectamente. 
 
 ## ARQUITECTURA DEL SISTEMA Y FUNCIONALIDADES
 
+![Logo del equipo](carpeta_fotos/arquitectura.png)
+
 ## DIAGRAMA DE LA BASE DE DATOS
 
 ![Logo del equipo](carpeta_fotos/basededatos.png)
