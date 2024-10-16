@@ -75,6 +75,8 @@ Entonces abajo de esto mostraremos el mensaje de Juega a teamtactics, esto es pa
 
 Abajo de esto, veremos un apartado de pròximos partidos y lideres de la liga, ambas son como una mínima información. En cada apartado tendrá abajo derecha un boton que pondra como: Ver todos los partidos/Estadísticas, que te llevara a otro sitio, para ver toda la información.
 
+![Logo del equipo](proximospartidos.png)
+
 Entonces si le damos al boton de arriba derecha de estadisticas, te llevera a una pagina donde salga todas las estadisticas, donde podremos ver:
 
  -Máximos goleadores
