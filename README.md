@@ -108,10 +108,12 @@ Y arriba derecha se vera el numero de jugadores que tiene puestos en el campo de
 ![Logo del equipo](creatuequipo.png)
 
 La opcion de numero de jugadores funcionará como un boton, donde si hacemos click a esto, veremos nuestros jugadores, nombre, club, media puntos, puntos que ha hecho en una jornada y el valor de mercado
-La media de puntos se hara haciendo una media de los 37 partidos jugados
+La media de puntos se hara haciendo una media de los 37 partidos jugados.
+
+![Logo del equipo](tusjugadores.png)
 
 Tambien se verà un boton de Mercado, para que el usuario podra comprar jugadores en el mercado.
-Todos los jugadores que el usuario ha comprado, tambien pueden ser vendidos
+Todos los jugadores que el usuario ha comprado, tambien pueden ser vendidos.
 
 Luego en el boton contacto pondremos un poco de información de nosotros para explicar un poco dentra de la página web el processo del proyecto.
 
