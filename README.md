@@ -103,7 +103,9 @@ Y si le damos al boton de ver todos los partidos, que se encuentra a abajo del t
 Ahora, en la pagina principal, si le damos a crea tu equipo, te llevara a la página donde el usuario podra crear el equipo. En esta pagina, se vera de fondo como un campo de futbol negro, para que el usuario ponga sus jugadores a cada posición que corresponde.
 Arriba dentro de la misma página, se vera un balance, el balance principal empeiza con 100.000.000, luego si el usuario hace incorporaciones entonces el balance bajara. 
 Abajo de esto, se vera un apartado de puntos, donde el usuario verá la suma total que ha realizado su equipo.
-Y arriba derecha se vera el numero de jugadores que tiene puestos en el campo de futbol, normalmente esto será simpre 11/11
+Y arriba derecha se vera el numero de jugadores que tiene puestos en el campo de futbol, normalmente esto será simpre 11/11.
+
+![Logo del equipo](creatuequipo.png)
 
 La opcion de numero de jugadores funcionará como un boton, donde si hacemos click a esto, veremos nuestros jugadores, nombre, club, media puntos, puntos que ha hecho en una jornada y el valor de mercado
 La media de puntos se hara haciendo una media de los 37 partidos jugados
