@@ -36,7 +36,7 @@ Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team T
 Los colores con los que vamos a trabajar son los siguientes, hemos considerado que esta paleta de colores puede cuadrar muy bien con la funcionalidad de la web y puede atraer visualmente a nuestro público objetivo
 ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
 
-![Logo del equipo](tabladecolores.png)
+![Paleta de la web](tabladecolores.png)
 
 
 ## TAREAS DE LOS INTEGRANTES
@@ -70,6 +70,8 @@ EL boton de contacto es para que el usuario acceda a la pagina con su usuario cr
 Abajo de todo esto, se veràn los 20 escudos de la liga, donde si hacemos click a un escudo te llevara a ver información de ese equipo como: Plantilla, sitio en la clasificación etc..
 
 Entonces abajo de esto mostraremos el mensaje de Juega a teamtactics, esto es para que el usuario vea de una forma un esquema de lo que va la web
+
+![Logo del equipo](INICIO.png)
 
 Abajo de esto, veremos un apartado de pròximos partidos y lideres de la liga, ambas son como una mínima información. En cada apartado tendrá abajo derecha un boton que pondra como: Ver todos los partidos/Estadísticas, que te llevara a otro sitio, para ver toda la información.
 
