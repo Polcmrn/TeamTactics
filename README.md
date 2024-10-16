@@ -64,12 +64,19 @@ Entonces abajo de esto mostraremos el mensaje de Juega a teamtactics, esto es pa
 Abajo de esto, veremos un apartado de pròximos partidos y lideres de la liga, ambas son como una mínima información. En cada apartado tendrá abajo derecha un boton que pondra como: Ver todos los partidos/Estadísticas, que te llevara a otro sitio, para ver toda la información.
 
 Entonces si le damos al boton de arriba derecha de estadisticas, te llevera a una pagina donde salga todas las estadisticas, donde podremos ver:
+
  -Máximos goleadores
+
  -Máximos asistententes
+ 
  -Jugador con mas disparos
+ 
  -Jugador con más pases
+
  -Portero con más paradas
+
  -Jugador con mas tarjetas amarillas y rojas
+
  Cada jugador que salga, si por ejemplo el jugador que es el máximo goleador es Lewandowski, saldra el escudo del equipo y los minutos jugados
 
 Està pàgina de estadisticas tambien se podra llegar a parte del boton arriba derecha en la parte que he comentado donde decia: Ver todas las estadísticas
