@@ -19,6 +19,13 @@ Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team T
 
 ![Logo del equipo](logo_teamtactics_negro.png)
 
+## PALETA DEL EQUIPO
+
+Los colores con los que vamos a trabajar son los siguientes, hemos considerado que esta paleta de colores puede cuadrar muy bien con la funcionalidad de la web y puede atraer visualmente a nuestro público objetivo
+ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
+
+![Logo del equipo](tabladecolores.png)
+
 
 ## TAREAS DE LOS INTEGRANTES
 
@@ -100,11 +107,6 @@ Todos los jugadores que el usuario ha comprado, tambien pueden ser vendidos
 Luego en el boton contacto pondremos un poco de información de nosotros para explicar un poco dentra de la página web el processo del proyecto.
 
 Y en el boton de inicio de sección, el usuario podrá hacer registro para poder acceder con su cuenta a la página, claro que si no tiene cuenta, tendra que darle a crear cuenta, y luego de crear cuenta le tendrá que dar a iniciar sección
-## PALETA DEL EQUIPO
 
-Los colores con los que vamos a trabajar son los siguientes, hemos considerado que esta paleta de colores puede cuadrar muy bien con la funcionalidad de la web y puede atraer visualmente a nuestro público objetivo
-ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
-
-![Logo del equipo](tabladecolores.png)
 
 
