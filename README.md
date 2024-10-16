@@ -116,3 +116,4 @@ Y en el boton de inicio de sección, el usuario podrá hacer registro para poder
 
 ![Logo del equipo](arboldenavegacion.png)
 
+El mockup y nuestra idea creo que el equipo la ha entendido muy bien, sabemos perfectamente como hacer y como quedará la página web. Sabemos que el al árbol de navegación no será el mejor de la historia, pero para nosotros nos sirve como una buena guia de como funcionará la página
