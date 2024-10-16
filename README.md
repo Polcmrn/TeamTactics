@@ -26,18 +26,18 @@ Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos,
 
 ## OBLIGATORIO DE APLICAR
 
-Node.js & MySQL: 
+__·Node.js & MySQL:__
 
 Node.js es un entorno de ejecución para JavaScript en el servidor, ideal para construir aplicaciones web rápidas y escalables. 
 
 MySQL es un sistema de gestión de bases de datos relacional que almacena y organiza datos de manera eficiente, facilitando consultas rápidas.
 
-NGINX o Apache: 
+__·NGINX o Apache:__ 
 
 Ambos son servidores web populares. NGINX es conocido por su rendimiento y capacidad para manejar múltiples conexiones simultáneas, 
 mientras que Apache es altamente configurable y tiene una gran cantidad de módulos disponibles.
 
-DNS + DHCP: 
+__·DNS + DHCP:__ 
 
 DNS (Sistema de Nombres de Dominio) traduce nombres de dominio en direcciones IP, facilitando la navegación web. 
 
