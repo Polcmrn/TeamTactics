@@ -142,6 +142,8 @@ Nuestros objetos serán:
 - Busqueda de usuarios y poder agregarlos como amigos
 - Y hacer obligatorio el uso de contraseña para cuando se entra a la aplicación
 
+  ![Logo del equipo](carpeta_fotos/arquitectura2.png)
+
 ## DIAGRAMA DE LA BASE DE DATOS
 
 Este diagrama no es el definitivo, lo tenemos que hablar con el joaquin para que nos diga su opinión.
@@ -150,6 +152,7 @@ Este diagrama no es el definitivo, lo tenemos que hablar con el joaquin para que
 
 
 ## ESQUEMA DE RED
+
 
 
 ## PROXMOX
