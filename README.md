@@ -144,5 +144,15 @@ Nuestros objetos serán:
 
 ## DIAGRAMA DE LA BASE DE DATOS
 
-Este diagrama no es el definitivo, lo tenemos que hablar con el joaquin para que nos diga su opinión
+Este diagrama no es el definitivo, lo tenemos que hablar con el joaquin para que nos diga su opinión.
+
 ![Logo del equipo](carpeta_fotos/basededatos.png)
+
+
+## ESQUEMA DE RED
+
+
+## PROXMOX
+
+
+
