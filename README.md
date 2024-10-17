@@ -5,6 +5,8 @@ Nuestra idea del proyecto se basa en diseñar una aplicación web inspirada en e
 
 Nuestro objetivo será aplicar todas las tecnologías necesarias para aspirar a la máxima nota posible y poner en práctica los conocimientos aprendidos en el primer año, así como lo que aprenderemos en este segundo año, para hacerlo lo mejor posible. También el año pasado un grupo escogio la misma idea y viendo como lo hicieron, vimos sus errores y pensamos que lo podemos hacer mucho mejor.
 
+Con el trello y el github mostraremos todo nuestro trabajo realizado para mostrar nuestros avanzes semanales y diarios
+
 ## OBLIGATORIO A APLICAR
 
 __-Node.js & MySQL:__
