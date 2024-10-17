@@ -31,7 +31,7 @@ DHCP (Protocolo de Configuración Dinámica de Host) asigna automáticamente dir
 
 Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team Tactics. En él, se pueden ver dos "T" que hacen referencia al nombre del equipo. Tambien, hemos pensado este logo ya que con la forma y sus colores tiene mucha relación con el mundo del futbol.
 
-El color negro y blanco creemos que queda muy estetico, que es eso lo que buscamos y lo que nos interesa
+El color negro y blanco creemos que queda muy estetico, que es eso lo que buscamos y lo que nos interesa.
 
 ![Logo del equipo](carpeta_fotos/logo_teamtactics_negro.png)
 
@@ -52,7 +52,7 @@ __-FFFFFF__
 
 ## TAREAS DE LOS INTEGRANTES
 
-Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos, hagamos la base de datos, etc. Ahora estamos los dos trabajando juntos, y empezaremos cada uno a hacer sus 3 funcionalidades
+Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos, hagamos la base de datos, etc. Ahora estamos los dos trabajando juntos, y empezaremos cada uno a hacer sus 3 funcionalidades.
 
 ## NUESTRO MOCKUP Y ARBOL DE NAVEGACIÓN
 
