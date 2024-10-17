@@ -48,7 +48,7 @@ __-FFFFFF__
 
 ## TAREAS DE LOS INTEGRANTES
 
-Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos, hagamos la base de datos, etc.
+Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos, hagamos la base de datos, etc. Ahora estamos los dos trabajando juntos, y empezaremos cada uno a hacer sus 3 funcionalidades
 
 ## NUESTRO MOCKUP Y ARBOL DE NAVEGACIÓN
 
