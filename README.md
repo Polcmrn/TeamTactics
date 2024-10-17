@@ -142,6 +142,9 @@ Nuestros objetos serán:
 - Busqueda de usuarios y poder agregarlos como amigos
 - Y hacer obligatorio el uso de contraseña para cuando se entra a la aplicación
 
+  El dia de la fecha entrega puede variar
+
+Ahora mostramos la arquitectura de nuestro trabajo
   ![Logo del equipo](carpeta_fotos/arquitectura2.png)
 
 ## DIAGRAMA DE LA BASE DE DATOS
