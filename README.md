@@ -134,6 +134,14 @@ Para la bibliografia, basicamente como la idea era muy clara, no hemos accedido 
 
 ![Logo del equipo](carpeta_fotos/arquitectura.png)
 
+Nuestros objetos serán:
+- Registro de usuarios
+- Una zona de comentarios para todos los usuarios que se hayan agregado como amigos
+- Una zona donde el usuario podrá modificar su perfil
+- Poner notificaciones para los usuarios
+- Busqueda de usuarios y poder agregarlos como amigos
+- Y hacer obligatorio el uso de contraseña para cuando se entra a la aplicación
+
 ## DIAGRAMA DE LA BASE DE DATOS
 
 ![Logo del equipo](carpeta_fotos/basededatos.png)
