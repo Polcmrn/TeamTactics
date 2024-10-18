@@ -158,12 +158,12 @@ Ahora mostramos la arquitectura de nuestro trabajo
 
 Este diagrama no es el definitivo, lo tenemos que hablar con el joaquin para que nos diga su opinión.
 
-Los Usuarios crean sus propios Equipos ficticios, que consisten en Jugadores de equipos reales, organizados en Plantillas. 
+Los Usuarios crean sus propios Equipos, que consisten en Jugadores de equipos reales, organizados en Plantillas. 
 
 Los usuarios pueden participar en Ligas, competir entre sí y realizar Transacciones de compra y venta de jugadores. Para calcular las puntuaciones, 
 se registran los Partidos reales y las Puntuaciones obtenidas por cada jugador en esos encuentros. 
 
-Además, hemos incluido un sistema de Amigos para fomentar la interacción social, así como Roles para gestionar diferentes tipos de usuarios en la plataforma.
+Además, hemos incluido un sistema de Amigos, así como Roles para gestionar diferentes tipos de usuarios en la plataforma.
 
 
 ![Logo del equipo](carpeta_fotos/basededatos.png)
