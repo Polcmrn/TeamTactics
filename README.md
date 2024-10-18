@@ -133,9 +133,6 @@ Y en el boton de inicio de sección, el usuario podrá hacer registro para poder
 
 El mockup y nuestra idea del trabajo creo que lo hemos entendido perfectamente. Sabemos que el al árbol de navegación no será el mejor de la história, pero para nosotros nos sirve cómo una buena guia de cómo funcionará la página.
 
-## BIBLIOGRAFIA
-
-Para la bibliografia, basicamente como la idea era muy clara, no hemos accedido a muchas páginas webs. Lo unico que hemos cogido como idea ha sido la propia app fantasy, y dentro de la página oficial de la Uefa champions league hemos visto la estética de la tabla de estadísticas y también la tabla de clasificación
 
 ## ARQUITECTURA DEL SISTEMA Y FUNCIONALIDADES
 
@@ -175,5 +172,7 @@ Además, hemos incluido un sistema de Amigos, así como Roles para gestionar dif
 
 ## PROXMOX
 
+## BIBLIOGRAFIA
 
+Para la bibliografia, basicamente como la idea era muy clara, no hemos accedido a muchas páginas webs. Lo unico que hemos cogido como idea ha sido la propia app fantasy, y dentro de la página oficial de la Uefa champions league hemos visto la estética de la tabla de estadísticas y también la tabla de clasificación
 
