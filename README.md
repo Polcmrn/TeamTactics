@@ -172,6 +172,8 @@ Además, hemos incluido un sistema de Amigos, así como Roles para gestionar dif
 
 ## PROXMOX
 
+Por el momento ya tenemos instalado el ProxMox en el pc de clase asignado de los que están atras del todo. Una vez tengamos más claro el esquema de red definitivo procederemos a empezar a configurarlo y documentarlo.
+
 ## BIBLIOGRAFIA
 
 Para la bibliografia, basicamente como la idea era muy clara, no hemos accedido a muchas páginas webs. Lo unico que hemos cogido como idea ha sido la propia app fantasy, y dentro de la página oficial de la Uefa champions league hemos visto la estética de la tabla de estadísticas y también la tabla de clasificación
