@@ -176,6 +176,18 @@ Por el momento tenemos hecho este prototipo de mapa de red, aunque aun lo tenemo
 
 Por el momento ya tenemos instalado el ProxMox en el pc de clase asignado de los que están atras del todo. Una vez tengamos más claro el esquema de red definitivo procederemos a empezar a configurarlo y documentarlo.
 
+__Proxmox__ es una plataforma de virtualización de código abierto que permite gestionar máquinas virtuales y contenedores. Está basada en Debian y combina tecnologías como KVM (para la virtualización completa) y LXC (para la virtualización basada en contenedores).
+
+Se utiliza principalmente en entornos de servidores para crear, administrar y orquestar múltiples VMs y contenedores de forma eficiente. También incluye herramientas para gestionar almacenamiento, redes y copias de seguridad. Además, soporta la creación de clusters para alta disponibilidad y migraciones en vivo, lo que lo hace ideal para centros de datos y servidores corporativos.
+
+Es especialmente útil para:
+
+-Consolidación de servidores: Ejecutar múltiples sistemas operativos en un solo servidor físico.
+
+-Gestión de recursos: Controlar y distribuir recursos de hardware como CPU, memoria y almacenamiento.
+
+-Automatización y alta disponibilidad: Ofrecer soluciones escalables y resistentes a fallos.
+
 ## BIBLIOGRAFIA
 
 Para la bibliografia, basicamente como la idea era muy clara, no hemos accedido a muchas páginas webs. Lo unico que hemos cogido como idea ha sido la propia app fantasy, y dentro de la página oficial de la Uefa champions league hemos visto la estética de la tabla de estadísticas y también la tabla de clasificación
