@@ -170,7 +170,7 @@ Además, hemos incluido un sistema de Amigos, así como Roles para gestionar dif
 
 Por el momento tenemos hecho este prototipo de mapa de red, aunque aun lo tenemos que hablar con Alina ya que no es el definitivo y queremos que nos aclare algunos conceptos que quizas no han quedado tan claros.
 
-![Logo del equipo](carpeta_fotos/mapaRed.JPG)
+![Logo del equipo](carpeta_fotos/mapaDeRed.JPG)
 
 ## PROXMOX
 
