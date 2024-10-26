@@ -191,4 +191,5 @@ Es especialmente útil para:
 ## BIBLIOGRAFIA
 
 Para la bibliografia, basicamente como la idea era muy clara, no hemos accedido a muchas páginas webs. Lo unico que hemos cogido como idea ha sido la propia app fantasy, y dentro de la página oficial de la Uefa champions league hemos visto la estética de la tabla de estadísticas y también la tabla de clasificación
+https://punkymo.gitbook.io/miwiki
 
