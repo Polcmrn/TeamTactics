@@ -191,7 +191,7 @@ Es especialmente útil para:
 
 ## CONFIGURACIÓN DE PROXMOX
 
-[Ver archivo](MOKUP_Y_ARBOL_DE_NAVEGACIÓN.pdf)
+[Ver archivo](M11UF4A2-QuimFernandez_PolCamarena.docx.pdf)
 
 ## BIBLIOGRAFIA
 
