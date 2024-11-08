@@ -188,6 +188,7 @@ Es especialmente útil para:
 
 -Automatización y alta disponibilidad: Ofrecer soluciones escalables y resistentes a fallos.
 
+# INSTALACIONES
 
 ## CONFIGURACIÓN DE PROXMOX
 
