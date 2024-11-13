@@ -197,7 +197,7 @@ Es especialmente útil para:
 
 ## BASE DE DATOS
 
-Aquí mostramos
+Aquí mostramos el esquema final de la base de datos, donde hemos añadido algunas conexiones que no habíamos tomado en cuenta. Hemos creado la base con MySQL WorkBench a través de SQL y una vez ejecutado el código, gracias a la función de la creación de diagramas, hemos podido ver las tablas y sus conexiones.
 
 ![Logo del equipo](carpeta_fotos/esquema_basededatos.png)
 
