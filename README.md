@@ -196,11 +196,19 @@ Es especialmente útil para:
 
 ## CONFIGURACIÓN DE CLIENTE
 
+En proceso de comentar...
+
 ## CONFIGURACIÓN DE DNS
+
+En proceso de comentar...
 
 ## CONFIGURACIÓN DE DHCP
 
+En proceso de comentar...
+
 ## CONFIGURACIÓN DE NGINX
+
+En proceso de comentar...
 
 ## BASE DE DATOS
 
