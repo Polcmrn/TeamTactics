@@ -87,51 +87,50 @@ Abajo de esto, veremos un apartado de pròximos partidos y lideres de la liga, a
 
 ![Logo del equipo](carpeta_fotos/proximospartidos.png)
 
-Entonces si le damos al boton de arriba derecha de estadisticas, te llevera a una pagina donde salga todas las estadisticas, donde podremos ver:
+Entonces, si le damos al botón de arriba derecha de estadísticas, te llevará a una página donde salgan todas las estadísticas, donde podremos ver:
 
- -Máximos goleadores
+ -Máximos goleadores
 
- -Máximos asistententes
- 
- -Jugador con mas disparos
- 
- -Jugador con más pases
+ -Máximos asistententes
+ 
+ -Jugador con más disparos
+ 
+ -Jugador con más pases.
 
- -Portero con más paradas
+ -Portero con más paradas.
 
- -Jugador con mas tarjetas amarillas y rojas
+ -Jugador con más tarjetas amarillas y rojas.
 
- Cada jugador que salga, si por ejemplo el jugador que es el máximo goleador es Lewandowski, saldra el escudo del equipo y los minutos jugados
+ Cada jugador que salga, si por ejemplo el jugador que es el máximo goleador es Lewandowski, saldrá el escudo del equipo y los minutos jugados.
 
-Está página de estadisticas tambien se podra llegar a parte del boton arriba derecha en la parte que he comentado donde decia: Ver todas las estadísticas
-Y si le damos al boton de ver todos los partidos, que se encuentra a abajo del todo de la página principal, nos llevara a otra página donde veremos todos los partidos jugados, y los puntos que todo el equipo ha conseguido, esto servira para que el usuario mire los puntos que ha hecho cada jugador
+Esta página de estadísticas también se podrá llegar a parte del botón arriba derecha en la parte que he comentado donde decía: Ver todas las estadísticas
+Y si le damos al botón de ver todos los partidos, que se encuentra a abajo del todo de la página principal, nos llevará a otra página donde veremos todos los partidos jugados, y los puntos que todo el equipo ha conseguido, esto servirá para que el usuario mire los puntos que ha hecho cada jugador.
 
 ![Logo del equipo](carpeta_fotos/estadisiticas.png)
 
 ![Logo del equipo](carpeta_fotos/proximospartidos2.png)
 
-Ahora, en la pagina principal, si le damos a crea tu equipo, te llevara a la página donde el usuario podra crear el equipo. En esta pagina, se vera de fondo como un campo de futbol negro, para que el usuario ponga sus jugadores a cada posición que corresponde.
-Arriba dentro de la misma página, se vera un balance, el balance principal empieza con 100.000.000, luego si el usuario hace incorporaciones entonces el balance bajará. 
-Abajo de esto, se vera un apartado de puntos, donde el usuario verá la suma total que ha realizado su equipo.
-Y arriba derecha se verá el número de jugadores que tiene puestos en el campo de futbol, normalmente esto será simpre 11/11.
+Ahora, en la página principal, si le damos a Crea tu equipo, te llevará a la página donde el usuario podrá crear el equipo. En esta página, se verá de fondo como un campo de fútbol negro, para que el usuario ponga sus jugadores a cada posición que corresponde.
+Arriba, dentro de la misma página, se verá un balance. El balance principal empieza con 100.000.000, luego si el usuario hace incorporaciones, entonces el balance bajará. 
+Abajo de esto, se verá un apartado de puntos, donde el usuario verá la suma total que ha realizado su equipo.
+Y arriba derecha se verá el número de jugadores que tiene puestos en el campo de fútbol, normalmente esto será simple 11/11.
 
 ![Logo del equipo](carpeta_fotos/creatuequipo.png)
 
-La opcion de numero de jugadores funcionará como un boton, donde si hacemos click a esto, veremos nuestros jugadores, nombre, club, media puntos, puntos que ha hecho en una jornada y el valor de mercado
-La media de puntos se hara haciendo una media de los 37 partidos jugados.
+La opción de número de jugadores funcionará como un botón, donde, si hacemos click a esto, veremos nuestros jugadores, nombre, club, media puntos, puntos que ha hecho en una jornada y el valor de mercado.
+La media de puntos se hará haciendo una media de los 37 partidos jugados.
 
 ![Logo del equipo](carpeta_fotos/tusjugadores.png)
 
-Tambien se verà un boton de Mercado, para que el usuario podra comprar jugadores en el mercado.
-Todos los jugadores que el usuario ha comprado, tambien pueden ser vendidos.
+También se verá un botón de mercado, para que el usuario pueda comprar jugadores en el mercado.
+Todos los jugadores que el usuario ha comprado también pueden ser vendidos.
 
-Luego en el boton contacto pondremos un poco de información de nosotros para explicar un poco dentra de la página web el processo del proyecto.
+Luego, en el botón contacto pondremos un poco de información de nosotros para explicar un poco dentro de la página web el proceso del proyecto.
 
-Y en el boton de inicio de sección, el usuario podrá hacer registro para poder acceder con su cuenta a la página, claro que si no tiene cuenta, tendra que darle a crear cuenta, y luego de crear cuenta le tendrá que dar a iniciar sección
-
+Y en el botón de inicio de sección, el usuario podrá hacer registro para poder acceder con su cuenta a la página, claro que si no tiene cuenta, tendrá que darle a crear cuenta, y luego de crear cuenta le tendrá que dar a iniciar sección.
 ![Logo del equipo](carpeta_fotos/arboldenavegacion.png)
 
-El mockup y nuestra idea del trabajo creo que lo hemos entendido perfectamente. Sabemos que el al árbol de navegación no será el mejor de la história, pero para nosotros nos sirve cómo una buena guia de cómo funcionará la página.
+El mockup y nuestra idea del trabajo creo que lo hemos entendido perfectamente. Sabemos que el árbol de navegación no será el mejor de la historia, pero para nosotros nos sirve cómo una buena guía de cómo funcionará la página.
 
 
 ## ARQUITECTURA DEL SISTEMA Y FUNCIONALIDADES
@@ -141,24 +140,22 @@ El mockup y nuestra idea del trabajo creo que lo hemos entendido perfectamente. 
 Nuestros objetos serán:
 - Registro de usuarios
 - Una zona de comentarios para todos los usuarios que se hayan agregado como amigos
-- Una zona donde el usuario podrá modificar su perfil
+- Una zona donde el usuario podrá modificar su perfil.
 - Poner notificaciones para los usuarios
-- Busqueda de usuarios y poder agregarlos como amigos
-- Y hacer obligatorio el uso de contraseña para cuando se entra a la aplicación
+- Búsqueda de usuarios y poder agregarlos como amigos
+- Y hacer obligatorio el uso de contraseña para cuando se entra a la aplicación.
 
-  El dia de la fecha entrega puede variar
+  El día de la fecha de entrega puede variar
 
-Ahora mostramos la arquitectura de nuestro trabajo
+Ahora mostramos la arquitectura de nuestro trabajo.
   ![Logo del equipo](carpeta_fotos/arquitectura2.png)
 
 ## DIAGRAMA DE LA BASE DE DATOS
 
-Este diagrama no es el definitivo, lo tenemos que hablar con el joaquin para que nos diga su opinión.
+Los usuarios crean sus propios equipos, que consisten en jugadores de equipos reales, organizados en plantillas. 
 
-Los Usuarios crean sus propios Equipos, que consisten en Jugadores de equipos reales, organizados en Plantillas. 
-
-Los usuarios pueden participar en Ligas, competir entre sí y realizar Transacciones de compra y venta de jugadores. Para calcular las puntuaciones, 
-se registran los Partidos reales y las Puntuaciones obtenidas por cada jugador en esos encuentros. 
+Los usuarios pueden participar en ligas, competir entre sí y realizar transacciones de compra y venta de jugadores. Para calcular las puntuaciones, 
+Se registran los partidos reales y las puntuaciones obtenidas por cada jugador en esos encuentros. 
 
 Además, hemos incluido un sistema de Amigos, así como Roles para gestionar diferentes tipos de usuarios en la plataforma.
 
@@ -174,7 +171,7 @@ Por el momento tenemos hecho este prototipo de mapa de red, aunque aun lo tenemo
 
 ## PROXMOX
 
-Por el momento ya tenemos instalado el ProxMox en el pc de clase asignado de los que están atras del todo. Una vez tengamos más claro el esquema de red definitivo procederemos a empezar a configurarlo y documentarlo.
+Por el momento, ya tenemos instalado el ProxMox en el PC de clase asignado de los que están atrás del todo. Una vez tengamos más claro el esquema de red definitivo, procederemos a empezar a configurarlo y documentarlo.
 
 __Proxmox__ es una plataforma de virtualización de código abierto que permite gestionar máquinas virtuales y contenedores. Está basada en Debian y combina tecnologías como KVM (para la virtualización completa) y LXC (para la virtualización basada en contenedores).
 
@@ -187,7 +184,6 @@ Es especialmente útil para:
 -Gestión de recursos: Controlar y distribuir recursos de hardware como CPU, memoria y almacenamiento.
 
 -Automatización y alta disponibilidad: Ofrecer soluciones escalables y resistentes a fallos.
-
 # INSTALACIONES
 
 ## CONFIGURACIÓN DE PROXMOX
