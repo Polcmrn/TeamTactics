@@ -163,7 +163,7 @@ se registran los Partidos reales y las Puntuaciones obtenidas por cada jugador e
 Además, hemos incluido un sistema de Amigos, así como Roles para gestionar diferentes tipos de usuarios en la plataforma.
 
 
-![Logo del equipo](carpeta_fotos/basededatos.png)
+![Logo del equipo](carpeta_fotos/basededatos_final.png)
 
 
 ## ESQUEMA DE RED
