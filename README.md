@@ -194,6 +194,13 @@ Es especialmente útil para:
 
 [Ver archivo](M11UF4A2-QuimFernandez_PolCamarena.docx.pdf)
 
+## CONFIGURACIÓN DE CLIENTE
+
+## CONFIGURACIÓN DE DNS
+
+## CONFIGURACIÓN DE DHCP
+
+## CONFIGURACIÓN DE NGINX
 
 ## BASE DE DATOS
 
