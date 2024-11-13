@@ -90,14 +90,19 @@ Abajo de esto, veremos un apartado de pròximos partidos y lideres de la liga, a
 Entonces, si le damos al botón de arriba derecha de estadísticas, te llevará a una página donde salgan todas las estadísticas, donde podremos ver:
 
  -Máximos goleadores
+ 
 
  -Máximos asistententes
+ 
  
  -Jugador con más disparos
+ 
  
  -Jugador con más pases.
+ 
 
  -Portero con más paradas.
+ 
 
  -Jugador con más tarjetas amarillas y rojas.
 
