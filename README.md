@@ -194,6 +194,13 @@ Es especialmente útil para:
 
 [Ver archivo](M11UF4A2-QuimFernandez_PolCamarena.docx.pdf)
 
+
+## BASE DE DATOS
+
+Aquí mostramos
+
+![Logo del equipo](carpeta_fotos/esquema_basededatos.png)
+
 ## BIBLIOGRAFIA
 
 https://punkymo.gitbook.io/miwiki
