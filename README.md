@@ -349,7 +349,24 @@ sudo systemctl status isc-dhcp-server
 
 ## 13.CONFIGURACIÓN DE NGINX
 
-En proceso de comentar...
+Para empezar, instalamos el nginx con el comando:
+
+sudo apt-get install nginx
+
+Entramos al netplan y configuramos para que funcione de forma correcta
+
+![image](https://github.com/user-attachments/assets/b9dba283-7f6d-4336-9ac2-6986d0f7c8df)
+
+Vemos con el ip a que nos da la IP mediante DHCP, la 10.20.30.5
+
+![image](https://github.com/user-attachments/assets/0063e93c-20d3-491c-967e-1965c49805d0)
+
+Ahora tenemos que editar el archivo nginx.conf que se encuentra en /etc/nginx
+
+![image](https://github.com/user-attachments/assets/f54260e8-7625-45e1-be91-1d5da4098f22)
+
+
+
 
 ## 14.BASE DE DATOS
 
