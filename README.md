@@ -201,7 +201,6 @@ En proceso de comentar...
 
 ## CONFIGURACIÓN DE DNS
 
-En proceso de comentar...
 
 Primero lo que hacemos es instalar el servicio DHCP:
 
@@ -221,10 +220,15 @@ El archivo de configuración principal se encuentra en /etc/dhcp/dhcpd.conf. En 
 Esta es nuestra configuración:
 
 subnet 10.20.30.0 netmask 255.255.255.248 {
+ 
   range 10.20.30.3 10.20.30.6;
+ 
   option routers 10.20.30.1;
+  
   option domain-name-servers 8.8.8.8, 9.9.9.9;
+ 
   default-lease-time 600;
+ 
   max-lease-time 7200;
 }
 
