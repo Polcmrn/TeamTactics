@@ -199,7 +199,7 @@ Es especialmente útil para:
 
 En proceso de comentar...
 
-## CONFIGURACIÓN DE DNS
+## CONFIGURACIÓN DE DHCP
 
 
 Primero lo que hacemos es instalar el servicio DHCP:
