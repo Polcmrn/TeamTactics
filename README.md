@@ -203,7 +203,50 @@ En proceso de comentar...
 
 En proceso de comentar...
 
-## CONFIGURACIÓN DE DHCP
+Primero lo que hacemos es instalar el servicio DHCP:
+
+Actualizamos: sudo apt update
+
+sudo apt-get install isc-dhcp-server
+
+
+
+
+Hacemos la configuración del archivo DHCP:
+
+
+El archivo de configuración principal se encuentra en /etc/dhcp/dhcpd.conf. En este archivo, lo que hay que hacer es definir los parámetros de red, como el rango de direcciones IP, la puerta de enlace predeterminada, DNS y duración de la concesión. 
+
+   
+Esta es nuestra configuración:
+
+subnet 10.20.30.0 netmask 255.255.255.248 {
+  range 10.20.30.3 10.20.30.6;
+  option routers 10.20.30.1;
+  option domain-name-servers 8.8.8.8, 9.9.9.9;
+  default-lease-time 600;
+  max-lease-time 7200;
+}
+
+
+Configurar las interfaces de red:
+
+Ahora  para comprobar y asegurarnos que la interfaz de red correcta esté configurada para proporcionar el servicio DHCP definimos  la interfaz en el archivo de configuración de red o directamente en /etc/default/isc-dhcp-server:
+
+
+Reiniciar el servicio DHCP:
+
+Una vez configurado, hay que reiniciar el servicio para aplicar los cambios:
+bash
+
+sudo systemctl restart isc-dhcp-server
+Comprobación:
+
+ Y para verifica si el servidor DHCP está funcionando correctamente:
+bash
+
+sudo systemctl status isc-dhcp-server
+
 
 En proceso de comentar...
 
