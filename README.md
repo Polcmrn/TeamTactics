@@ -317,21 +317,13 @@ Hacemos la configuración del archivo DHCP:
 
 El archivo de configuración principal se encuentra en /etc/dhcp/dhcpd.conf. En este archivo, lo que hay que hacer es definir los parámetros de red, como el rango de direcciones IP, la puerta de enlace predeterminada, DNS y duración de la concesión. 
 
-   
-Esta es nuestra configuración:
+![image](https://github.com/user-attachments/assets/cdd31d80-568d-4635-abe8-0af37b193f6b)
 
-subnet 10.20.30.0 netmask 255.255.255.248 {
- 
-  range 10.20.30.3 10.20.30.6;
- 
-  option routers 10.20.30.1;
-  
-  option domain-name-servers 8.8.8.8, 9.9.9.9;
- 
-  default-lease-time 600;
- 
-  max-lease-time 7200;
-}
+   
+Esta es nuestra configuración en el netplan:
+
+![image](https://github.com/user-attachments/assets/a8cf1adb-abcb-4c2d-aac0-f47b7dc92b6a)
+
 
 
 Configurar las interfaces de red:
