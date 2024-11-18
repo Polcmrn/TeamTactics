@@ -22,7 +22,7 @@
 16. BIBLIOGRAFIA
 
     
-## IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
+## 1.IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
 
 Nuestra idea del proyecto se basa en diseñar una aplicación web inspirada en el popular juego de Fantasy Football. El fantasy es un juego donde los usuarios crean su propio equipo, y la finalidad de este juego es obtener los máximos puntos posibles, estos puntos se consiguen mediante tus jugadores, los jugadores en la vida real dependiendo de como juega un partido, puede obtener muchos puntos o muy pocos puntos. Como ejemplo de puntuacion, si un jugador no tiene minutos de juego entonces tendra 0 puntos, y si otro jugador marca 4 goles, possiblemente tendra una puntuación de 25 puntos. 
 
@@ -52,7 +52,7 @@ DNS (Sistema de Nombres de Dominio) traduce nombres de dominio en direcciones IP
 DHCP (Protocolo de Configuración Dinámica de Host) asigna automáticamente direcciones IP a dispositivos en una red, simplificando la gestión de redes.
 
 
-## LOGO DEL EQUIPO
+## 2.LOGO DEL EQUIPO
 
 Nuestro logo lo hemos creado basándonos en el nombre de nuestro trabajo, Team Tactics. En él, se pueden ver dos "T" que hacen referencia al nombre del equipo. Tambien, hemos pensado este logo ya que con la forma y sus colores tiene mucha relación con el mundo del futbol.
 
@@ -60,7 +60,7 @@ El color negro y blanco creemos que queda muy estetico, que es eso lo que buscam
 
 ![Logo del equipo](carpeta_fotos/logo_teamtactics_negro.png)
 
-## PALETA DEL EQUIPO
+## 3.PALETA DEL EQUIPO
 
 Los colores con los que vamos a trabajar son los siguientes, hemos considerado que esta paleta de colores puede cuadrar muy bien con la funcionalidad de la web y puede atraer visualmente a nuestro público objetivo
 ya que son colores muy visuales y relacionados con el mundo de los videojuegos.
@@ -75,11 +75,11 @@ __-FFFFFF__
 ![Paleta de la web](carpeta_fotos/tabladecolores.png)
 
 
-## TAREAS DE LOS INTEGRANTES
+## 4.TAREAS DE LOS INTEGRANTES
 
 Ambos integrantes tocaremos de todo un poco. La idea es que los dos programemos, hagamos la base de datos, etc. Ahora estamos los dos trabajando juntos, y empezaremos cada uno a hacer sus 3 funcionalidades.
 
-## NUESTRO MOCKUP Y ARBOL DE NAVEGACIÓN
+## 5.NUESTRO MOCKUP Y ARBOL DE NAVEGACIÓN
 
 Hemos diseñado un mockup de la aplicación a través de Canva, basándonos principalmente en nuestra paleta de colores. Además, hemos realizado un diseño lo más visual posible para atraer la atención del público que creemos podría estar interesado en nuestra aplicación. Nuestro público objetivo son hombres entre 13 y 40 años.
 
@@ -160,7 +160,7 @@ Y en el botón de inicio de sección, el usuario podrá hacer registro para pode
 El mockup y nuestra idea del trabajo creo que lo hemos entendido perfectamente. Sabemos que el árbol de navegación no será el mejor de la historia, pero para nosotros nos sirve cómo una buena guía de cómo funcionará la página.
 
 
-## ARQUITECTURA DEL SISTEMA Y FUNCIONALIDADES
+## 6.ARQUITECTURA DEL SISTEMA Y FUNCIONALIDADES
 
 ![Logo del equipo](carpeta_fotos/arquitectura.png)
 
@@ -177,7 +177,7 @@ Nuestros objetos serán:
 Ahora mostramos la arquitectura de nuestro trabajo.
   ![Logo del equipo](carpeta_fotos/arquitectura2.png)
 
-## DIAGRAMA DE LA BASE DE DATOS
+## 7.DIAGRAMA DE LA BASE DE DATOS
 
 Los usuarios crean sus propios equipos, que consisten en jugadores de equipos reales, organizados en plantillas. 
 
@@ -190,13 +190,13 @@ Además, hemos incluido un sistema de Amigos, así como Roles para gestionar dif
 ![Logo del equipo](carpeta_fotos/basededatos_final.png)
 
 
-## ESQUEMA DE RED
+## 8.ESQUEMA DE RED
 
 Por el momento tenemos hecho este prototipo de mapa de red, aunque aun lo tenemos que hablar con Alina ya que no es el definitivo y queremos que nos aclare algunos conceptos que quizas no han quedado tan claros.
 
 ![Logo del equipo](carpeta_fotos/mapaDeRed.JPG)
 
-## PROXMOX
+## 9.PROXMOX
 
 Por el momento, ya tenemos instalado el ProxMox en el PC de clase asignado de los que están atrás del todo. Una vez tengamos más claro el esquema de red definitivo, procederemos a empezar a configurarlo y documentarlo.
 
@@ -211,9 +211,8 @@ Es especialmente útil para:
 -Gestión de recursos: Controlar y distribuir recursos de hardware como CPU, memoria y almacenamiento.
 
 -Automatización y alta disponibilidad: Ofrecer soluciones escalables y resistentes a fallos.
-# INSTALACIONES
 
-## CONFIGURACIÓN DE PROXMOX
+## 10.CONFIGURACIÓN DE PROXMOX
 
 [Ver archivo](M11UF4A2-QuimFernandez_PolCamarena.docx.pdf)
 
@@ -231,7 +230,7 @@ Creamos DNS  con vmbr1
 
 
 
-## CONFIGURACIÓN DE DNS
+## 11.CONFIGURACIÓN DE DNS
 
 Para empezar, actualizamos los repositorios de nuestro sistema:
 
@@ -301,7 +300,7 @@ Ahora mediante el nslookup, comprobamos si el servidor DNS está resolviendo cor
 ![image](https://github.com/user-attachments/assets/29f10803-5094-4337-a681-789bf41a54a0)
 
 
-## CONFIGURACIÓN DE DHCP
+## 12.CONFIGURACIÓN DE DHCP
 
 
 Primero lo que hacemos es instalar el servicio DHCP:
@@ -356,17 +355,17 @@ sudo systemctl status isc-dhcp-server
 
 
 
-## CONFIGURACIÓN DE NGINX
+## 13.CONFIGURACIÓN DE NGINX
 
 En proceso de comentar...
 
-## BASE DE DATOS
+## 14.BASE DE DATOS
 
 Aquí mostramos el esquema final de la base de datos, donde hemos añadido algunas conexiones que no habíamos tomado en cuenta. Hemos creado la base con MySQL WorkBench a través de SQL y una vez ejecutado el código, gracias a la función de la creación de diagramas, hemos podido ver las tablas y sus conexiones.
 
 ![Logo del equipo](carpeta_fotos/esquema_basededatos.png)
 
-## INCIDENCIAS TÉCNICAS
+## 15.INCIDENCIAS TÉCNICAS
 
 Mala configuración en el DNS, por falta de no haber reiniciado el servicio despues de modificarlo
 
@@ -378,7 +377,7 @@ Otro fail....
 
 
 
-## BIBLIOGRAFIA
+## 16.BIBLIOGRAFIA
 
 https://punkymo.gitbook.io/miwiki
 
