@@ -205,10 +205,65 @@ Y ahora instalamos el paquete bind9:
 
 sudo apt install bind9
 
+![image](https://github.com/user-attachments/assets/d1dc8dc2-0ce6-46a3-9c21-92cfd6a7b8b6)
+
+
 Editamos el netplan, lo ponemos con DHCP y lo editamos para poder avanzar de forma correcta
 
 
 ![image](https://github.com/user-attachments/assets/5a148d65-8ba3-46a5-8dc1-fa04f57cb2b9)
+
+Ahora si ponemos ip a, veremos que mediante DHCP, tenemos asignada la IP 10.20.30.4
+
+![image](https://github.com/user-attachments/assets/c1268273-0e87-47e4-a158-c9d55fc7c9fa)
+
+Entonces ahora vamos al archivo que se llama named.conf.local , que bàsicamente es donde haremos la configuración DNS de la zona inversa y directa
+
+![image](https://github.com/user-attachments/assets/698eab22-3c6f-41ad-9a3f-f2b6e7828c11)
+
+Para comprobar que la configuración ha sido correcta y que no hemos tenido ningun problema ponemos:
+
+named-checkconf
+
+Ahora creamos los dos archivos de la zona directa y inversa
+
+![image](https://github.com/user-attachments/assets/ea0ca40b-a449-4ef2-a788-3e54fd966750)
+
+Ahora, accedemos al archivo de la zona directa y lo configuramos para comprobar que funcione de forma correcta
+
+![image](https://github.com/user-attachments/assets/13a11569-e7f1-4d9a-aba1-63da8068c6b0)
+
+Y ahora haremos lo mismo pero para la zona inversa
+
+![image](https://github.com/user-attachments/assets/2a8c4855-e765-45e1-87d0-8fcde3150868)
+
+Ahora para comprobar que toda la configuración de los ficheros de zonas se ha realizado correctamente, hacemos lo siguiente:
+
+![image](https://github.com/user-attachments/assets/afe5a924-e594-42eb-a3f1-cf78db086c3b)
+
+![image](https://github.com/user-attachments/assets/9204d77d-c49c-4d64-b5b6-d4a5bce35c60)
+
+Ahora nos tocaría editar el fichero 
+/etc/bind/named.conf.options
+
+![image](https://github.com/user-attachments/assets/10fba1a7-6320-46e1-96bd-8c527a266608)
+
+Ahora, vamos al archivo
+/etc/default/named 
+Que es donde especificaremos la opción -4 como argumento para el usuario bind, que  se crea automáticamente durante la instalación del servicio bind9. 
+
+La opción -4 , nos sirve para forzar el uso de IPv4 siempre y evitar  mensajes de error de red inalcanzable por direccionamiento IPv6.
+
+![image](https://github.com/user-attachments/assets/35beebba-441a-4400-80e9-f9f877005fe8)
+
+Ahora reiniciamos el servicio bind9 y ver si todo esta correcto
+
+![image](https://github.com/user-attachments/assets/d041f362-1301-4ab1-9ab2-8b52c5389859)
+
+Ahora mediante el nslookup, comprobamos si el servidor DNS está resolviendo correctamente los nombres y las direcciones IP
+
+![image](https://github.com/user-attachments/assets/29f10803-5094-4337-a681-789bf41a54a0)
+
 
 ## CONFIGURACIÓN DE DHCP
 
