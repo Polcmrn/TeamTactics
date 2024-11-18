@@ -241,13 +241,13 @@ Ahora  para comprobar y asegurarnos que la interfaz de red correcta esté config
 Reiniciar el servicio DHCP:
 
 Una vez configurado, hay que reiniciar el servicio para aplicar los cambios:
-bash
+
 
 sudo systemctl restart isc-dhcp-server
 Comprobación:
 
  Y para verifica si el servidor DHCP está funcionando correctamente:
-bash
+
 
 sudo systemctl status isc-dhcp-server
 
