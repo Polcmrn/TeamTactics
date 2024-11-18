@@ -1,5 +1,25 @@
 # TeamTactics©
 
+##INDICE
+
+1. IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
+2. OBLIGATORIO A APLICAR
+3. LOGO DEL EQUIPO
+4. PALETA DEL EQUIPO
+5. TAREAS DE LOS INTEGRANTES
+6. MOCKUP Y ARBOL DE NAVEGACIÓN
+7. ARQUITECTURA DEL SISTEMA Y FUNCIONALIDADES
+8. DIAGRAMA DE LA BASE DE DATOS
+9. ESQUEMA DE RED
+10. CONFIGURACIÓN DE PROXMOX
+11. CONFIGURACIÓN DE DNS
+12. CONFIGURACIÓN DE DHCP
+13. CONFIGURACIÓN DE NGINX
+14. BASE DE DATOS
+15. INCIDENCIAS TÉCNICAS
+16. BIBLIOGRAFIA
+
+    
 ## IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
 
 Nuestra idea del proyecto se basa en diseñar una aplicación web inspirada en el popular juego de Fantasy Football. El fantasy es un juego donde los usuarios crean su propio equipo, y la finalidad de este juego es obtener los máximos puntos posibles, estos puntos se consiguen mediante tus jugadores, los jugadores en la vida real dependiendo de como juega un partido, puede obtener muchos puntos o muy pocos puntos. Como ejemplo de puntuacion, si un jugador no tiene minutos de juego entonces tendra 0 puntos, y si otro jugador marca 4 goles, possiblemente tendra una puntuación de 25 puntos. 
