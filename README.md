@@ -195,9 +195,20 @@ Es especialmente útil para:
 
 [Ver archivo](M11UF4A2-QuimFernandez_PolCamarena.docx.pdf)
 
-## CONFIGURACIÓN DE CLIENTE
+## CONFIGURACIÓN DE DNS
 
-En proceso de comentar...
+Para empezar, actualizamos los repositorios de nuestro sistema:
+
+sudo apt update
+
+Y ahora instalamos el paquete bind9:
+
+sudo apt install bind9
+
+Editamos el netplan, lo ponemos con DHCP y lo editamos para poder avanzar de forma correcta
+
+
+![image](https://github.com/user-attachments/assets/5a148d65-8ba3-46a5-8dc1-fa04f57cb2b9)
 
 ## CONFIGURACIÓN DE DHCP
 
