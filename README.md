@@ -195,6 +195,20 @@ Es especialmente útil para:
 
 [Ver archivo](M11UF4A2-QuimFernandez_PolCamarena.docx.pdf)
 
+Creamos ROUTER con vmbr0 y vmbr1 para que todo el proyecto funcione de manera correcta.
+
+![image](https://github.com/user-attachments/assets/3dd03ffe-1fb9-4995-8ce8-77cdfb792f1e)
+
+Ahora creamos Cliente con vmbr1 
+
+![image](https://github.com/user-attachments/assets/a9b6528e-5400-4da7-a68b-a23a08da9600)
+
+Creamos DNS  con vmbr1
+
+![image](https://github.com/user-attachments/assets/59b69707-28b5-4a25-9e1d-3a029bd5748b)
+
+
+
 ## CONFIGURACIÓN DE DNS
 
 Para empezar, actualizamos los repositorios de nuestro sistema:
@@ -331,6 +345,14 @@ Aquí mostramos el esquema final de la base de datos, donde hemos añadido algun
 ![Logo del equipo](carpeta_fotos/esquema_basededatos.png)
 
 ## INCIDENCIAS TÉCNICAS
+
+Mala configuración en el DNS, por falta de no haber reiniciado el servicio despues de modificarlo
+
+![image](https://github.com/user-attachments/assets/b6244674-e807-4ece-85bb-f70eb73dd330)
+
+Otro fail....
+
+![image](https://github.com/user-attachments/assets/da6ec4d0-d5c3-4dce-a58a-2327ed2720b5)
 
 
 
