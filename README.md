@@ -369,9 +369,21 @@ Ahora tenemos que editar el archivo nginx.conf que se encuentra en /etc/nginx
 ## ACTIVIDAD ENTREGADA EN LA MEMÓRIA (ALINA)
 
 ¿Qué es un servidor web?
+
+Un servidor web es un software que forma parte del servidor y tiene como misión principal devolver información (páginas) cuando recibe peticiones por parte de los usuarios.
+
+En otras palabras, es el software que permite que los usuarios que quieren ver una página web en su navegador puedan hacerlo.
+
+
 ¿Qué es un hosting?
+
+
 ¿Qué es Nginx?
+
+
 Haz una comparativa entre Nginx y Apache.
+
+
 Haz una descripción breve del proceso de configuración de un sitio web que utiliza PHP.
 
 
