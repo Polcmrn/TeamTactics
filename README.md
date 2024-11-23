@@ -366,6 +366,16 @@ Ahora tenemos que editar el archivo nginx.conf que se encuentra en /etc/nginx
 ![image](https://github.com/user-attachments/assets/f54260e8-7625-45e1-be91-1d5da4098f22)
 
 
+## ACTIVIDAD ENTREGADA EN LA MEMÓRIA (ALINA)
+
+¿Qué es un servidor web?
+¿Qué es un hosting?
+¿Qué es Nginx?
+Haz una comparativa entre Nginx y Apache.
+Haz una descripción breve del proceso de configuración de un sitio web que utiliza PHP.
+
+
+
 
 
 ## 14.BASE DE DATOS
