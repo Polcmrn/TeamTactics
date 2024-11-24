@@ -230,9 +230,51 @@ Creamos DNS  con vmbr1
 
 
 
-## 11.CONFIGURACIÓN DE DNS
+## 11.DNS Y SU CONFIGURACIÓN 
 
-Para empezar, actualizamos los repositorios de nuestro sistema:
+¿Qué es el DNS?
+
+Eñ DNS es  un servicio distribuido a nivel global que permite convertir los nombres de los sitios en las direcciones IP que les corresponde.
+Cuando un usuario registra un dominio, se crea una entrada WHOIS en el registro correspondiente y queda almacenada en el DNS como un
+resource record.
+La base de datos de un servidor DNS se convierte en la compilación de todos los registros de la zona del espacio de nombres de dominio que gestiona.
+
+Registros del DNS:
+
+A (Address Record): Mapea un nombre de dominio a una dirección IPv4.
+
+AAAA (IPv6 Address Record): Mapea un nombre de dominio a una dirección IPv6.
+
+MX (Mail Exchange): Define qué servidor gestiona el correo electrónico para el dominio.
+
+CNAME (Canonical Name): Apunta un dominio a otro dominio.
+
+NS (Name Server): Especifica qué servidores DNS son responsables de un dominio.
+
+PTR (Pointer Record): Utilizado en la búsqueda inversa de DNS, mapea una IP a un nombre de dominio.
+
+Información del DNS
+
+El servicio de DNS se encuentra en la capa de aplicación del modelo OSI.
+La capa más cercana al usuario y contiene todos los protocolos de alto nivel como SMTP, DNS y HTTP.
+Este protocolo de red emplea la capa de transporte TCP, UDP y utiliza el puerto 53.
+
+Tipos de Consultas:
+
+Consulta recursiva: Si el servidor DNS local no sabe la respuesta, realiza consultas a otros servidores DNS.
+
+Resolución iterativa: Si un servidor DNS no tiene la respuesta directa, le da al cliente la dirección de otro servidor que puede tenerla. 
+
+
+Una ventaja es que resuelve el problema de las colisiones o nombres duplicados porque garantiza que todos los nombres hermanos o hijos de un mismo nodo tengan etiquetas o nombres diferentes.
+Elimina los problemas del sistema basados en el fichero HOSTS.TX
+Y tambiém permite "particionar" y gestionar los diferentes subdominios de modo independiente.
+
+
+CONFIGURACIÓN DEL DNS EN PROYECTO
+
+
+Para empezar la configuracióm, actualizamos los repositorios de nuestro sistema:
 
 sudo apt update
 
