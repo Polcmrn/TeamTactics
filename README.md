@@ -196,7 +196,7 @@ Por el momento tenemos hecho este prototipo de mapa de red, aunque aun lo tenemo
 
 ![Logo del equipo](carpeta_fotos/mapaDeRed.JPG)
 
-## 9.PROXMOX
+## 9.PROXMOX Y SU CONFIGURACIÓN
 
 Por el momento, ya tenemos instalado el ProxMox en el PC de clase asignado de los que están atrás del todo. Una vez tengamos más claro el esquema de red definitivo, procederemos a empezar a configurarlo y documentarlo.
 
@@ -211,8 +211,6 @@ Es especialmente útil para:
 -Gestión de recursos: Controlar y distribuir recursos de hardware como CPU, memoria y almacenamiento.
 
 -Automatización y alta disponibilidad: Ofrecer soluciones escalables y resistentes a fallos.
-
-## 10.CONFIGURACIÓN DE PROXMOX
 
 [Ver archivo](M11UF4A2-QuimFernandez_PolCamarena.docx.pdf)
 
@@ -256,7 +254,9 @@ PTR (Pointer Record): Utilizado en la búsqueda inversa de DNS, mapea una IP a u
 Información del DNS
 
 El servicio de DNS se encuentra en la capa de aplicación del modelo OSI.
+
 La capa más cercana al usuario y contiene todos los protocolos de alto nivel como SMTP, DNS y HTTP.
+
 Este protocolo de red emplea la capa de transporte TCP, UDP y utiliza el puerto 53.
 
 Tipos de Consultas:
