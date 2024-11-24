@@ -319,9 +319,21 @@ Ahora creamos los dos archivos de la zona directa y inversa
 
 Ahora, accedemos al archivo de la zona directa y lo configuramos para comprobar que funcione de forma correcta
 
+La zona directa de DNS es una configuración que mapea nombres de dominio a direcciones IP.
+
+En nuestro caso el servidor DNS manejará el dominio quimpol.local  y usará el archivo db.quimpol.local para almacenar.
+
 ![image](https://github.com/user-attachments/assets/13a11569-e7f1-4d9a-aba1-63da8068c6b0)
 
 Y ahora haremos lo mismo pero para la zona inversa
+
+Lo que hace la zona inversa es que  está buscando el nombre de dominio asociado con una dirección IP determinada.
+
+En nuestro caso la IP  es la 10.20.30.4,
+
+Entonces nuestra dirección IP, que es la 10.20.30.4, nos  permitirá resolver esa IP al nombre de nuestro dominio, el quimpol
+
+Y tambien ya lo ponemos para la configuración con la MV de cliente
 
 ![image](https://github.com/user-attachments/assets/2a8c4855-e765-45e1-87d0-8fcde3150868)
 
@@ -334,10 +346,18 @@ Ahora para comprobar que toda la configuración de los ficheros de zonas se ha r
 Ahora nos tocaría editar el fichero 
 /etc/bind/named.conf.options
 
+Esto lo que hace es configurar parámetros globales y opciones predeterminadas que se aplican a todas las zonas y consultas DNS gestionadas por el servidor.
+
+Modificamos el archivo y en listen ponemos la 10.20.30.4 que es para que servidor DNS escuchará consultas.
+
+ 
 ![image](https://github.com/user-attachments/assets/10fba1a7-6320-46e1-96bd-8c527a266608)
 
 Ahora, vamos al archivo
 /etc/default/named 
+
+El archivo /etc/default/named controla cómo se inicia el servicio BIND
+
 Que es donde especificaremos la opción -4 como argumento para el usuario bind, que  se crea automáticamente durante la instalación del servicio bind9. 
 
 La opción -4 , nos sirve para forzar el uso de IPv4 siempre y evitar  mensajes de error de red inalcanzable por direccionamiento IPv6.
