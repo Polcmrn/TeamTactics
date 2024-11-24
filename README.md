@@ -299,6 +299,14 @@ Ahora si ponemos ip a, veremos que mediante DHCP, tenemos asignada la IP 10.20.3
 
 Entonces ahora vamos al archivo que se llama named.conf.local , que bàsicamente es donde haremos la configuración DNS de la zona inversa y directa
 
+El named.conf.local lo utiliza por el servidor DNS BIND para configurar zonas específicas y personalizadas, como dominios locales o zonas reversas. 
+
+Permite definir configuraciones locales que el servidor manejará, como:
+
+Zonas directas: Traduce nombres de dominio a direcciones IP.
+
+Zonas inversas: Traduce direcciones IP a nombres de dominio.
+
 ![image](https://github.com/user-attachments/assets/698eab22-3c6f-41ad-9a3f-f2b6e7828c11)
 
 Para comprobar que la configuración ha sido correcta y que no hemos tenido ningun problema ponemos:
