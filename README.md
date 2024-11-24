@@ -265,9 +265,12 @@ Consulta recursiva: Si el servidor DNS local no sabe la respuesta, realiza consu
 
 Resolución iterativa: Si un servidor DNS no tiene la respuesta directa, le da al cliente la dirección de otro servidor que puede tenerla. 
 
+VENTAJAS DEL DNS
 
 Una ventaja es que resuelve el problema de las colisiones o nombres duplicados porque garantiza que todos los nombres hermanos o hijos de un mismo nodo tengan etiquetas o nombres diferentes.
+
 Elimina los problemas del sistema basados en el fichero HOSTS.TX
+
 Y tambiém permite "particionar" y gestionar los diferentes subdominios de modo independiente.
 
 
