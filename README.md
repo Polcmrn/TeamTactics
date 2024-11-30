@@ -18,8 +18,12 @@
 12. CONFIGURACIÓN DE DHCP
 13. CONFIGURACIÓN DE NGINX
 14. BASE DE DATOS
-15. INCIDENCIAS TÉCNICAS
-16. BIBLIOGRAFIA
+15. CAMBIOS EN LA WEB
+16. FUNCIONALIDADES
+17. NUESTO FURTURO
+18. VALORACIONES DEL PROYECTO
+19. INCIDENCIAS TÉCNICAS
+20. BIBLIOGRAFIA
 
     
 ## 1.IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
@@ -450,8 +454,13 @@ En otras palabras, es el software que permite que los usuarios que quieren ver u
 
 ¿Qué es un hosting?
 
+Un hosting es un servicio de alojamiento web que te permite publicar un sitio web o aplicación en Internet. Cuando contratas un servicio de hosting, básicamente alquilas un espacio en un servidor físico donde puedes almacenar todos los archivos y datos necesarios para que tu sitio web funcione correctamente.
 
 ¿Qué es Nginx?
+
+Nginx, pronunciado como “engine-ex”, es un servidor web de código abierto que, desde su éxito inicial como servidor web, ahora también es usado como proxy inverso, cache de HTTP, y balanceador de carga.
+
+Algunas compañías de alto perfil que utilizan Nginx incluyen Autodesk, Atlassian, Intuit, T-Mobile, GitLab, DuckDuckGo, Microsoft, IBM, Google, Adobe, Salesforce, VMWare, Xerox, LinkedIn, Cisco, Facebook, Target, Citrix Systems, Twitter, Apple , Intel, y muchos más
 
 
 Haz una comparativa entre Nginx y Apache.
@@ -483,7 +492,7 @@ Eso lo hicimos poniendo a cada equipo un numero, del 1 al 20, ya que son 20 equi
 
 Entonces lo que hicimos en estadisticasm fue ponerlas de forma manualmente, ya que con el tiempo que quedaba para entregar el trabajo era imposible acabarlo
 
-## 15.FUNCIONALIDADES
+## 16.FUNCIONALIDADES
 
 Aquí como funcionalidades, tenemos:
 
@@ -496,21 +505,21 @@ Aquí como funcionalidades, tenemos:
 
 Creemos que las 4 funcionalidades para nuestro trabajo son muy buenas ideeas, ya que conjuntan perfectamente a nuestra idea prinpial
 
-## 15.NUESTRO FUTURO
+## 17.NUESTRO FUTURO
 
 Creemos que para la siguente UF, podemos seguir con nuestro proyecto, ya que tenemos aún muchas buenas ideas para seguir mejorando y aprendiendo. Esto lo defenderemos en la exposición del proyecto hasta la muerte
 Algunas ideas serián:
 - API de resultados
 - Poder básicamente hacer el FANTASY, con que cada persona pueda hacer su equipo, y competir con otros jugadores
 
-## 15.VALORACIONES DEL PROYECTO
+## 18.VALORACIONES DEL PROYECTO
 
 Creemos que en el proyecto hemos aprendido muchisimo, con las instalaciones de las diferentes máquinas virtuales, con el nuevo conocimiento como nginx, o php. O también con el constante trabajo diario y semanal sobre una idea que poco a poco hemos ido creando y mejorando.
 
 Y personalmente a los dos intregantes del equipo nos parece por ahora seguir con nuestro trabajo en la próxima UF
 
 
-## 15.INCIDENCIAS TÉCNICAS
+## 19.INCIDENCIAS TÉCNICAS
 
 Mala configuración en el DNS, por falta de no haber reiniciado el servicio despues de modificarlo
 
@@ -522,7 +531,7 @@ Otro fail....
 
 
 
-## 16.BIBLIOGRAFIA
+## 20.BIBLIOGRAFIA
 
 https://punkymo.gitbook.io/miwiki
 
