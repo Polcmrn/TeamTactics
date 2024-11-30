@@ -465,8 +465,17 @@ Algunas compañías de alto perfil que utilizan Nginx incluyen Autodesk, Atlassi
 
 Haz una comparativa entre Nginx y Apache.
 
+Nginx:
 
-Haz una descripción breve del proceso de configuración de un sitio web que utiliza PHP.
+Usa una arquitectura basada en eventos y asincrónica, lo que le permite manejar múltiples conexiones simultáneamente con menos recursos.
+Es ideal para cargas altas y servidores con tráfico masivo.
+Excelente para servir contenido estático (imágenes, archivos HTML, etc.) rápidamente.
+
+
+Apache:
+
+Emplea un modelo de procesos/hilos, donde cada conexión consume un hilo o proceso. Esto puede ser ineficiente bajo cargas pesadas.
+Ofrece más flexibilidad para manejar configuraciones complejas gracias a sus módulos dinámicos.
 
 
 
