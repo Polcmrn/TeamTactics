@@ -449,8 +449,44 @@ Eel archivo de configuración global es:
 Entonces ahora, con el  el directorio  /etc/nginx/sites-enabled/ , lo que haremos será almacenar los  los enlaces simbólicos a los archivos de configuración de sitios web creados en 
 /etc/nginx/sites-available/  para que puedan ser habilitados los sitios
 
-Ahora tocaria editar el archivo /sites-available/default, que en este caso sería el bloque predeterminado del servidor de Nginx
 
+Ahora editamos el archivo /sites-available/default, que en este caso sería el bloque predeterminado del servidor de Nginx
+
+Php:
+
+¿Qué es php?
+
+PHP es un lenguaje de programación de propósito general ampliamente utilizado para el desarrollo de aplicaciones web del lado del servidor
+
+Características principales:
+
+Dinámico y orientado a la web:
+
+PHP se usa principalmente para generar contenido dinámico en páginas web.
+Puede interactuar con bases de datos, manejar formularios y autenticar usuarios.
+
+Integración con HTML:
+
+PHP se incrusta directamente en archivos HTML, lo que facilita la creación de páginas web dinámicas.
+
+Compatibilidad multiplataforma:
+
+PHP funciona en varios sistemas operativos, como Windows, Linux y macOS.
+Es compatible con la mayoría de los servidores web, como Apache, NGINX.
+
+Para instalar el php ponemos:
+
+sudo apt install php-fpm
+
+Para verificar si tenemos instalado PHP ponemos:
+
+
+php -version
+
+Para comprobar si tenemos php-fpm ponemos:
+
+
+php-fpm7.4 -v
 
 
 
