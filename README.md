@@ -442,6 +442,17 @@ Ahora tenemos que editar el archivo nginx.conf que se encuentra en /etc/nginx
 
 ![image](https://github.com/user-attachments/assets/f54260e8-7625-45e1-be91-1d5da4098f22)
 
+Eel archivo de configuración global es: 
+
+/etc/nginx/nginx.conf
+
+Entonces ahora, con el  el directorio  /etc/nginx/sites-enabled/ , lo que haremos será almacenar los  los enlaces simbólicos a los archivos de configuración de sitios web creados en 
+/etc/nginx/sites-available/  para que puedan ser habilitados los sitios
+
+Ahora tocaria editar el archivo /sites-available/default, que en este caso sería el bloque predeterminado del servidor de Nginx
+
+
+
 
 ## ACTIVIDAD ENTREGADA EN LA MEMÓRIA (ALINA)
 
