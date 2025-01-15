@@ -608,9 +608,11 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 ### NUEVAS FUNCIONALIDADES
 
 #### PENDIENTES
-- cambio contraseña
-- email contacto
+- Opción de cambio de contraseña
+- Formulario de Contacto
+
 #### NUEVAS EN LA WEB
+
 
 #### OBLIGADOR
 
