@@ -615,12 +615,12 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 - Implementación de una API: recrear la web a partir de la API que nos permitirá añadir la función de las estadísticas actualizadas de los jugadores.
 - Implementación del juego:
 
-Esta para nosotros es la parte mas importante, aqui pondremos de novedades:
-
-Los jugadores se puedan agregar como si fueran amigos
-Una pagina donde los usuarios puedan crear sus equipos, saldrá su 11 inicial, y tambien habrá un apartado para ver todos sus jugadores ( a parte del 11 inicial)
-Una pagina donde los usuarios podrán comprar los jugadores, hara la misma función que un mercado, allí apareceran todos los jugadores de futbol disponibles para ser comprados
-Una página que funcionara como si fuera una clasificación donde los jugadores con mas puntos conseguidos apareceran, asi sera mas competitivo y hara el juego mas interesante para los usuarios
+    Esta para nosotros es la parte mas importante, aqui pondremos de novedades:
+    
+    Los jugadores se puedan agregar como si fueran amigos
+    Una pagina donde los usuarios puedan crear sus equipos, saldrá su 11 inicial, y tambien habrá un apartado para ver todos sus jugadores ( a parte del 11 inicial)
+    Una pagina donde los usuarios podrán comprar los jugadores, hara la misma función que un mercado, allí apareceran todos los jugadores de futbol disponibles para ser comprados
+    Una página que funcionara como si fuera una clasificación donde los jugadores con mas puntos conseguidos apareceran, asi sera mas competitivo y hara el juego mas interesante para los usuarios
 
 - Agregar como amigos a los usuarios
 
