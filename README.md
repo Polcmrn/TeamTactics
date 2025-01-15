@@ -593,7 +593,7 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 </details>
 
 
-## 20.BIBLIOGRAFIA
+## BIBLIOGRAFIA
 
 https://punkymo.gitbook.io/miwiki
 
