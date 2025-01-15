@@ -1,6 +1,6 @@
 ![Banner](./carpeta_fotos/banner1.png)
 
-# DOCUMENTACIÓN DEL PROYECTO
+# Documentación Proyecto
 
 Aquí realizaremos la documentación del proyecto, actualmente estamos realizando `SEGUNDO PROYECTO`.
 
