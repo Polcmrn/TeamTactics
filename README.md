@@ -1,6 +1,6 @@
 ![Banner](./carpeta_fotos/banner1.png)
 
-# Documentación Proyecto Quim y Pol
+# Documentación Proyecto
 
 Este es un ejemplo de un proyecto que tiene una imagen de fondo en su `README.md`.
 
