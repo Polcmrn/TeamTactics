@@ -602,7 +602,7 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
   <summary>SEGUNDO PROYECTO💻</summary>
 
 
-## `ÍNDICE`
+## ÍNDICE
 
 1. IDEAS PARA EL SEGUNDO PROYECTO 
 2. 
