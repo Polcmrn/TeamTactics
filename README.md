@@ -1,6 +1,4 @@
-# TeamTactics©
-
-![Banner](./carpeta_fotos/banner.png)
+![Banner](./carpeta_fotos/banner1.png)
 
 # Título de tu proyecto
 
