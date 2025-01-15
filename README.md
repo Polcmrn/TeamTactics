@@ -619,6 +619,9 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 
 #### NUEVAS EN LA WEB
 - Implementación de una API: recrear la web a partir de la API que nos permitirá añadir la función de las estadísticas actualizadas de los jugadores.
+
+- Agregar como amigos a los usuarios
+
 - Implementación del juego:
 
     Esta para nosotros es la parte mas importante, aqui pondremos de novedades:
@@ -628,12 +631,12 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
     Una pagina donde los usuarios podrán comprar los jugadores, hara la misma función que un mercado, allí apareceran todos los jugadores de futbol disponibles para ser comprados
     Una página que funcionara como si fuera una clasificación donde los jugadores con mas puntos conseguidos apareceran, asi sera mas competitivo y hara el juego mas interesante para los usuarios
 
-- Agregar como amigos a los usuarios
+
 
 
 #### OBLIGADOR
 - Docker
-- FW
+- FireWall
 - Backups (script)
 - Seguridad:
 * MySQL (crear más de un usuario, securizar la DB, triggers)
