@@ -1,6 +1,6 @@
 # TeamTactics©
 
-![Fondo Star Wars](https://unageek.com/wp-content/uploads/2020/03/Fondo_pantalla_chat_WA_StarWars_UnaGeek_Oscuro.jpg)
+![Banner](./carpeta_fotos/banner.png)
 
 # Título de tu proyecto
 
