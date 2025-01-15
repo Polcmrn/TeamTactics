@@ -2,7 +2,7 @@
 
 # Documentación Proyecto
 
-Este es un ejemplo de un proyecto que tiene una imagen de fondo en su `README.md`.
+Aquí realizaremos la documentación del proyecto, actualmente estamos realizando `SEGUNDO PROYECTO`.
 
 </div>
 
