@@ -1,7 +1,7 @@
 # TeamTactics©
 
 <details>
-  <summary>Haz clic para ver más</summary>
+  ##<summary>Haz clic para ver más</summary>
   
   Aquí puedes poner el contenido que se muestra al expandir el desplegable. Por ejemplo, puede ser una lista, imágenes o texto adicional.
   
