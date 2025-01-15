@@ -1,4 +1,11 @@
 # TeamTactics©
+<div style="background-image: url('https://ejemplo.com/imagen.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Funageek.com%2Ffondowa%2F&psig=AOvVaw0tSbuYlYD1q82L9jEZzSzo&ust=1737043138910000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjRvo6M-IoDFQAAAAAdAAAAABAE'); background-size: cover; padding: 20px;">
+
+# Título de tu proyecto
+
+Este es un ejemplo de un proyecto que tiene una imagen de fondo en su `README.md`.
+
+</div>
 
 <details>
   <summary>
