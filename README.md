@@ -2,15 +2,8 @@
 
 <details>
   <summary>
-  ## ÍNDICE
+   PRIMER PROYECTO
   </summary>
-  
-  Aquí puedes poner el contenido que se muestra al expandir el desplegable. Por ejemplo, puede ser una lista, imágenes o texto adicional.
-  
-  - Elemento 1
-  - Elemento 2
-  - Elemento 3
-
 </details>
 
 
@@ -599,7 +592,7 @@ Otro fail....
 
 En incidencias durante las instalaciones de las MV no tuvimos muchos errores, y los únicos que tuvimos eran por equivocaciones de escritura y palabras.
 Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que al crear plantilla , donde pusimos muchos datos, nos equivocamos mucho, pero poco a poco esos errores se fueron arreglando hasta el dia de hoy que nuestra bbdd funciona perfectamente
-
+</details>
 
 
 ## 20.BIBLIOGRAFIA
