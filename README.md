@@ -634,7 +634,7 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 
 
 
-#### OBLIGADOR
+#### OBLIGATORIAS
 - Docker
 - FireWall
 - Backups (script)
