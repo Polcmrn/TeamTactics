@@ -4,9 +4,7 @@
   <summary>
    PRIMER PROYECTO
   </summary>
-</details>
-
-
+  
 ## ÍNDICE
 
 1. IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
