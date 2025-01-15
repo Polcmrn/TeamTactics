@@ -1,5 +1,6 @@
 # TeamTactics©
-<div style="background-image: url('https://unageek.com/wp-content/uploads/2020/03/Fondo_pantalla_chat_WA_StarWars_UnaGeek_Oscuro.jpg'); height: 300px; background-size: cover; padding: 20px;">
+
+![Fondo Star Wars](https://unageek.com/wp-content/uploads/2020/03/Fondo_pantalla_chat_WA_StarWars_UnaGeek_Oscuro.jpg)
 
 # Título de tu proyecto
 
