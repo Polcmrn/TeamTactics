@@ -2,7 +2,7 @@
 
 <details>
   <summary>
-   PRIMER PROYECTO
+   PRIMER PROYECTO🛠️
   </summary>
   
 ## ÍNDICE
@@ -593,17 +593,17 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 </details>
 
 <details>
-  <summary>SEGUNDO PROYECTO</summary>
+  <summary>SEGUNDO PROYECTO💻</summary>
 
 
 ## ÍNDICE
 
-1. IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
-2. OBLIGATORIO A APLICAR
-3. LOGO DEL EQUIPO
+1. IDEAS PARA EL SEGUNDO PROYECTO 
+2. 
+3. 
 
  
-## 1.IDEA DEL PROYECTO Y OBJETIVO DEL TRABAJO
+## 1.IDEAS PARA EL SEGUNDO PROYECTO
 
 Nuestra idea del proyecto se basa en diseñar una aplicación web inspirada en el popular juego de Fantasy Football. El fantasy es un juego donde los usuarios crean su propio equipo, y la finalidad de este juego es obtener los máximos puntos posibles, estos puntos se consiguen mediante tus jugadores, los jugadores en la vida real dependiendo de como juega un partido, puede obtener muchos puntos o muy pocos puntos. Como ejemplo de puntuacion, si un jugador no tiene minutos de juego entonces tendra 0 puntos, y si otro jugador marca 4 goles, possiblemente tendra una puntuación de 25 puntos. 
 
@@ -615,6 +615,7 @@ Con el trello y el github mostraremos todo nuestro trabajo realizado para mostra
 
 
 </details>
+
 ## BIBLIOGRAFIA
 
 https://punkymo.gitbook.io/miwiki
