@@ -605,8 +605,6 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 ## ÍNDICE
 
 1. IDEAS PARA EL SEGUNDO PROYECTO 
-2. 
-3. 
 
  
 ## 1.IDEAS PARA EL SEGUNDO PROYECTO
@@ -624,12 +622,15 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 
 - Implementación del juego:
 
-    Esta para nosotros es la parte mas importante, aqui pondremos de novedades:
+    Está para nosotros es la parte mas importante, aquí pondremos de novedades:
     
     Los jugadores se puedan agregar como si fueran amigos
-    Una pagina donde los usuarios puedan crear sus equipos, saldrá su 11 inicial, y tambien habrá un apartado para ver todos sus jugadores ( a parte del 11 inicial)
-    Una pagina donde los usuarios podrán comprar los jugadores, hara la misma función que un mercado, allí apareceran todos los jugadores de futbol disponibles para ser comprados
-    Una página que funcionara como si fuera una clasificación donde los jugadores con mas puntos conseguidos apareceran, asi sera mas competitivo y hara el juego mas interesante para los usuarios
+  
+    Una página donde los usuarios puedan crear sus equipos, saldrá su 11 inicial, y también habrá un apartado para ver todos sus jugadores ( a parte del 11 inicial)
+  
+    Una página donde los usuarios podrán comprar los jugadores, hará la misma función que un mercado, allí apareceran todos los jugadores de futbol disponibles para ser comprados
+  
+    Una página que funcionará como si fuera una clasificación donde los jugadores con más puntos conseguidos apareceran, así será más competitivo y hará el juego más interesante para los usuarios
 
 
 
