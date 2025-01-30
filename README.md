@@ -648,6 +648,10 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 
+## DIAGRAMA DE LA BASE DE DATOS
+
+![image](https://github.com/user-attachments/assets/c77022c7-f9fa-4e4f-b08c-578abd2a24fb)
+
 </details>
 
 ## BIBLIOGRAFIA
