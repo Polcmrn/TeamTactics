@@ -642,7 +642,18 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 - Seguridad:
   - MySQL (crear más de un usuario, securizar la DB, triggers)
   - Protección de código fuente
+ 
+## FUNCIONALIDADES
 
+![image](https://github.com/user-attachments/assets/ecd8f3c9-cd94-4e7b-a4e9-cfcbcfb238fd)
+
+Los dos, Quim y Pol haremos la funcionalidad del juego Fantasy, ya que es una funcionalidad muy larga y compleja, y necesitamos que los dos lo hagamos para poder acabar
+
+La funcionalidad de la API la hará Pol
+
+La funcionalidad de cambio de contraseña la hará Quim
+
+La funcionalidad de agregar amigos la haremos cuando acabemos la del Juego Fantasy, ya que preferimos insistir con el tiempo en terminar la funcionalidad del juego fantasy por su gran importancia y valor en nuestro proyecto, ya que es en lo que se basa nuestra idea de proyecto
 
 ## ARQUITECTURA DEL SISTEMA
 
