@@ -657,12 +657,23 @@ La funcionalidad de agregar amigos la haremos cuando acabemos la del Juego Fanta
 
 ## ARQUITECTURA DEL SISTEMA
 
+Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es lo que tenemos como idea
+
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 
 ## DIAGRAMA DE LA BASE DE DATOS
 
+Esta es nuetra base de datos, es la misma que la del primer proyecto pero con pequeñas variaciones ya que como comentamos seguimos con el mismo proyecto entonces la infraestructura de la base de datos por narices tiene que ser muy parecida ya que mas o menos ya esta de alguna manera terminada
+
+Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de datos, pero por ahora es lo que tenemos
+
 ![image](https://github.com/user-attachments/assets/c77022c7-f9fa-4e4f-b08c-578abd2a24fb)
 
+## TAREAS
+
+Ahora mismo por problemas no podimos empezar en la creación de la infraestructura de la Ubuntu o Alpine.
+El 29/01 empezas con docker y los containers, y desde una MV de ubuntu server, ya que desde Alpine hubo algunos problemas y preferimos utilizar la ubuntu por la razón de que ya la hemos usado mucho, entonces empezamos a crear la estrucura y importamos el sitio web en docker, luego dentro de nginx configurmos el default.conf, luego en mysql lo tenemos vació por ahora y ahora estamos con el docker compose. 
+Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y algunos compañeros nos han dado explicaciones para entenderlo mejor y asi hacerlo de alguna forma un poco mas rapido para asi aprovechar el tiempo al maximo para llegar al ritmo de la clase
 </details>
 
 ## BIBLIOGRAFIA
