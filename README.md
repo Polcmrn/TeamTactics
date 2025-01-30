@@ -646,6 +646,7 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 
 
 
+![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 
 </details>
 
