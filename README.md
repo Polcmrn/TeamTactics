@@ -1,4 +1,4 @@
-[Banner](./carpeta_fotos/banner1.png)
+![Banner](./carpeta_fotos/banner1.png)
 
 # Documentación Proyecto
 
