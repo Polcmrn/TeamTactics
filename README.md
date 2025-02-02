@@ -658,6 +658,8 @@ Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es 
 
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 
+![image](carpeta_fotos/esquema_red_2.png)
+
 ## DIAGRAMA DE LA BASE DE DATOS
 
 Esta es nuetra base de datos, es la misma que la del primer proyecto pero con pequeñas variaciones ya que como comentamos seguimos con el mismo proyecto entonces la infraestructura de la base de datos por narices tiene que ser muy parecida ya que mas o menos ya esta de alguna manera terminada
