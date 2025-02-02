@@ -697,7 +697,7 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 - ¿Qué otros tipos de contenedores existen además de docker?
 
   LXC, Podman, Kubernetes (orquestación), OpenVZ y rkt.                                                         
-- Escribe una guía de usuario con los pasos claves para desplegar una aplicación web en contenedores.
+- Guía de Usuario con los pasos claves para desplegar una aplicación web en contenedores.
 
 
 </details>
