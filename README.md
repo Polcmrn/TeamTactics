@@ -677,7 +677,7 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 ## Docker Compose
 - ¿Qué son los contenedores de docker?
-  Son entornos aislados y ligeros que permiten ejecutar aplicaciones con sus dependencias en cualquier sistema con Docker.
+      Son entornos aislados y ligeros que permiten ejecutar aplicaciones con sus dependencias en cualquier sistema con Docker.
 - ¿Qué diferencias hay entre los contenedores de docker y los lxc?
 - ¿Cuál es la diferencia entre una imagen y un contenedor en docker?
 - ¿Qué sucede con los datos cuando un contenedor se elimina?
