@@ -674,6 +674,18 @@ Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de d
 Ahora mismo por problemas no podimos empezar en la creación de la infraestructura de la Ubuntu o Alpine.
 El 29/01 empezamos con docker y los containers, y desde una MV de ubuntu server, ya que desde Alpine hubo algunos problemas y preferimos utilizar la ubuntu por la razón de que ya la hemos usado mucho, entonces empezamos a crear la estrucura y importamos el sitio web en docker, luego dentro de nginx configurmos el default.conf, luego en mysql lo tenemos vació por ahora y ahora estamos con el docker compose. 
 Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y algunos compañeros nos han dado explicaciones para entenderlo mejor y asi hacerlo de alguna forma un poco mas rapido para asi aprovechar el tiempo al maximo para llegar al ritmo de la clase
+
+## Docker Compose
+- ¿Qué son los contenedores de docker?
+¿Qué diferencias hay entre los contenedores de docker y los lxc?
+¿Cuál es la diferencia entre una imagen y un contenedor en docker?
+¿Qué sucede con los datos cuando un contenedor se elimina?
+¿Cuáles son las ventajas de utilizar contenedores de docker?
+¿Qué tipo de aplicaciones y servicios se pueden desplegar con docker?
+¿Qué otros tipos de contenedores existen además de docker?                                                         
+Escribe una guía de usuario con los pasos claves para desplegar una aplicación web en contenedores.
+
+
 </details>
 
 ## BIBLIOGRAFIA
