@@ -604,9 +604,6 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 
 ## ÍNDICE
 
-1. IDEAS PARA EL SEGUNDO PROYECTO 
-
- 
 ## 1.IDEAS PARA EL SEGUNDO PROYECTO
 
 ### NUEVAS FUNCIONALIDADES
