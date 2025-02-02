@@ -1,4 +1,4 @@
-![Banner](./carpeta_fotos/banner1.png)
+Banner](./carpeta_fotos/banner1.png)
 
 # Documentación Proyecto
 
@@ -677,13 +677,15 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 ## Docker Compose
 - ¿Qué son los contenedores de docker?
-¿Qué diferencias hay entre los contenedores de docker y los lxc?
-¿Cuál es la diferencia entre una imagen y un contenedor en docker?
-¿Qué sucede con los datos cuando un contenedor se elimina?
-¿Cuáles son las ventajas de utilizar contenedores de docker?
-¿Qué tipo de aplicaciones y servicios se pueden desplegar con docker?
-¿Qué otros tipos de contenedores existen además de docker?                                                         
-Escribe una guía de usuario con los pasos claves para desplegar una aplicación web en contenedores.
+  Son entornos aislados y ligeros que permiten ejecutar aplicaciones con sus dependencias en cualquier sistema con Docker.
+- ¿Qué diferencias hay entre los contenedores de docker y los lxc?
+- ¿Cuál es la diferencia entre una imagen y un contenedor en docker?
+- ¿Qué sucede con los datos cuando un contenedor se elimina?
+- ¿Cuáles son las ventajas de utilizar contenedores de docker?
+- ¿Qué tipo de aplicaciones y servicios se pueden desplegar con docker?
+- ¿Qué otros tipos de contenedores existen además de docker?                                                         
+
+- Escribe una guía de usuario con los pasos claves para desplegar una aplicación web en contenedores.
 
 
 </details>
