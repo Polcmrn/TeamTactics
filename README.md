@@ -676,11 +676,52 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 ## Docker Basic
 
+¿Qué es Docker y cuál es su principal función en el ámbito de la virtualización de aplicaciones?
+
+Docker es una plataforma de contenerización que permite empaquetar aplicaciones y sus dependencias en contenedores ligeros y portables. Su principal función es facilitar la virtualización a nivel de sistema operativo, lo que permite ejecutar múltiples aplicaciones de manera aislada en el mismo host, asegurando consistencia, eficiencia y portabilidad entre entornos
+
+¿Cuáles son las principales ventajas de utilizar contenedores Docker en comparación con otras formas de virtualización?
+
+Ligereza:
+Los contenedores comparten el núcleo del sistema operativo, reduciendo el consumo de recursos en comparación con las VMs, que requieren un sistema operativo completo para cada instancia.
+Velocidad:
+Los contenedores se inician en segundos, mientras que las VMs pueden tardar minutos debido al proceso de arranque completo del sistema operativo.
+Portabilidad:
+Los contenedores son altamente portables, ya que encapsulan todo lo necesario para ejecutar una aplicación (código, dependencias, configuraciones), asegurando consistencia entre entornos.
+Escalabilidad:
+Docker permite escalar aplicaciones fácilmente, ejecutando múltiples instancias de un contenedor de forma rápida y eficiente.
+Aislamiento:
+Proporcionan un aislamiento efectivo entre aplicaciones, evitando conflictos entre dependencias o configuraciones.
+
+¿Cómo se crea un contenedor en Docker y cuáles son los elementos clave en la definición de su entorno y configuración?
+
+¿Cuál es la diferencia entre una imagen y un contenedor en Docker, y cómo se relacionan entre sí?
+
+Una imagen en Docker es una plantilla estática que contiene todo lo necesario para ejecutar una aplicación. Un contenedor es una instancia activa de esa imagen, ejecutándose en un entorno aislado.
+
+
+Lista las principales funciones de gestión de imágenes y explica brevemente que hace cada una de ellas. 
+Lista las principales funciones de gestión de contenedores y explica brevemente que hace cada una de ellas. 
+
+Ejecuta los siguientes comandos y explica qué es lo que hace, qué información te muestra:
+docker info
+
+Muestra información detallada sobre el estado de Docker, incluyendo configuración del sistema, número de contenedores, imágenes, redes y más.
+
 ![image](https://github.com/user-attachments/assets/bb106249-9b69-41b6-80a9-443a07662ef0)
+
+docker version
+
+Muestra la versión de Docker instalada, incluyendo información del cliente y del servidor.
 
 ![image](https://github.com/user-attachments/assets/fece4bc1-5eb0-47be-b52f-f21b5c610d98)
 
+docker run debian /bin/echo "Hola Mundo"
+ Corre el comando /bin/echo "Hola Mundo" 
+
 ![image](https://github.com/user-attachments/assets/ff226922-77f9-4dc8-9042-7f9e31f0d4b9)
+docker –help   
+Muestra la ayuda general de Docker
 
 ![image](https://github.com/user-attachments/assets/5fee144e-23b1-475a-abfb-bb4929c8dbd8)
 
