@@ -837,6 +837,8 @@ Visualizar la Web
 
 Accedemos al nginx mediante el puerto 8082
 
+![image](https://github.com/user-attachments/assets/52ec569c-64e2-44ab-b2c5-47879e7f4a53)
+
 ![image](https://github.com/user-attachments/assets/365c1b08-8353-4b0f-a684-5e532ed0c0f5)
 
 
