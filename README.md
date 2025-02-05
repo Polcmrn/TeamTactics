@@ -828,6 +828,11 @@ Mas capturas del proceso:
 
 ![image](https://github.com/user-attachments/assets/1e85f092-505d-4477-84af-9f765b440a24)
 
+Containers
+
+![image](https://github.com/user-attachments/assets/4a164909-a9ee-4f5f-baa7-1fe14bf196d4)
+
+
 - ¿Qué son los contenedores de docker?
 
   Los contenedores de Docker son entornos aislados y ligeros que permiten ejecutar aplicaciones con sus dependencias en cualquier sistema con Docker.
