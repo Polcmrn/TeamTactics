@@ -810,6 +810,7 @@ Mas capturas del proceso:
 
 ![image](https://github.com/user-attachments/assets/b5ee1335-2d74-446e-b3cc-605162baa0bd)
 
+Aqui es el primer momento que accedemos a los container, luego abajo hay una foto donde se ven todos los contenedores que se estan ejecutando
 
 
 
@@ -833,6 +834,8 @@ Containers
 ![image](https://github.com/user-attachments/assets/4a164909-a9ee-4f5f-baa7-1fe14bf196d4)
 
 Visualizar la Web
+
+Accedemos al nginx mediante el puerto 8082
 
 ![image](https://github.com/user-attachments/assets/365c1b08-8353-4b0f-a684-5e532ed0c0f5)
 
