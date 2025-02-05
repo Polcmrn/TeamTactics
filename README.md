@@ -832,6 +832,10 @@ Containers
 
 ![image](https://github.com/user-attachments/assets/4a164909-a9ee-4f5f-baa7-1fe14bf196d4)
 
+Visualizar la Web
+
+![image](https://github.com/user-attachments/assets/365c1b08-8353-4b0f-a684-5e532ed0c0f5)
+
 
 - ¿Qué son los contenedores de docker?
 
