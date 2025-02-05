@@ -821,6 +821,7 @@ Aqui es el primer momento que accedemos a los container, luego abajo hay una fot
 
 ## Docker Compose - M08UF2A6-DC-final
 
+El default.conf para que Nginx funcione correctamente como servidor web y define cómo manejar las solicitudes, redirigir tráfico y procesar archivos PHP. 
 ./teamtactics/nginx/default.conf
 
 ![image](https://github.com/user-attachments/assets/69f60272-7c05-44b5-b477-c0e89d5964fe)
