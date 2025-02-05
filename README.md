@@ -819,6 +819,15 @@ Mas capturas del proceso:
 ## Docker Compose
 
 ## Docker Compose - M08UF2A6-DC-final
+
+./teamtactics/nginx/default.conf
+
+![image](https://github.com/user-attachments/assets/69f60272-7c05-44b5-b477-c0e89d5964fe)
+
+./teamtactics/docker-compose.yml
+
+![image](https://github.com/user-attachments/assets/1e85f092-505d-4477-84af-9f765b440a24)
+
 - ¿Qué son los contenedores de docker?
 
   Los contenedores de Docker son entornos aislados y ligeros que permiten ejecutar aplicaciones con sus dependencias en cualquier sistema con Docker.
