@@ -676,6 +676,30 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 ## Docker Basic
 
+![image](https://github.com/user-attachments/assets/bb106249-9b69-41b6-80a9-443a07662ef0)
+
+![image](https://github.com/user-attachments/assets/fece4bc1-5eb0-47be-b52f-f21b5c610d98)
+
+![image](https://github.com/user-attachments/assets/ff226922-77f9-4dc8-9042-7f9e31f0d4b9)
+
+![image](https://github.com/user-attachments/assets/5fee144e-23b1-475a-abfb-bb4929c8dbd8)
+
+![image](https://github.com/user-attachments/assets/dd073f48-4937-4339-8b75-50885da2e8e3)
+
+![image](https://github.com/user-attachments/assets/517cbc02-e9fe-4919-9c34-0378e9a9dd61)
+
+![image](https://github.com/user-attachments/assets/7860ed7f-3bb3-4eac-a9b8-17627939b851)
+
+![image](https://github.com/user-attachments/assets/e39df1f0-021a-4717-8ef1-50786f3690b9)
+
+![image](https://github.com/user-attachments/assets/b5ee1335-2d74-446e-b3cc-605162baa0bd)
+
+
+
+
+
+
+
 ## Docker Compose
 
 ## Docker Compose - M08UF2A6-DC-final
