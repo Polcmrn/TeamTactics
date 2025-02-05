@@ -725,9 +725,84 @@ Muestra la ayuda general de Docker
 
 ![image](https://github.com/user-attachments/assets/5fee144e-23b1-475a-abfb-bb4929c8dbd8)
 
+
+docker inspect id
+
+Proporciona información detallada en formato JSON sobre un contenedor o una imagen especificada por su ID o nombre.
+
+docker rmi debian 
+
+Elimina la imagen debian del sistema si no tiene contenedores asociados. 
+
+docker ps (-a  -l)
+
+ Lista los contenedores en ejecución. Luego con el -a, lista todos los contenedores, incluyendo los detenidos, y el -l, lo que hace es que muestra solo el último contenedor creado 
+
+Ejecuta el siguiente comando: y responde
+docker run -d -p 83:80 nginx 
+¿Qué es la exposición de puertos?
+
+La exposición de puertos es el mapeo entre un puerto del sistema anfitrión (físico) y un puerto del contenedor. Permite acceder desde el equipo anfitrión (o red externa) a los servicios ejecutándose dentro del contenedor.
+
+¿Qué puerto corresponde a tu equipo (físico) y cuál al contenedor?
+
+Puerto del equipo (físico): 83
+Puerto del contenedor: 80
+
+
+¿Qué ejecuta este comando? Explica
+
+-d: Ejecuta el contenedor en segundo plano (modo desapegado).
+-p 83:80: Mapea el puerto 83 del equipo anfitrión al puerto 80 del contenedor.
+nginx: Usa la imagen oficial de Nginx para levantar un servidor web en el contenedor.
+En resumen, lanza un servidor web Nginx accesible en el puerto 83 del equipo anfitrión.
+
+Ve al navegador y verifica que el servidor web del container. ¿Qué puerto utilizas para visualizar la web?
+
+Usarías el puerto 83 en el navegador,
+
+Ejecuta los siguientes comandos y explica:
+
+docker logs id
+
+Muestra los registros (logs) generados por el contenedor identificado por <id>
+Aqui podremos ver Los logs dependen de la aplicación que se ejecuta dentro del contenedor. Por ejemplo, si estás ejecutando un servidor Nginx, podrías ver mensajes de inicio del servidor y cualquier solicitud HTTP procesada por él.
+
+docker inspect id
+
+Proporciona información detallada en formato JSON sobre un contenedor o una imagen, según el ID o nombre especificado.
+
+docker ps
+
+Lista todos los contenedores que están en ejecución.
+
+
+docker stop id
+
+Detiene el contenedor especificado por <id> o su nombre.
+
+¿Qué hace el comando: docker volume create portainer_data? Investiga y explica 
+
+Es para crear el volumen que Portainer Server usará para almacenar su base de datos.
+
 ![image](https://github.com/user-attachments/assets/dd073f48-4937-4339-8b75-50885da2e8e3)
 
+docker inspect portainer_data
+
+Aqui lo verificamos
+
+
 ![image](https://github.com/user-attachments/assets/517cbc02-e9fe-4919-9c34-0378e9a9dd61)
+
+¿Cuál es el puerto del equipo físico y cuál del contenedor en el siguiente comando:
+
+
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+Puerto del contenedor: 8000 es el puerto dentro del contenedor al que está expuesto el servicio
+Puerto del contenedor: 9443 el puerto dentro del contenedor
+
+Mas capturas del proceso:
 
 ![image](https://github.com/user-attachments/assets/7860ed7f-3bb3-4eac-a9b8-17627939b851)
 
