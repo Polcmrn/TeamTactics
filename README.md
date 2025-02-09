@@ -751,17 +751,21 @@ El default.conf para que Nginx funcione correctamente como servidor web y define
 
 ![image](https://github.com/user-attachments/assets/69f60272-7c05-44b5-b477-c0e89d5964fe)
 
+El archivo docker-compose.yml es un archivo de configuración en formato YAML que se usa con Docker Compose para definir y ejecutar múltiples contenedores de Docker de manera organizada.
+
 ./teamtactics/docker-compose.yml
 
 ![image](https://github.com/user-attachments/assets/1e85f092-505d-4477-84af-9f765b440a24)
 
 Containers
 
+Aqui se ven todos los containers que tenemos, y si clickamos en teamtactics se veran todos los que son para teamtactics
+
 ![image](https://github.com/user-attachments/assets/4a164909-a9ee-4f5f-baa7-1fe14bf196d4)
 
 Visualizar la Web
 
-Accedemos al nginx mediante el puerto 8082
+Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya podremos tener acceso al nginx mediante el puerto 8082
 
 ![image](https://github.com/user-attachments/assets/52ec569c-64e2-44ab-b2c5-47879e7f4a53)
 
