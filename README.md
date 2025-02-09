@@ -849,7 +849,10 @@ Accedemos al nginx mediante el puerto 8082
 
 - ¿Qué son los contenedores de docker?
 
-  Los contenedores de Docker son entornos aislados y ligeros que permiten ejecutar aplicaciones con sus dependencias en cualquier sistema con Docker.
+  Los contenedores de Docker son entornos ligeros, portátiles y aislados que encapsulan una aplicación junto con todas sus dependencias (bibliotecas, código, configuraciones y archivos necesarios) en un solo paquete. Esto permite que la aplicación se ejecute de manera 
+  consistente en cualquier sistema que tenga Docker instalado, independientemente del sistema operativo subyacente.
+
+Los contenedores eliminan los problemas de compatibilidad entre entornos de desarrollo, prueba y producción, optimizando el uso de recursos en comparación con las máquinas virtuales tradicionales.
 - ¿Qué diferencias hay entre los contenedores de docker y los lxc?
 
   Docker es más simple y centrado en aplicaciones, mientras que LXC proporciona contenedores más similares a máquinas virtuales, con un sistema operativo completo.
