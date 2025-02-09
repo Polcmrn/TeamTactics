@@ -868,22 +868,40 @@ Accedemos al nginx mediante el puerto 8082
     - No impone restricciones en cómo se deben construir o empaquetar las aplicaciones.
 - ¿Cuál es la diferencia entre una imagen y un contenedor en Docker?
 
-  Una imagen es una plantilla inmutable con el software y sus dependencias; un contenedor es una instancia en ejecución de una imagen.
+  - Imagen: Es un archivo inmutable que contiene el sistema base y las dependencias necesarias para ejecutar una aplicación. Es como una plantilla que permite la creación de múltiples contenedores con la misma configuración.
+ 
+  - Contenedor: Es una instancia en ejecución de una imagen. Puede crearse, iniciarse, detenerse y eliminarse sin afectar la imagen original. Es el entorno donde realmente corre la aplicación.
 - ¿Qué sucede con los datos cuando un contenedor se elimina?
 
-  Los datos cuando un contenedor se elimina se pierden si no están en volúmenes o montajes persistentes.
+     Cuando un contenedor se elimina, todos los datos almacenados dentro del sistema de archivos del contenedor desaparecen. Sin embargo, si los datos se almacenan en:
+
+       - Volúmenes de Docker (docker volume create) → Son persistentes y pueden ser reutilizados por otros contenedores.
+       - Montajes de Bind (-v /ruta/local:/ruta/contenedor) → Los datos quedan almacenados en el sistema de archivos del host.
+     Si no se usa ninguna de estas opciones, los datos desaparecerán cuando el contenedor sea eliminado.
 - ¿Cuáles son las ventajas de utilizar contenedores de docker?
 
-  Portabilidad, eficiencia, escalabilidad, rapidez en despliegues y aislamiento.
+     - Portabilidad: Se pueden ejecutar en cualquier sistema con Docker instalado sin preocuparse por dependencias.
+     - Eficiencia: Utilizan menos recursos que las máquinas virtuales porque comparten el kernel del sistema operativo.
+     - Escalabilidad: Permiten el despliegue de múltiples instancias fácilmente.
+     - Rapidez en despliegues: Facilitan la automatización y configuración rápida en CI/CD.
+     - Aislamiento: Cada contenedor tiene su propio entorno sin interferir con otros.
 - ¿Qué tipo de aplicaciones y servicios se pueden desplegar con docker?
 
-  Web apps, bases de datos, microservicios, entornos de desarrollo, CI/CD, entre otros.
+  Docker se puede usar para desplegar una amplia variedad de aplicaciones, incluyendo:
+
+     - Aplicaciones web (Node.js, PHP, Python, Java, .NET, etc.).
+     - Bases de datos (MySQL, PostgreSQL, MongoDB).
+     - Microservicios y APIs.
+     - Servidores proxy y balanceadores de carga (Nginx, HAProxy).
+     - Entornos de desarrollo y testing.
+     - Pipelines de CI/CD (Jenkins, GitLab CI/CD).
 - ¿Qué otros tipos de contenedores existen además de docker?
 
-  LXC, Podman, Kubernetes (orquestación), OpenVZ y rkt.                                                         
-- Guía de Usuario con los pasos claves para desplegar una aplicación web en contenedores.
-
-
+    - LXC (Linux Containers): Contenedores de bajo nivel que ofrecen un entorno más similar a una máquina virtual.
+    - Podman: Alternativa a Docker sin necesidad de daemon central.
+    - Kubernetes: No es un contenedor en sí, pero es una plataforma de orquestación de contenedores.
+    - OpenVZ: Tecnología de virtualización a nivel de sistema operativo para Linux.
+    - rkt (Rocket): Solución de contenedores más enfocada en seguridad.
 </details>
 
 ## BIBLIOGRAFIA
