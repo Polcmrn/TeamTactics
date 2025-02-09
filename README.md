@@ -677,58 +677,71 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 ## FUNCIONALIDADES HECHAS
 
 Por ahora durante estas 3 semanas hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
-## Docker Basic
 
-¿Qué es Docker y cuál es su principal función en el ámbito de la virtualización de aplicaciones?
+## Docker 
 
-Docker es una plataforma de contenerización que permite empaquetar aplicaciones y sus dependencias en contenedores ligeros y portables. Su principal función es facilitar la virtualización a nivel de sistema operativo, lo que permite ejecutar múltiples aplicaciones de manera aislada en el mismo host, asegurando consistencia, eficiencia y portabilidad entre entornos
+¿Que es Docker?
 
-¿Cuáles son las principales ventajas de utilizar contenedores Docker en comparación con otras formas de virtualización?
+Docker es una plataforma de contenedorización que permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles. 
+Estos contenedores pueden ejecutarse de manera consistente en cualquier entorno, ya sea en una computadora local, en servidores o en la nube.
 
-Ligereza:
-Los contenedores comparten el núcleo del sistema operativo, reduciendo el consumo de recursos en comparación con las VMs, que requieren un sistema operativo completo para cada instancia.
-Velocidad:
-Los contenedores se inician en segundos, mientras que las VMs pueden tardar minutos debido al proceso de arranque completo del sistema operativo.
-Portabilidad:
-Los contenedores son altamente portables, ya que encapsulan todo lo necesario para ejecutar una aplicación (código, dependencias, configuraciones), asegurando consistencia entre entornos.
-Escalabilidad:
-Docker permite escalar aplicaciones fácilmente, ejecutando múltiples instancias de un contenedor de forma rápida y eficiente.
-Aislamiento:
-Proporcionan un aislamiento efectivo entre aplicaciones, evitando conflictos entre dependencias o configuraciones.
+¿Para qué sirve Docker?
 
+Docker se usa principalmente para crear, distribuir y ejecutar aplicaciones en entornos aislados y portátiles llamados contenedores. 
+Esto permite a los desarrolladores y empresas mejorar la eficiencia, escalabilidad y consistencia de sus aplicaciones en diferentes entornos.
 
+Comandos de Docker 
 
-docker inspect portainer_data
+docker version	Muestra la versión instalada de Docker.
+docker info	Muestra información detallada sobre Docker y su configuración.
+docker help	Muestra ayuda sobre los comandos de Docker.
+docker run <imagen>	Ejecuta un contenedor basado en una imagen.
+docker run -d -p 8080:80 <imagen>	Ejecuta un contenedor en segundo plano y expone un puerto.
+docker ps	Lista los contenedores en ejecución.
+docker ps -a	Lista todos los contenedores (ejecutándose o detenidos).
+docker stop <id>	Detiene un contenedor en ejecución.
+docker rm <id>	Elimina un contenedor detenido.
 
-Aqui lo verificamos
+Ventajas
 
-
-![image](https://github.com/user-attachments/assets/517cbc02-e9fe-4919-9c34-0378e9a9dd61)
-
-¿Cuál es el puerto del equipo físico y cuál del contenedor en el siguiente comando:
-
-
-docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
-
-Puerto del contenedor: 8000 es el puerto dentro del contenedor al que está expuesto el servicio
-Puerto del contenedor: 9443 el puerto dentro del contenedor
-
-Mas capturas del proceso:
-
-![image](https://github.com/user-attachments/assets/7860ed7f-3bb3-4eac-a9b8-17627939b851)
-
-![image](https://github.com/user-attachments/assets/e39df1f0-021a-4717-8ef1-50786f3690b9)
-
-![image](https://github.com/user-attachments/assets/b5ee1335-2d74-446e-b3cc-605162baa0bd)
-
-Aqui es el primer momento que accedemos a los container, luego abajo hay una foto donde se ven todos los contenedores que se estan ejecutando
+Los contenedores Docker pueden ejecutarse en cualquier entorno sin cambios, ya sea en Windows, Linux, MacOS, servidores o en la nube.
+Evita problemas de dependencias, configuraciones o versiones de software diferentes en cada entorno.
+Los contenedores comparten el mismo sistema operativo, lo que reduce el consumo de recursos.
+Facilita la arquitectura de microservicios, donde cada componente de una aplicación se ejecuta en su propio contenedor.
+Con Docker Compose, puedes definir y ejecutar múltiples contenedores con un solo archivo YAML
 
 
+## Portainer
+
+¿Qué es un Portainer?
+
+Portainer es una herramienta de administración para Docker, Kubernetes, y Docker Swarm con una interfaz gráfica fácil de usar. Permite gestionar contenedores, imágenes, redes y volúmenes sin necesidad de usar la línea de comandos.
+
+Como instalar el portainer
+
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
+--restart=always -v \
+/var/run/docker.sock:/var/run/docker.sock -v\
+portainer_data:/data \
+portainer/portainer-ce:latest
+
+Características
+
+Interfaz gráfica intuitiva para administrar contenedores.
+Soporte para Docker, Kubernetes y Docker Swarm.
+Gestión de volúmenes, redes e imágenes de manera visual.
+Implementación rápida de contenedores con solo unos clics.
+Control de usuarios y permisos para equipos de trabajo.
+Monitoreo del estado de los contenedores en tiempo real.
+
+Ventajas
+
+Permite gestionar contenedores sin necesidad de usar comandos en la terminal.
+Compatible con diferentes servidores y configuraciones.
+Facilita la creación y despliegue de contenedores sin necesidad de escribir docker run.
+Permite visualizar y administrar volúmenes, redes y registros de imágenes sin necesidad de comandos.
 
 
-
-
-## Docker Compose
 
 ## Docker Compose - M08UF2A6-DC-final
 
