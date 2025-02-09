@@ -852,10 +852,20 @@ Accedemos al nginx mediante el puerto 8082
   Los contenedores de Docker son entornos ligeros, portátiles y aislados que encapsulan una aplicación junto con todas sus dependencias (bibliotecas, código, configuraciones y archivos necesarios) en un solo paquete. Esto permite que la aplicación se ejecute de manera 
   consistente en cualquier sistema que tenga Docker instalado, independientemente del sistema operativo subyacente.
 
-Los contenedores eliminan los problemas de compatibilidad entre entornos de desarrollo, prueba y producción, optimizando el uso de recursos en comparación con las máquinas virtuales tradicionales.
+  Los contenedores eliminan los problemas de compatibilidad entre entornos de desarrollo, prueba y producción, optimizando el uso de recursos en comparación con las máquinas virtuales tradicionales.
 - ¿Qué diferencias hay entre los contenedores de docker y los lxc?
 
-  Docker es más simple y centrado en aplicaciones, mientras que LXC proporciona contenedores más similares a máquinas virtuales, con un sistema operativo completo.
+  - Docker:
+
+     - Diseñado principalmente para la ejecución de aplicaciones en contenedores individuales.
+     - Utiliza una arquitectura basada en imágenes y capas para facilitar la reutilización y distribución de aplicaciones.
+     - Tiene una mayor integración con herramientas de orquestación como Kubernetes.
+     - Ofrece una interfaz más amigable y centrada en el desarrollo de aplicaciones.
+  - LXC (Linux Containers):
+
+    - Proporciona un sistema de contenedores más cercano a una máquina virtual, permitiendo ejecutar múltiples procesos en un solo contenedor.
+    - Usa un enfoque más tradicional de virtualización basada en el sistema operativo.
+    - No impone restricciones en cómo se deben construir o empaquetar las aplicaciones.
 - ¿Cuál es la diferencia entre una imagen y un contenedor en Docker?
 
   Una imagen es una plantilla inmutable con el software y sus dependencias; un contenedor es una instancia en ejecución de una imagen.
