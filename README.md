@@ -760,14 +760,15 @@ default.conf
 
 docker-compose.yml
 
-
-## Docker Compose - M08UF2A6-DC-final
-
-El default.conf para que Nginx funcione correctamente como servidor web y define cómo manejar las solicitudes, redirigir tráfico y procesar archivos PHP. 
+El  default.conf para que Nginx funcione correctamente como servidor web y define cómo manejar las solicitudes, redirigir tráfico y procesar archivos PHP. 
 
 ./teamtactics/nginx/default.conf
 
 ![image](https://github.com/user-attachments/assets/69f60272-7c05-44b5-b477-c0e89d5964fe)
+
+## Docker Compose - M08UF2A6-DC-final
+
+
 
 El archivo docker-compose.yml es un archivo de configuración en formato YAML que se usa con Docker Compose para definir y ejecutar múltiples contenedores de Docker de manera organizada.
 
@@ -787,8 +788,9 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 ![image](https://github.com/user-attachments/assets/52ec569c-64e2-44ab-b2c5-47879e7f4a53)
 
-![image](https://github.com/user-attachments/assets/365c1b08-8353-4b0f-a684-5e532ed0c0f5)
+![image](https://github.com/user-attachments/assets/365c1b08-8353-4b0f-a684-5e532ed0c0f5
 
+## Docker Compose - M08UF2A6-DC-final
 
 - ¿Qué son los contenedores de docker?
 
