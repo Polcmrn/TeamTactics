@@ -658,6 +658,9 @@ Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es 
 
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 
+## DIAGRAMA DE RED
+
+
 ![image](carpeta_fotos/esquema_red_2.png)
 
 ## DIAGRAMA DE LA BASE DE DATOS
