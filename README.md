@@ -766,6 +766,37 @@ El  default.conf para que Nginx funcione correctamente como servidor web y defin
 
 ![image](https://github.com/user-attachments/assets/69f60272-7c05-44b5-b477-c0e89d5964fe)
 
+Bueno, el servidor escucha el puerto 80 y tenemos el nombre del servidor como localhost.
+
+Luego, la definimos la carpeta donde se encuntra el contenido del sitio web:
+root /var/www/teamtactics/TeamTactics/html
+
+Primero busca index.htm, luego el index.html y luego el index.php
+index index.htm index.html index.php;
+
+
+Luego tenemos los registros de acceso y el de los errores, ya que guarda las solicitudes que recibe el servidor y también registra los errores
+
+access_log /var/log/nginx/access.log;
+error_log /var/log/nginx/error.log;
+
+Esto ahora sería la configuracion de nuestros archivos que son PHP
+
+    location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
+
+Y ahora definimos las rutas para los archivos CSS, JAVASCRIPT, las imagenes y también todos los archivos subidos.
+Todo estos archivos se sirven de:
+
+/var/www/teamtactics/TeamTactics/
+
+Estos creemos que son los mas importantes de explicar
+
+
 ## Docker Compose - M08UF2A6-DC-final
 
 
