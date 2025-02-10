@@ -764,7 +764,8 @@ El  default.conf para que Nginx funcione correctamente como servidor web y defin
 
 ./teamtactics/nginx/default.conf
 
-![image](https://github.com/user-attachments/assets/69f60272-7c05-44b5-b477-c0e89d5964fe)
+![image](https://github.com/user-attachments/assets/b50f36eb-d6be-41ec-8440-bbca1c0fdfc1)
+
 
 Bueno, el servidor escucha el puerto 80 y tenemos el nombre del servidor como localhost.
 
