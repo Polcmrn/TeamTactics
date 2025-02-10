@@ -695,14 +695,22 @@ Esto permite a los desarrolladores y empresas mejorar la eficiencia, escalabilid
 
 Comandos de Docker 
 
-docker version	Muestra la versión instalada de Docker.
-docker info	Muestra información detallada sobre Docker y su configuración.
+docker version  	Muestra la versión instalada de Docker.
+
+docker info	   Muestra información detallada sobre Docker y su configuración.
+
 docker help	Muestra ayuda sobre los comandos de Docker.
+
 docker run <imagen>	Ejecuta un contenedor basado en una imagen.
+
 docker run -d -p 8080:80 <imagen>	Ejecuta un contenedor en segundo plano y expone un puerto.
+
 docker ps	Lista los contenedores en ejecución.
+
 docker ps -a	Lista todos los contenedores (ejecutándose o detenidos).
+
 docker stop <id>	Detiene un contenedor en ejecución.
+
 docker rm <id>	Elimina un contenedor detenido.
 
 Ventajas
