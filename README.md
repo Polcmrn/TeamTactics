@@ -797,7 +797,6 @@ Todo estos archivos se sirven de:
 Estos creemos que son los mas importantes de explicar
 
 
-## Docker Compose - M08UF2A6-DC-final
 
 
 
@@ -806,6 +805,63 @@ El archivo docker-compose.yml es un archivo de configuración en formato YAML qu
 ./teamtactics/docker-compose.yml
 
 ![image](https://github.com/user-attachments/assets/1e85f092-505d-4477-84af-9f765b440a24)
+
+Dentro de este archivo tenemos la configuracion de 4 servicios de docker
+
+phpfpm:
+  image: php:8-fpm-alpine
+  container_name: phpfpm
+  working_dir: /var/www/teamtactics
+  ports:
+    - "9000:9000"
+  volumes:
+    - './web:/var/www/teamtactics'
+  restart: always
+  networks:
+    - netweb
+
+Este sería la configuración del PHP 
+Donde se define el directorio de trabajo dentro del contenedor, en nuestro caso en teamtactics:
+
+working_dir: /var/www/teamtactics
+
+nginx:
+  image: nginx:alpine
+  container_name: nginx
+  ports:
+    - 8082:80
+  working_dir: /etc/nginx
+  volumes:
+    - './web:/var/www/teamtactics'
+    - './nginx/default.conf:/etc/nginx/conf.d/default.conf'
+    - './nginx:/var/log/nginx/'
+  restart: always
+  networks:
+    - netweb
+
+Este sería la configuracion del nginx, y expone el puerto 80 del contenedor en el 8082 del host.
+Comparte archivos del host con el contenedor:
+
+./web:/var/www/teamtactics
+
+Y también carga los archivos de la configuración de Nginx:
+
+./nginx/default.conf:/etc/nginx/conf.d/default.conf
+
+db:
+  image: mysql
+  container_name: miDB
+  ports:
+    - "3307:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: 1234
+  volumes:
+    - './mysql:/var/lib/mysql'
+    - './db:/db'
+  networks:
+    - netweb
+
+Este seria el servicio del MYSQL, y por ahora no hemos hecho nada y lo mismo con el phpMyAdmin
 
 Containers
 
