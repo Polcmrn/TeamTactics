@@ -752,6 +752,13 @@ Compatible con diferentes servidores y configuraciones.
 Facilita la creación y despliegue de contenedores sin necesidad de escribir docker run.
 Permite visualizar y administrar volúmenes, redes y registros de imágenes sin necesidad de comandos.
 
+## Archivos de configuración
+
+Tenemos estos dos archivos para poder realizar la configuración:
+
+default.conf
+
+docker-compose.yml
 
 
 ## Docker Compose - M08UF2A6-DC-final
