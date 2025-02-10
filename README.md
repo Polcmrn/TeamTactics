@@ -867,6 +867,10 @@ Este seria el servicio del MYSQL, y por ahora no hemos hecho nada y lo mismo con
 
 Estos 2 archivos, el docker-compose-yml y el default.comf, lo que hacen es trabajar juntos para configurar y ejecutar un entorno web basado en Docker, bueno y como he dicho antes, estara compuesto por Nginx, PHP-FPM, MySQL y phpMyadmin
 
+docker-compose.yml levanta y configura los contenedores
+default.conf define cómo Nginx maneja las peticiones
+
+
 Containers
 
 Aqui se ven todos los containers que tenemos, y si clickamos en teamtactics se veran todos los que son para teamtactics
