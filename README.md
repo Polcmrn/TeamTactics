@@ -804,7 +804,8 @@ El archivo docker-compose.yml es un archivo de configuración en formato YAML qu
 
 ./teamtactics/docker-compose.yml
 
-![image](https://github.com/user-attachments/assets/1e85f092-505d-4477-84af-9f765b440a24)
+![image](https://github.com/user-attachments/assets/5b88f50a-abb6-4ff3-bd46-f796a59be8d8)
+
 
 Dentro de este archivo tenemos la configuracion de 4 servicios de docker
 
