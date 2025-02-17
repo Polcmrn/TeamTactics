@@ -737,15 +737,6 @@ Entonces para empezar, primero de todo lo que tendriamos que realizar sería act
 
 sudo apt update
 
-location ~ \.php$ {
-        include fastcgi_params;
-        fastcgi_pass php:9000;
-        fastcgi_index index.php;
-        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-    }
-
-
-
 ## Portainer
 
 ¿Qué es un Portainer?
