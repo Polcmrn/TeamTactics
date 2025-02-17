@@ -780,18 +780,49 @@ sudo systemctl status docker
 ![image](https://github.com/user-attachments/assets/1a7d2297-d143-41fd-ba89-f71c3110110f)
 
 
+Vale, ahora para seguir con el procedimento, tenemos que tocar portainer
+
+Portainer es una herramienta de administración para Docker con una interfaz gráfica fácil de usar. Permite gestionar contenedores, imágenes, redes y volúmenes sin necesidad de usar la línea de comandos.
+
+Para empezar, nosotros hemos creado  un volumen de Docker llamado portainer_data para almacenar la base de datos de Portainer
+
+
+docker volume create portainer_data
+
+![image](https://github.com/user-attachments/assets/adaed8b5-bfcb-4897-99ab-3f2207643689)
+
+Ahora, comprobaremos si  el volumen se haya creado correctamente usando el comando:
+
+docker volume inspect portainer_data
+
+![image](https://github.com/user-attachments/assets/e5f2e4fc-cd5b-4895-a0c0-0f0260eb61e2)
+
+
+Ahora si ya podremos  instalar el contenedor de Portainer:
+
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+![image](https://github.com/user-attachments/assets/485c77c8-5e63-4661-a904-0cf373604f62)
+
+
+Ahora para comprobar si el contenedor está corriendo
+
+docker ps
+
+![image](https://github.com/user-attachments/assets/9e455002-e5d8-48a1-934b-5d4427b5f0a5)
+
+
+Y ya ahora si vamos al navegador y ponemos una IP con el puerto 9443
+
+https://192.168.1.79:9443
+
+Ya podriamos acceder al portainer donde se encontraran todos los contenedores DOCKERS
 
 
 
 
 
 
-
-## Portainer
-
-¿Qué es un Portainer?
-
-Portainer es una herramienta de administración para Docker, Kubernetes, y Docker Swarm con una interfaz gráfica fácil de usar. Permite gestionar contenedores, imágenes, redes y volúmenes sin necesidad de usar la línea de comandos.
 
 Como instalar el portainer
 
