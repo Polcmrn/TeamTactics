@@ -753,11 +753,17 @@ Entonces podremos este comando:
 sudo mkdir -m 0755 -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
+![image](https://github.com/user-attachments/assets/2d929a93-0f20-405b-bec8-9615005eb984)
+
+
 
 Y ahora para poder instalar Docker, es necesario agregar su repositorio oficial a la lista de repositorios de tu sistema
 Entonces pondremos este comando:
 
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+![image](https://github.com/user-attachments/assets/d5049960-317b-4626-8cce-a61b1a5dfbea)
+
 
 
 Ahora después de esto esto, tendremos que actualizar nuevamente los paquetes del sistema:
