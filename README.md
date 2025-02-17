@@ -691,33 +691,44 @@ Estos contenedores pueden ejecutarse de manera consistente en cualquier entorno,
 Nosotros en nuestro caso usamos Docker ya que aparte de que es obligatorio, es mucho más rápido que iniciar o detener máquinas virtuales y también Docker es mas eficaz ya que las MV
 
 
-Comandos de Docker 
+Ahora mostraremos algunos comandos, ya que creemos que es importante dentro de la introducción, y asi mostramos alguna información de Docker 
 
-docker version  	Muestra la versión instalada de Docker.
+docker version:   	Muestra la versión instalada de Docker.
 
-docker info	   Muestra información detallada sobre Docker y su configuración.
 
-docker help	Muestra ayuda sobre los comandos de Docker.
+docker info:  Muestra información detallada sobre Docker y su configuración.
+
+
+docker help: Muestra ayuda sobre los comandos de Docker
+
 
 docker run <imagen>	Ejecuta un contenedor basado en una imagen.
 
+
 docker run -d -p 8080:80 <imagen>	Ejecuta un contenedor en segundo plano y expone un puerto.
+
 
 docker ps	Lista los contenedores en ejecución.
 
+
 docker ps -a	Lista todos los contenedores (ejecutándose o detenidos).
+
 
 docker stop <id>	Detiene un contenedor en ejecución.
 
+
 docker rm <id>	Elimina un contenedor detenido.
 
-Ventajas
 
-Los contenedores Docker pueden ejecutarse en cualquier entorno sin cambios, ya sea en Windows, Linux, MacOS, servidores o en la nube.
-Evita problemas de dependencias, configuraciones o versiones de software diferentes en cada entorno.
-Los contenedores comparten el mismo sistema operativo, lo que reduce el consumo de recursos.
-Facilita la arquitectura de microservicios, donde cada componente de una aplicación se ejecuta en su propio contenedor.
-Con Docker Compose, puedes definir y ejecutar múltiples contenedores con un solo archivo YAML
+Ahora explicaremos algunas ventajas de Docker
+
+
+Tenemos que los contenedores Docker pueden ejecutarse en cualquier entorno sin cambios, ya sea en Windows, Linux, MacOS, servidores o en la nube y también evita problemas de dependencias, configuraciones o versiones de software diferentes en cada entorno.
+Los contenedores comparten el mismo sistema operativo, lo que reduce el consumo de recursos y con Docker Compose, puedes definir y ejecutar múltiples contenedores con un solo archivo YAML
+
+
+NUDO (DOCKER) GUIA DE USUARIO DE COMO INSTALAR / UTLIZAR DOCKER
+
 
 
 ## Portainer
