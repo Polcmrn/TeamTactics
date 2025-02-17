@@ -681,7 +681,7 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 Por ahora durante estas 3 semanas hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
 
-## Docker 
+## DOCKER 
 
 INTRODUCCIÓN DE DOCKER
 
@@ -728,6 +728,15 @@ Los contenedores comparten el mismo sistema operativo, lo que reduce el consumo 
 
 
 NUDO (DOCKER) GUIA DE USUARIO DE COMO INSTALAR / UTLIZAR DOCKER
+
+
+Ahora lo que haremos será dentro del NUDO de Docker, como una mini guia sobre DOCKER, aquí intentaremos explicar sobre como instalar y utilizar DOCKER
+Aqui ya decimos que lo montaremos dentro de una MV ubuntu server
+
+Entonces para empezar, primero de todo lo que tendriamos que realizar sería actualizar los paquetes de ubuntu
+
+sudo apt update
+
 
 
 
