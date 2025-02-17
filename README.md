@@ -683,15 +683,13 @@ Por ahora durante estas 3 semanas hemos realizado la funcionalidad de canvio con
 
 ## Docker 
 
-¿Que es Docker?
+INTRODUCCIÓN DE DOCKER
 
-Docker es una plataforma de contenedorización que permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles. 
+Bueno para empezar, un poco sobre que es Docker, Docker es una plataforma de contenedorización que permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles. 
 Estos contenedores pueden ejecutarse de manera consistente en cualquier entorno, ya sea en una computadora local, en servidores o en la nube.
 
-¿Para qué sirve Docker?
+Nosotros en nuestro caso usamos Docker ya que aparte de que es obligatorio, es mucho más rápido que iniciar o detener máquinas virtuales y también Docker es mas eficaz ya que las MV
 
-Docker se usa principalmente para crear, distribuir y ejecutar aplicaciones en entornos aislados y portátiles llamados contenedores. 
-Esto permite a los desarrolladores y empresas mejorar la eficiencia, escalabilidad y consistencia de sus aplicaciones en diferentes entornos.
 
 Comandos de Docker 
 
