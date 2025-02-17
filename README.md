@@ -737,6 +737,56 @@ Entonces para empezar, primero de todo lo que tendriamos que realizar sería act
 
 sudo apt update
 
+![image](https://github.com/user-attachments/assets/3c989c29-7705-463b-a4cd-0eb8627f6da4)
+
+
+Entonces ahora lo que tendríamos que hacer seria instalar paquetes que permitan a APT descargar a través de HTTPS, ya que Docker se descarga desde un repositorio HTTPS, y es necesario instalar algunos paquetes para que lo habiliten
+
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+
+![image](https://github.com/user-attachments/assets/edd77fe6-b72b-4245-b22b-571ab40f15a3)
+
+
+Ahora lo que tendriamos que hacer es importar la clave GPG para verificar que los paquetes que descargues desde el repositorio oficial de Docker 
+Entonces podremos este comando:
+
+sudo mkdir -m 0755 -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+
+Y ahora para poder instalar Docker, es necesario agregar su repositorio oficial a la lista de repositorios de tu sistema
+Entonces pondremos este comando:
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+
+Ahora después de esto esto, tendremos que actualizar nuevamente los paquetes del sistema:
+
+![image](https://github.com/user-attachments/assets/ec61ad41-9f71-4848-84cc-d4790427d064)
+
+
+Y ya luego de hacer todo esto procedimiento, ya podremos instalar el docker. 
+Para eso pondremos este comando:
+
+sudo apt install docker-ce
+
+![image](https://github.com/user-attachments/assets/b884cfb1-9e07-4fbe-a499-c3745fccd13b)+
+
+
+Y ya si queremos comprobar si el funcionamiento esta correcto, pondremos el siguiente comando para asegurarnos
+
+sudo systemctl status docker
+
+![image](https://github.com/user-attachments/assets/1a7d2297-d143-41fd-ba89-f71c3110110f)
+
+
+
+
+
+
+
+
+
 ## Portainer
 
 ¿Qué es un Portainer?
