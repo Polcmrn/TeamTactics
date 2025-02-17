@@ -825,7 +825,11 @@ https://192.168.1.79:9443
 Ya podriamos acceder al portainer donde se encontraran todos los contenedores DOCKERS
 
 
-## Archivos de configuración
+Bueno y en la foto de abajo, se ven todos los contenedores que tenemos montados, hay q decir q para poder tener todo eso tenemos que configurar diferentes archivos de configuración:
+
+
+![image](https://github.com/user-attachments/assets/60136b7d-26c2-4ccb-b183-5b735b91f971)
+
 
 Tenemos estos dos archivos para poder realizar la configuración:
 
