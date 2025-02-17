@@ -819,35 +819,6 @@ https://192.168.1.79:9443
 Ya podriamos acceder al portainer donde se encontraran todos los contenedores DOCKERS
 
 
-
-
-
-
-
-Como instalar el portainer
-
-docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
---restart=always -v \
-/var/run/docker.sock:/var/run/docker.sock -v\
-portainer_data:/data \
-portainer/portainer-ce:latest
-
-Características
-
-Interfaz gráfica intuitiva para administrar contenedores.
-Soporte para Docker, Kubernetes y Docker Swarm.
-Gestión de volúmenes, redes e imágenes de manera visual.
-Implementación rápida de contenedores con solo unos clics.
-Control de usuarios y permisos para equipos de trabajo.
-Monitoreo del estado de los contenedores en tiempo real.
-
-Ventajas
-
-Permite gestionar contenedores sin necesidad de usar comandos en la terminal.
-Compatible con diferentes servidores y configuraciones.
-Facilita la creación y despliegue de contenedores sin necesidad de escribir docker run.
-Permite visualizar y administrar volúmenes, redes y registros de imágenes sin necesidad de comandos.
-
 ## Archivos de configuración
 
 Tenemos estos dos archivos para poder realizar la configuración:
