@@ -701,7 +701,7 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 ## FUNCIONALIDADES HECHAS
 
-Por ahora durante estas 3 semanas hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
+Por ahora hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
 
 ## DOCKER 
 
