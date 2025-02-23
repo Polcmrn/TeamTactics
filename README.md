@@ -604,6 +604,20 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 
 ## ÍNDICE
 
+1. IDEAS PARA EL SEGUNDO PROYECTO
+2. FUNCIONALIDADES
+3. ARQUITECTURA
+4. DIAGRAMA DE RED
+5. DIAGRAMA DE LA BASE DE DATOS
+6. TECNOLOGÍAS
+7. HARDWARE
+8. SISTEMA OPERATIVO
+9. TAREAS
+10. FUNCIONALIDADES HECHAS
+11. DOCKER COMPLETO
+12. DOCKER COMPOSE
+
+    
 ## 1.IDEAS PARA EL SEGUNDO PROYECTO
 
 ### NUEVAS FUNCIONALIDADES
@@ -640,7 +654,7 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
   - MySQL (crear más de un usuario, securizar la DB, triggers)
   - Protección de código fuente
  
-## FUNCIONALIDADES
+## 2.FUNCIONALIDADES
 
 ![image](https://github.com/user-attachments/assets/ecd8f3c9-cd94-4e7b-a4e9-cfcbcfb238fd)
 
@@ -652,18 +666,18 @@ La funcionalidad de cambio de contraseña la hará Quim
 
 La funcionalidad de agregar amigos la haremos cuando acabemos la del Juego Fantasy, ya que preferimos insistir con el tiempo en terminar la funcionalidad del juego fantasy por su gran importancia y valor en nuestro proyecto, ya que es en lo que se basa nuestra idea de proyecto
 
-## ARQUITECTURA DEL SISTEMA
+## 3.ARQUITECTURA DEL SISTEMA
 
 Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es lo que tenemos como idea
 
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 
-## DIAGRAMA DE RED
+## 4.DIAGRAMA DE RED
 
 
 ![image](carpeta_fotos/esquema_red_2.png)
 
-## DIAGRAMA DE LA BASE DE DATOS
+## 5.DIAGRAMA DE LA BASE DE DATOS
 
 Esta es nuetra base de datos, es la misma que la del primer proyecto pero con pequeñas variaciones ya que como comentamos seguimos con el mismo proyecto entonces la infraestructura de la base de datos por narices tiene que ser muy parecida ya que mas o menos ya esta de alguna manera terminada
 
@@ -671,18 +685,18 @@ Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de d
 
 ![image](https://github.com/user-attachments/assets/c77022c7-f9fa-4e4f-b08c-578abd2a24fb)
 
- ## TECNOLOGÍAS
+ ## 6.TECNOLOGÍAS
 
 En este segundo proyecto tenemos la intención de agregar ciertas tecnologías a nuestra web que nos permitirán aumentar la seguridad y eficiencia a la hora de funcionar y monitorizar la. Anteriormente ya habíamos trabajado con algunas como Proxmox, Ubuntu, Html/Css, JavaScript, NGinx, MySQL, PHPMyAdmin, bibliotecas, frameworks, etc.
 Aparte de estas tecnologías, agregaremos algunas como; Docker, Portainer, alguna API, Pi-Hole, aplicaremos FireWall, y algunas que iremos añadiendo según las necesidades que encontremos a la hora realizar el proyecto.
 
 
-## HARDWARE
+## 7.HARDWARE
 
 Para este segundo proyecto seguiremos usando un ordenador Dell de clase asignado a nuestro grupo específicamente, en nuestro caso usaremos uno nuevo ya que no sabemos como a pasado pero nuestro antiguo ordenador con toda la infraestructura de Proxmox a desaparecido y ahora no nos queda otra que volver a montarlo todo pero esta vez utilizando los contenedores de Docker con los que trabajaremos en este segundo proyecto.
 
 
-## SISTEMA OPERATIVO
+## 8.SISTEMA OPERATIVO
 
 Principalmente íbamos a usar Alpine Linux ya que nos ofrece mucha eficiencia en cuanto a recursos, ya que es conocida por su tamaño reducido, lo que la hace muy popular en entornos donde se necesita un sistema ligero, como en contenedores Docker. 
 
@@ -693,17 +707,17 @@ Familiaridad y eficiencia: Ya teníamos experiencia con Ubuntu, lo que facilitó
 Soporte y estabilidad: Ubuntu Server ofrece un soporte robusto y actualizaciones regulares, lo que garantiza seguridad y estabilidad a largo plazo, vital para producción.
 
 
-## TAREAS
+## 9.TAREAS
 
 Ahora mismo por problemas no podimos empezar en la creación de la infraestructura de la Ubuntu o Alpine.
 El 29/01 empezamos con docker y los containers, y desde una MV de ubuntu server, ya que desde Alpine hubo algunos problemas y preferimos utilizar la ubuntu por la razón de que ya la hemos usado mucho, entonces empezamos a crear la estrucura y importamos el sitio web en docker, luego dentro de nginx configurmos el default.conf, luego en mysql lo tenemos vació por ahora y ahora estamos con el docker compose. 
 Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y algunos compañeros nos han dado explicaciones para entenderlo mejor y asi hacerlo de alguna forma un poco mas rapido para asi aprovechar el tiempo al maximo para llegar al ritmo de la clase
 
-## FUNCIONALIDADES HECHAS
+## 10.FUNCIONALIDADES HECHAS
 
 Por ahora hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
 
-## DOCKER 
+## 11.DOCKER 
 
 INTRODUCCIÓN DE DOCKER
 
@@ -984,7 +998,7 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 ![image](https://github.com/user-attachments/assets/365c1b08-8353-4b0f-a684-5e532ed0c0f5
 
-## Docker Compose - M08UF2A6-DC-final
+## 12.Docker Compose - M08UF2A6-DC-final
 
 - ¿Qué son los contenedores de docker?
 
