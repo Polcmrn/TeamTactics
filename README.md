@@ -1137,6 +1137,9 @@ Enviamos un mensaje, desde dentro de thunderbird, como usuario quim para que el 
 
 ![image](https://github.com/user-attachments/assets/80f418cc-4140-4947-b629-8f19cee17bbf)
 
+Comprobamos que en el servidor se puede ver el mensaje para verificar que el procedimiento de la instalación y montaje ha funcionado de forma correcta.
+
+
 ![image](https://github.com/user-attachments/assets/1a1eba61-320f-4a34-86f2-d4f410c93da2)
 
 </details>
