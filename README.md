@@ -656,7 +656,8 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
  
 ## 2.FUNCIONALIDADES
 
-![image](https://github.com/user-attachments/assets/ecd8f3c9-cd94-4e7b-a4e9-cfcbcfb238fd)
+![image](https://github.com/user-attachments/assets/ae76384b-944e-404a-8210-133f7ed628f9)
+
 
 Los dos, Quim y Pol haremos la funcionalidad del juego Fantasy, ya que es una funcionalidad muy larga y compleja, y necesitamos que los dos lo hagamos para poder acabar
 
