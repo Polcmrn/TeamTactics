@@ -616,6 +616,7 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 10. FUNCIONALIDADES HECHAS
 11. DOCKER COMPLETO
 12. DOCKER COMPOSE
+13. SERVIDOR DE CORREO  (POSTFIX)
 
     
 ## 1.IDEAS PARA EL SEGUNDO PROYECTO
@@ -1057,6 +1058,88 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
     - OpenVZ: Tecnología de virtualización a nivel de sistema operativo para Linux.
     - rkt (Rocket): Solución de contenedores más enfocada en seguridad.
 </details>
+
+## 13.SERVIDOR DE CORREO  (POSTFIX)
+
+PARTE PRÁCTICA
+
+Lo primero que hicimos es instalar el Postfix con el comando apt-get install postfix, como podemos observar nos dice que ya está instalado.
+
+![image](https://github.com/user-attachments/assets/74f99917-ed6f-40eb-9edd-77ad6560bb2f
+![image](https://github.com/user-attachments/assets/0627b92a-73a1-4595-a5e1-5700f7a285c3)
+
+Ahora editamos el fichero main.cf agregando al final de todo la línea home_mailbox = Maildir/. Lo que hacemos con esto es cambiar la configuración y usar Maildir, ya que por defecto de Postfix y Mailutils se utiliza el formato Mbox, pero como que ambos soportan  Maildir lo pondremos así.
+
+![image](https://github.com/user-attachments/assets/3ff8ea78-4b48-442f-bd75-d2a2f9aee3ea)
+
+Ahora toca instalar Dovecot, esta vez utilizaremos el comando sudo apt install dovecot-core dovecot-imapd dovecot-pop3d. Como anteriormente lo hemos instalado sin hacer capturas si volvemos a ejecutar el comando podemos ver que ya está instalado.
+
+![image](https://github.com/user-attachments/assets/f8bc62cd-563f-4e12-bf86-1ab43bd34f8e)
+![image](https://github.com/user-attachments/assets/013d8397-6917-425e-8459-d2b29c8f8f26)
+
+En este caso editamos el archivo /etc/dovecot/conf.d/10-mail.conf, lo que haremos es descomentar la línea mail_location = maildir:~/Maildir. Como he explicado antes, lo que hacemos con esto es cambiar la configuración y usar Maildir, ya que por defecto de Postfix y Mailutils se utiliza el formato Mbox, pero como que ambos soportan Maildir lo pondremos así.
+
+![image](https://github.com/user-attachments/assets/70dd2405-e67b-401c-bcc5-4107141d7c15)
+
+Ahora toca instalar 	Mailutils, esta vez utilizaremos el comando sudo apt-get install mailutils. Como anteriormente lo hemos instalado sin hacer capturas si volvemos a ejecutar el comando podemos ver que ya está instalado.
+
+![image](https://github.com/user-attachments/assets/a645c374-7873-4d6c-aa28-2e7f25016511)
+
+ACTIVIDAD
+
+Ahora ejecutaremos el echo "Este es el body del email" | mail -s "Este el asunto" pepe@soterasdns. Anteriormente hemos creado el usuario Pepe con sudo adduser pepe, y como podemos observar en el directorio /Maildir podemos encontrar el contenido de echo realizado anteriormente.
+
+El contenido del directorio /Maildir encontramos; /maildir/new/: contiene los correos electrónicos nuevos. También /maildir/cur/:correos que ya han sido leídos. Y /maildir/tmp/: contiene los correos temporales.
+
+![image](https://github.com/user-attachments/assets/d298d171-f295-48b6-a28c-59b6fd25b2c7)
+
+ACTIVIDAD
+
+Utiliza Telnet para testear el servicio, por cada uno de los puertos de comunicación correspondientes a POP3, IMAP, SMTP.
+
+![image](https://github.com/user-attachments/assets/ffcc3e04-b393-4915-bfdf-6080fb950300)
+![image](https://github.com/user-attachments/assets/fa161a9e-96af-4a6b-b8d0-49c5700dd352)
+
+Con el comando telnet 192.168.6.100 25, lo que hace el servidor es que responde con un banner de Postfix, indicando que el servicio SMTP está funcionando correctamente.
+Ahora con el comando  192.168.6.100 110 , el servidor responde con +OK Dovecot (Ubuntu) ready., lo que indica que el servicio POP3 está funcionando.
+Y en la última captura, con el comando 192.168.6.100 143, elservidor responde con un mensaje que muestra que el servicio IMAP está disponible
+
+
+Aquí ahora usamos Telnet para verificar la conexión con el servicio POP3 en el servidor local a través del puerto 110.
+![image](https://github.com/user-attachments/assets/e29bbbd2-f29d-4b5b-893d-d33a6a12660c)
+
+Esto es una conexión a un servidor IMAP en el puerto 143 mediante Telnet, mostrando que el servicio Dovecot está en ejecución.
+
+![image](https://github.com/user-attachments/assets/b464d423-a88c-4bf2-84ee-19ebb7c85f25)
+
+Y aqui mostramos  una conexión a un servidor SMTP en el puerto 25 mediante Telnet, mostrando que el servicio Postfix está en ejecución.
+
+![image](https://github.com/user-attachments/assets/6e3f20d0-af7f-4980-b1f4-69ad9f418c7a)
+
+THUNDERBIRD
+
+
+Bueno, aqui instalamos y configuramos thunderbird que es un cliente para  gestionar correos electrónicos y es compatible con protocolos como IMAP, POP3 y SMTP
+
+Hemos creado el usuario quim como correo.
+
+![image](https://github.com/user-attachments/assets/560df44c-9345-476d-bc8d-17cf3e32e25b)
+
+Desde el cliente nos hemos conectado al usuario quim , es decir, configuramos nuestro usuario para que podamos empezar a enviar mensajes.
+
+![image](https://github.com/user-attachments/assets/df6410f4-1b60-44da-afb0-40226b5798e2)
+
+
+Bueno aqui mostramos que nuestra cuenta ha sido creada de forma correcta para que ya nosotros podamos empezar a enviar correos. 
+
+![image](https://github.com/user-attachments/assets/9549fd0a-0ef2-4b7a-927f-ab8c2e62db74)
+
+Enviamos un mensaje, desde dentro de thunderbird, como usuario quim para que el receptor sea pepe.
+
+![image](https://github.com/user-attachments/assets/80f418cc-4140-4947-b629-8f19cee17bbf)
+
+![image](https://github.com/user-attachments/assets/1a1eba61-320f-4a34-86f2-d4f410c93da2)
+
 
 ## BIBLIOGRAFIA
 
