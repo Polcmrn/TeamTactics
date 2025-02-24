@@ -1057,9 +1057,8 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
     - Kubernetes: No es un contenedor en sí, pero es una plataforma de orquestación de contenedores.
     - OpenVZ: Tecnología de virtualización a nivel de sistema operativo para Linux.
     - rkt (Rocket): Solución de contenedores más enfocada en seguridad.
-</details>
-
-## 13.SERVIDOR DE CORREO  (POSTFIX)
+ 
+      ## 13.SERVIDOR DE CORREO  (POSTFIX)
 
 PARTE PRÁCTICA
 
@@ -1139,6 +1138,10 @@ Enviamos un mensaje, desde dentro de thunderbird, como usuario quim para que el 
 ![image](https://github.com/user-attachments/assets/80f418cc-4140-4947-b629-8f19cee17bbf)
 
 ![image](https://github.com/user-attachments/assets/1a1eba61-320f-4a34-86f2-d4f410c93da2)
+
+</details>
+
+
 
 
 ## BIBLIOGRAFIA
