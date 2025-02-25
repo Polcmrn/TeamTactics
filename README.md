@@ -1057,8 +1057,8 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
     - Kubernetes: No es un contenedor en sí, pero es una plataforma de orquestación de contenedores.
     - OpenVZ: Tecnología de virtualización a nivel de sistema operativo para Linux.
     - rkt (Rocket): Solución de contenedores más enfocada en seguridad.
- 
-      ## 13.SERVIDOR DE CORREO  (POSTFIX)
+
+## 13.SERVIDOR DE CORREO  (POSTFIX)
 
 PARTE PRÁCTICA
 
