@@ -1069,6 +1069,12 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 </details>
 
+<details>
+  <summary>
+   ▶SERVIDOR DE CORREO (POSTFIX)
+  </summary>
+
+  
 ## 13.SERVIDOR DE CORREO  (POSTFIX)
 
 PARTE TEORICA
@@ -1276,6 +1282,7 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
 
 ![image](https://github.com/user-attachments/assets/1a1eba61-320f-4a34-86f2-d4f410c93da2)
 
+</details>
 
 
 ## 14.FIREWALL
