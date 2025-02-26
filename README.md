@@ -719,13 +719,13 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 ## 10.FUNCIONALIDADES HECHAS
 
 Por ahora hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
+  
+## 11.DOCKER 
 
 <details>
   <summary>
-   ▶DOCKER
+   ▶INTRODUCCIÓN DOCKER
   </summary>
-  
-## 11.DOCKER 
 
 INTRODUCCIÓN DE DOCKER
 
@@ -1006,7 +1006,13 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 ![image](https://github.com/user-attachments/assets/365c1b08-8353-4b0f-a684-5e532ed0c0f5
 
+</details>
 
+<details>
+  <summary>
+   ▶DOCKER compose
+  </summary>
+  
 ## 12.Docker Compose - M08UF2A6-DC-final
 
 - ¿Qué son los contenedores de docker?
