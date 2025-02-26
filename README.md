@@ -694,9 +694,22 @@ En este segundo proyecto tenemos la intención de agregar ciertas tecnologías a
 Aparte de estas tecnologías, agregaremos algunas como; Docker, Portainer, alguna API, Pi-Hole, aplicaremos FireWall, y algunas que iremos añadiendo según las necesidades que encontremos a la hora realizar el proyecto.
 
 
+<details>
+  <summary>
+   ▶HARDWARE 
+  </summary>
+
+
 ## 7.HARDWARE
 
 Para este segundo proyecto seguiremos usando el ordenador de clase asignado a nuestro grupo específicamente, en nuestro caso usaremos uno nuevo ya que no sabemos como a pasado pero nuestro antiguo ordenador con toda la infraestructura de Proxmox a desaparecido y ahora no nos queda otra que volver a montarlo todo pero esta vez utilizando los contenedores de Docker con los que trabajaremos en este segundo proyecto.
+
+</details> 
+
+<details>
+  <summary>
+   ▶SISTEMA OPERATIVO
+  </summary>
 
 
 ## 8.SISTEMA OPERATIVO
@@ -709,12 +722,21 @@ Familiaridad y eficiencia: Ya teníamos experiencia con Ubuntu, lo que facilitó
 
 Soporte y estabilidad: Ubuntu Server ofrece un soporte robusto y actualizaciones regulares, lo que garantiza seguridad y estabilidad a largo plazo, vital para producción.
 
+</details>  
+
+<details>
+  <summary>
+   ▶TAREAS
+  </summary>
+
 
 ## 9.TAREAS
 
 Ahora mismo por problemas no podimos empezar en la creación de la infraestructura de la Ubuntu o Alpine.
 El 29/01 empezamos con docker y los containers, y desde una MV de ubuntu server, ya que desde Alpine hubo algunos problemas y preferimos utilizar la ubuntu por la razón de que ya la hemos usado mucho, entonces empezamos a crear la estrucura y importamos el sitio web en docker, luego dentro de nginx configurmos el default.conf, luego en mysql lo tenemos vació por ahora y ahora estamos con el docker compose. 
 Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y algunos compañeros nos han dado explicaciones para entenderlo mejor y asi hacerlo de alguna forma un poco mas rapido para asi aprovechar el tiempo al maximo para llegar al ritmo de la clase
+
+</details>  
 
 <details>
   <summary>
