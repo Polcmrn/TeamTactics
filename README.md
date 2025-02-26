@@ -675,22 +675,15 @@ Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es 
 
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 
-<details>
-  <summary>
-   ▶DIAGRAMA DE RED
-  </summary>
 
 ## 4.DIAGRAMA DE RED
 
 
 ![image](carpeta_fotos/esquema_red_2.png)
 
-<details>
 
-<details>
-  <summary>
-   ▶DIAGRAMA DE LA BASE DE DATOS
-  </summary>
+
+
 
 ## 5.DIAGRAMA DE LA BASE DE DATOS
 
@@ -702,7 +695,7 @@ Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de d
 ![image](https://github.com/user-attachments/assets/c77022c7-f9fa-4e4f-b08c-578abd2a24fb)
 
 
-<details>
+
   
   <summary>
    ▶TECNOLOGÍAS
