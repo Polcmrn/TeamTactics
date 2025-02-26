@@ -675,12 +675,25 @@ Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es 
 
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 
+<details>
+  <summary>
+   ▶DIAGRAMA DE RED
+  </summary>
+
 ## 4.DIAGRAMA DE RED
 
 
 ![image](carpeta_fotos/esquema_red_2.png)
 
+<details>
+
+<details>
+  <summary>
+   ▶DIAGRAMA DE LA BASE DE DATOS
+  </summary>
+
 ## 5.DIAGRAMA DE LA BASE DE DATOS
+
 
 Esta es nuetra base de datos, es la misma que la del primer proyecto pero con pequeñas variaciones ya que como comentamos seguimos con el mismo proyecto entonces la infraestructura de la base de datos por narices tiene que ser muy parecida ya que mas o menos ya esta de alguna manera terminada
 
@@ -688,11 +701,19 @@ Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de d
 
 ![image](https://github.com/user-attachments/assets/c77022c7-f9fa-4e4f-b08c-578abd2a24fb)
 
+
+<details>
+  
+  <summary>
+   ▶TECNOLOGÍAS
+  </summary>
+
+
  ## 6.TECNOLOGÍAS
 
 En este segundo proyecto tenemos la intención de agregar ciertas tecnologías a nuestra web que nos permitirán aumentar la seguridad y eficiencia a la hora de funcionar y monitorizar la. Anteriormente ya habíamos trabajado con algunas como Proxmox, Ubuntu, Html/Css, JavaScript, NGinx, MySQL, PHPMyAdmin, bibliotecas, frameworks, etc.
 Aparte de estas tecnologías, agregaremos algunas como; Docker, Portainer, alguna API, Pi-Hole, aplicaremos FireWall, y algunas que iremos añadiendo según las necesidades que encontremos a la hora realizar el proyecto.
-
+</details> 
 
 <details>
   <summary>
