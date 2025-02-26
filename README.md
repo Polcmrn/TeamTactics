@@ -696,17 +696,24 @@ Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de d
 
 
 
-  
-  <summary>
-   ▶TECNOLOGÍAS
-  </summary>
+
 
 
  ## 6.TECNOLOGÍAS
 
+<details>
+  <summary>
+   ▶TECNOLOGÍAS
+  </summary>
+
 En este segundo proyecto tenemos la intención de agregar ciertas tecnologías a nuestra web que nos permitirán aumentar la seguridad y eficiencia a la hora de funcionar y monitorizar la. Anteriormente ya habíamos trabajado con algunas como Proxmox, Ubuntu, Html/Css, JavaScript, NGinx, MySQL, PHPMyAdmin, bibliotecas, frameworks, etc.
 Aparte de estas tecnologías, agregaremos algunas como; Docker, Portainer, alguna API, Pi-Hole, aplicaremos FireWall, y algunas que iremos añadiendo según las necesidades que encontremos a la hora realizar el proyecto.
 </details> 
+
+
+
+
+## 7.HARDWARE
 
 <details>
   <summary>
@@ -714,19 +721,20 @@ Aparte de estas tecnologías, agregaremos algunas como; Docker, Portainer, algun
   </summary>
 
 
-## 7.HARDWARE
-
 Para este segundo proyecto seguiremos usando el ordenador de clase asignado a nuestro grupo específicamente, en nuestro caso usaremos uno nuevo ya que no sabemos como a pasado pero nuestro antiguo ordenador con toda la infraestructura de Proxmox a desaparecido y ahora no nos queda otra que volver a montarlo todo pero esta vez utilizando los contenedores de Docker con los que trabajaremos en este segundo proyecto.
 
 </details> 
+
+
+
+
+## 8.SISTEMA OPERATIVO
 
 <details>
   <summary>
    ▶SISTEMA OPERATIVO
   </summary>
 
-
-## 8.SISTEMA OPERATIVO
 
 Principalmente íbamos a usar Alpine Linux ya que nos ofrece mucha eficiencia en cuanto a recursos, ya que es conocida por su tamaño reducido, lo que la hace muy popular en entornos donde se necesita un sistema ligero, como en contenedores Docker. 
 
@@ -738,13 +746,15 @@ Soporte y estabilidad: Ubuntu Server ofrece un soporte robusto y actualizaciones
 
 </details>  
 
+
+
+
+## 9.TAREAS
+
 <details>
   <summary>
    ▶TAREAS
   </summary>
-
-
-## 9.TAREAS
 
 Ahora mismo por problemas no podimos empezar en la creación de la infraestructura de la Ubuntu o Alpine.
 El 29/01 empezamos con docker y los containers, y desde una MV de ubuntu server, ya que desde Alpine hubo algunos problemas y preferimos utilizar la ubuntu por la razón de que ya la hemos usado mucho, entonces empezamos a crear la estrucura y importamos el sitio web en docker, luego dentro de nginx configurmos el default.conf, luego en mysql lo tenemos vació por ahora y ahora estamos con el docker compose. 
@@ -752,22 +762,25 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 </details>  
 
+
+
+## 10.FUNCIONALIDADES HECHAS
+
 <details>
   <summary>
    ▶FUNCIONALIDADES HECHAS
   </summary>
 
-## 10.FUNCIONALIDADES HECHAS
-
 Por ahora hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
 </details>  
+ 
+## 11.DOCKER 
 
 <details>
   <summary>
    ▶INTRODUCCIÓN DOCKER
   </summary>
   
-## 11.DOCKER 
 Bueno para empezar, un poco sobre que es Docker, Docker es una plataforma de contenedorización que permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles. 
 Estos contenedores pueden ejecutarse de manera consistente en cualquier entorno, ya sea en una computadora local, en servidores o en la nube.
 
@@ -1110,13 +1123,15 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 </details>
 
+
+
+  
+## 13.SERVIDOR DE CORREO  (POSTFIX)
+
 <details>
   <summary>
    ▶SERVIDOR DE CORREO (POSTFIX)
   </summary>
-
-  
-## 13.SERVIDOR DE CORREO  (POSTFIX)
 
 PARTE TEORICA
 
