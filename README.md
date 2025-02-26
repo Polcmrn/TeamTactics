@@ -720,7 +720,11 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 Por ahora hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
 
-
+<details>
+  <summary>
+   ▶DOCKER
+  </summary>
+  
 ## 11.DOCKER 
 
 INTRODUCCIÓN DE DOCKER
@@ -1060,6 +1064,8 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
     - Kubernetes: No es un contenedor en sí, pero es una plataforma de orquestación de contenedores.
     - OpenVZ: Tecnología de virtualización a nivel de sistema operativo para Linux.
     - rkt (Rocket): Solución de contenedores más enfocada en seguridad.
+
+</details>
 
 ## 13.SERVIDOR DE CORREO  (POSTFIX)
 
