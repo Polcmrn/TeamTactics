@@ -617,6 +617,7 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 11. DOCKER COMPLETO
 12. DOCKER COMPOSE
 13. SERVIDOR DE CORREO  (POSTFIX)
+14. Firewall
 
     
 ## 1.IDEAS PARA EL SEGUNDO PROYECTO
@@ -1264,6 +1265,10 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
 
 
 ![image](https://github.com/user-attachments/assets/1a1eba61-320f-4a34-86f2-d4f410c93da2)
+
+
+
+## 14.FIREWALL
 
 </details>
 
