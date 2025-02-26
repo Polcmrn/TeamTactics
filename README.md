@@ -620,11 +620,11 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 14. Firewall
 
     
-## 1.IDEAS PARA EL SEGUNDO PROYECTO
+## 1.IDEAS PARA EL SEGUNDO PROYECTO🧠
 
 <details>
   <summary>
-   ▶IDEAS 2ndo PROYECTO 
+   Propuestas de Proyecto💡 
   </summary>
 
 ### NUEVAS FUNCIONALIDADES
@@ -663,11 +663,11 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 
 </details> 
  
-## 2.FUNCIONALIDADES
+## 2.FUNCIONALIDADES⚙️
 
 <details>
   <summary>
-   ▶FUNCIONALIDADES
+   Opciones y Características🔧
   </summary>
 
 ![image](https://github.com/user-attachments/assets/ae76384b-944e-404a-8210-133f7ed628f9)
@@ -682,11 +682,11 @@ La funcionalidad de cambio de contraseña la hará Quim
 La funcionalidad de agregar amigos la haremos cuando acabemos la del Juego Fantasy, ya que preferimos insistir con el tiempo en terminar la funcionalidad del juego fantasy por su gran importancia y valor en nuestro proyecto, ya que es en lo que se basa nuestra idea de proyecto
 </details> 
 
-## 3.ARQUITECTURA DEL SISTEMA
+## 3.ARQUITECTURA DEL SISTEMA🏛️
 
 <details>
   <summary>
-   ▶ARQUITECTURA DE SISTEMA
+   Estructura del Sistema🏗️
   </summary>
 
 Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es lo que tenemos como idea
@@ -694,11 +694,11 @@ Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es 
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
 </details> 
 
-## 4.DIAGRAMA DE RED
+## 4.DIAGRAMA DE RED🌐
 
 <details>
   <summary>
-   ▶DIAGRAMA DE RED
+   Esquema de Conexiones🖧
   </summary>
 
 ![image](carpeta_fotos/esquema_red_2.png)
@@ -707,11 +707,11 @@ Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es 
 
 
 
-## 5.DIAGRAMA DE LA BASE DE DATOS
+## 5.DIAGRAMA DE LA BASE DE DATOS🗄️
 
 <details>
   <summary>
-   ▶DIAGRAMA BBDD
+   Modelo de BBDD🛢️
   </summary>
 
 Esta es nuetra base de datos, es la misma que la del primer proyecto pero con pequeñas variaciones ya que como comentamos seguimos con el mismo proyecto entonces la infraestructura de la base de datos por narices tiene que ser muy parecida ya que mas o menos ya esta de alguna manera terminada
@@ -725,11 +725,11 @@ Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de d
 
 
 
- ## 6.TECNOLOGÍAS
+ ## 6.TECNOLOGÍAS🚀
 
 <details>
   <summary>
-   ▶TECNOLOGÍAS
+   Herramientas Utilizadas🖥️
   </summary>
 
 En este segundo proyecto tenemos la intención de agregar ciertas tecnologías a nuestra web que nos permitirán aumentar la seguridad y eficiencia a la hora de funcionar y monitorizar la. Anteriormente ya habíamos trabajado con algunas como Proxmox, Ubuntu, Html/Css, JavaScript, NGinx, MySQL, PHPMyAdmin, bibliotecas, frameworks, etc.
@@ -739,11 +739,11 @@ Aparte de estas tecnologías, agregaremos algunas como; Docker, Portainer, algun
 
 
 
-## 7.HARDWARE
+## 7.HARDWARE🖨️
 
 <details>
   <summary>
-   ▶HARDWARE 
+   Componentes Físicos🛠️ 
   </summary>
 
 
@@ -754,11 +754,11 @@ Para este segundo proyecto seguiremos usando el ordenador de clase asignado a nu
 
 
 
-## 8.SISTEMA OPERATIVO
+## 8.SISTEMA OPERATIVO💾
 
 <details>
   <summary>
-   ▶SISTEMA OPERATIVO
+   Plataforma y Software Base🖥️
   </summary>
 
 
@@ -775,11 +775,11 @@ Soporte y estabilidad: Ubuntu Server ofrece un soporte robusto y actualizaciones
 
 
 
-## 9.TAREAS
+## 9.TAREAS📋
 
 <details>
   <summary>
-   ▶TAREAS
+   Actividades✅
   </summary>
 
 Ahora mismo por problemas no podimos empezar en la creación de la infraestructura de la Ubuntu o Alpine.
@@ -790,21 +790,21 @@ Creo que para el proximo miercoles 5/02 ya lo tendremos terminado ya que Alina y
 
 
 
-## 10.FUNCIONALIDADES HECHAS
+## 10.FUNCIONALIDADES HECHAS🎯
 
 <details>
   <summary>
-   ▶FUNCIONALIDADES HECHAS
+   Funciones Implementadas✔️
   </summary>
 
 Por ahora hemos realizado la funcionalidad de canvio contraseña, y también la funcionalidad de que el usuario no pueda inpeccionar nuestro código, aplicando un poco de seguridad para nuestra página web
 </details>  
  
-## 11.DOCKER 
+## 11.DOCKER🐳 
 
 <details>
   <summary>
-   ▶INTRODUCCIÓN DOCKER
+   ▶Introducción a Docker📦
   </summary>
   
 Bueno para empezar, un poco sobre que es Docker, Docker es una plataforma de contenedorización que permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles. 
@@ -1088,7 +1088,7 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 <details>
   <summary>
-   ▶DOCKER COMPOSE - M08UF2A6-DC-final
+   Docker Compose⚓
   </summary>
   
 - ¿Qué son los contenedores de docker?
@@ -1152,11 +1152,11 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 
   
-## 12.SERVIDOR DE CORREO  (POSTFIX)
+## 12.SERVIDOR DE CORREO  (POSTFIX)📬
 
 <details>
   <summary>
-   ▶SERVIDOR DE CORREO (POSTFIX)
+   Gestión de Correos✉️
   </summary>
 
 PARTE TEORICA
@@ -1367,8 +1367,12 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
 </details>
 
 
-## 13.FIREWALL
-
+## 13.FIREWALL🔥
+<details>
+  <summary>
+   Seguridad y Reglas de Red🛡️
+  </summary>
+  
 </details>
 
 
