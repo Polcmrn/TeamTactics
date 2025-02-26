@@ -1060,6 +1060,213 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 ## 13.SERVIDOR DE CORREO  (POSTFIX)
 
+PARTE TEORICA
+
+¿Qué es un servidor de correo?
+Un servidor de correo es quien se encarga de gestionar el envío, la recepción y el almacenamiento de correos electrónicos entre los usuarios.
+¿Cómo es el funcionamiento del servicio de correos?
+Funcionamiento:
+Creación del correo 
+Envío del correo (SMTP)
+Transporte del correo
+Recepción del correo (POP3 o IMAP)
+Lectura del correo
+
+Explica, en una tabla:
+Las características principales de los protocolos SMTP, IMAP, POP3
+
+
+Protocolo
+Característica
+SMTP (Simple Mail Transfer Protocol)
+Envía correos electrónicos desde el cliente al servidor o entre servidores de correo.
+IMAP (Internet Message Access Protocol)
+Permite acceder y gestionar correos electrónicos almacenados en el servidor sin descargarlos permanentemente.
+POP3 (Post Office Protocol v3)
+Descarga los correos del servidor al dispositivo y los elimina del servidor (aunque puede configurarse para mantener una copia).
+
+
+
+
+Los puertos seguros e inseguros
+
+Protocolo
+Puerto inseguro
+Puerto seguro (SSL/TLS)
+SMTP (Simple Mail Transfer Protocol)
+25
+465 (SSL/TLS), 587 (STARTTLS)
+IMAP (Internet Message Access Protocol)
+143
+993 (SSL/TLS)
+POP3 (Post Office Protocol v3)
+110
+995 (SSL/TLS)
+
+
+
+
+¿Qué es SSL / TLS y STARTTLS? Haz una comparativa entre ellos.
+
+
+Característica
+SSL 
+TLS
+STARTTLS
+Función
+Cifrado de datos
+Versión mejorada de SSL
+Convierte una conexión insegura en segura 
+ Seguridad
+Vulnerable
+Más seguro y actualizado
+Depende de TLS para el cifrado
+Puertos
+Requiere puertos específicos, como 465
+Mismos puertos que SSL , como el 993
+Usa puertos no cifrados y luego activa el TLS , puerto 587
+
+
+
+
+
+
+
+
+
+
+
+
+¿Qué es …
+
+Postfix
+
+Postfix es un servidor de correo electrónico de código abierto que se usa para el envío y la recepción de correos electrónicos.
+Es una de las opciones para gestionar servidores de correo en entornos de servidores debido a su eficiencia, seguridad y facilidad de configuración.
+
+Instalar Postfix:
+
+
+
+
+
+
+
+
+
+Dovecot
+
+Dovecot es un servidor de correo electrónico que se usa para la recepción de correos. 
+
+Se encarga de gestionar el acceso a los mensajes almacenados en un servidor de correo y de proporcionar acceso a los correos electrónicos a los usuarios a través de los protocolos:
+
+ IMAP (Internet Message Access Protocol)  
+POP3 (Post Office Protocol). 
+
+Instalar dovecot:
+
+
+
+
+Mailutils
+
+
+Mailutils es para gestionar el correo electrónico en sistemas Unix y Linux. 
+
+Permite enviar, recibir, y manipular mensajes de correo electrónico de manera eficiente.
+El paquete Mailutils incluye implementaciones de protocolos de correo, como IMAP, POP3, SMTP, y otros, permitiendo interactuar con servidores de correo de diversas maneras.
+
+Instalar mailutils:
+
+
+
+¿Qué es mbox y maildir? 	
+
+mbox y Maildir son utilizados para almacenar los correos electrónicos en los servidores de correo. 
+mbox:
+Descripción:
+mbox es un formato tradicional que almacena todos los correos electrónicos en un solo archivo. En este formato, los mensajes están concatenados uno tras otro en un archivo de texto plano.
+Cada mensaje de correo es precedido por un encabezado específico, que marca el comienzo de un nuevo correo.
+Características:
+Almacenamiento en un solo archivo: Todos los correos electrónicos de una carpeta (como la bandeja de entrada) se guardan juntos en un único archivo.
+Formato texto: Los correos se almacenan como texto plano, lo que hace que se puedan leer muchos correos a la vez, ya que todos están en el mismo archivo.
+
+
+
+
+
+
+maildir
+
+Descripción
+Maildir es un formato más moderno que organiza los correos electrónicos en archivos individuales, en lugar de almacenarlos todos en un único archivo. Cada mensaje se guarda en un archivo separado dentro de un directorio.
+Maildir utiliza tres carpetas principales: new (nuevos correos), cur (correos leídos), y tmp (mensajes temporales en proceso de ser entregados).
+Características:
+Almacenamiento de correos en archivos individuales: Cada correo se guarda en su propio archivo, lo que permite un acceso más rápido y seguro.
+Mayor fiabilidad: Debido a la organización de los correos en archivos independientes, si un archivo se corrompe, solo se perderá un correo en lugar de todos los mensajes almacenados en el archivo mbox.
+Mejor rendimiento: Al estar los correos almacenados en archivos individuales, las operaciones de lectura y escritura son más rápidas y eficientes, especialmente cuando el número de correos es alto.
+
+
+
+Descarga un email que hayas recibido, y ábrelo con el Notepad:
+¿Qué información nos brinda la cabecera del mensaje?
+Identifica y marca los diferentes componentes del correo
+Investiga y explica qué es MIME. ¿Cuál es su importancia?
+
+
+MIME (Multipurpose Internet Mail Extensions) es un estándar que extiende las capacidades del correo electrónico para permitir el envío de contenido más allá del texto simple, como imágenes, videos, audio y archivos adjuntos.
+
+Importancia de MIME:
+
+Permite contenido multimedia → Los correos pueden incluir imágenes, audio, video y archivos de diferentes formatos.
+Soporta múltiples tipos de contenido → Un solo correo puede tener texto en distintos formatos 
+
+
+
+¿Qué es Webmail? 
+
+Webmail es un servicio de correo electrónico que permite a los usuarios acceder y gestionar sus cuentas de correo electrónico a través de un navegador web
+
+¿En qué casos se utilizaría? 
+
+Acceso remoto a correo electrónico
+Usuarios sin clientes de correo instalados
+Sincronización entre dispositivos
+
+
+
+¿Qué otros ejemplos de webmail hay?
+
+Gmail (de Google)
+Outlook.com (de Microsoft)
+Yahoo Mail (de Yahoo)
+ProtonMail (enfocado en la privacidad)
+Zoho Mail (orientado a negocios)
+
+
+Haz una comparativa entre tres de ellos.
+
+
+Característica 
+Gmail ( google)
+Outlook.com 
+ProtonMail
+Seguridad
+Filtros avanzados de spam y autenticación en dos pasos
+Integración con Microsoft Defender
+Cifrado de extremo a extremo
+Privacidad 
+Google analiza datos para anuncios
+Puede escanear correos para seguridad
+No escanea correos, cifrado fuerte
+Integración 
+Con Drive, Meet, Docs
+Trabajo, empresas 
+Usuarios que buscan máxima privacidad
+
+
+
+
 PARTE PRÁCTICA
 
 Lo primero que hicimos es instalar el Postfix con el comando apt-get install postfix, como podemos observar nos dice que ya está instalado.
