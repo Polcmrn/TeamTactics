@@ -727,8 +727,6 @@ Por ahora hemos realizado la funcionalidad de canvio contraseña, y también la 
    ▶INTRODUCCIÓN DOCKER
   </summary>
 
-INTRODUCCIÓN DE DOCKER
-
 Bueno para empezar, un poco sobre que es Docker, Docker es una plataforma de contenedorización que permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles. 
 Estos contenedores pueden ejecutarse de manera consistente en cualquier entorno, ya sea en una computadora local, en servidores o en la nube.
 
@@ -1010,11 +1008,9 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 <details>
   <summary>
-   ▶DOCKER compose
+   ▶DOCKER COMPOSE - M08UF2A6-DC-final
   </summary>
   
-## 12.Docker Compose - M08UF2A6-DC-final
-
 - ¿Qué son los contenedores de docker?
 
   Los contenedores de Docker son entornos ligeros, portátiles y aislados que encapsulan una aplicación junto con todas sus dependencias (bibliotecas, código, configuraciones y archivos necesarios) en un solo paquete. Esto permite que la aplicación se ejecute de manera 
