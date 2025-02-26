@@ -1075,67 +1075,15 @@ Lectura del correo
 Explica, en una tabla:
 Las características principales de los protocolos SMTP, IMAP, POP3
 
-
-Protocolo
-Característica
-SMTP (Simple Mail Transfer Protocol)
-Envía correos electrónicos desde el cliente al servidor o entre servidores de correo.
-IMAP (Internet Message Access Protocol)
-Permite acceder y gestionar correos electrónicos almacenados en el servidor sin descargarlos permanentemente.
-POP3 (Post Office Protocol v3)
-Descarga los correos del servidor al dispositivo y los elimina del servidor (aunque puede configurarse para mantener una copia).
-
-
-
+![image](https://github.com/user-attachments/assets/e9b7a139-24b8-4fc9-9787-5becc707f038)
 
 Los puertos seguros e inseguros
 
-Protocolo
-Puerto inseguro
-Puerto seguro (SSL/TLS)
-SMTP (Simple Mail Transfer Protocol)
-25
-465 (SSL/TLS), 587 (STARTTLS)
-IMAP (Internet Message Access Protocol)
-143
-993 (SSL/TLS)
-POP3 (Post Office Protocol v3)
-110
-995 (SSL/TLS)
-
-
-
+![image](https://github.com/user-attachments/assets/b7972c13-1d49-4b5a-8233-5138e183412c)
 
 ¿Qué es SSL / TLS y STARTTLS? Haz una comparativa entre ellos.
 
-
-Característica
-SSL 
-TLS
-STARTTLS
-Función
-Cifrado de datos
-Versión mejorada de SSL
-Convierte una conexión insegura en segura 
- Seguridad
-Vulnerable
-Más seguro y actualizado
-Depende de TLS para el cifrado
-Puertos
-Requiere puertos específicos, como 465
-Mismos puertos que SSL , como el 993
-Usa puertos no cifrados y luego activa el TLS , puerto 587
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/7cdf58e3-e155-4638-bb10-ab4a1a3f4aca)
 
 ¿Qué es …
 
@@ -1146,12 +1094,7 @@ Es una de las opciones para gestionar servidores de correo en entornos de servid
 
 Instalar Postfix:
 
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/5335e5b7-f68d-4b3d-9a3f-73934e824a95)
 
 
 Dovecot
@@ -1165,8 +1108,7 @@ POP3 (Post Office Protocol).
 
 Instalar dovecot:
 
-
-
+![image](https://github.com/user-attachments/assets/c92bef24-049c-470c-b024-b733d329a384)
 
 Mailutils
 
@@ -1178,22 +1120,21 @@ El paquete Mailutils incluye implementaciones de protocolos de correo, como IMAP
 
 Instalar mailutils:
 
-
+![image](https://github.com/user-attachments/assets/fdbb4a89-44a7-4330-9dfd-20780eed21da)
 
 ¿Qué es mbox y maildir? 	
 
 mbox y Maildir son utilizados para almacenar los correos electrónicos en los servidores de correo. 
 mbox:
+
 Descripción:
+
 mbox es un formato tradicional que almacena todos los correos electrónicos en un solo archivo. En este formato, los mensajes están concatenados uno tras otro en un archivo de texto plano.
 Cada mensaje de correo es precedido por un encabezado específico, que marca el comienzo de un nuevo correo.
+
 Características:
 Almacenamiento en un solo archivo: Todos los correos electrónicos de una carpeta (como la bandeja de entrada) se guardan juntos en un único archivo.
 Formato texto: Los correos se almacenan como texto plano, lo que hace que se puedan leer muchos correos a la vez, ya que todos están en el mismo archivo.
-
-
-
-
 
 
 maildir
@@ -1207,10 +1148,6 @@ Mayor fiabilidad: Debido a la organización de los correos en archivos independi
 Mejor rendimiento: Al estar los correos almacenados en archivos individuales, las operaciones de lectura y escritura son más rápidas y eficientes, especialmente cuando el número de correos es alto.
 
 
-
-Descarga un email que hayas recibido, y ábrelo con el Notepad:
-¿Qué información nos brinda la cabecera del mensaje?
-Identifica y marca los diferentes componentes del correo
 Investiga y explica qué es MIME. ¿Cuál es su importancia?
 
 
@@ -1222,8 +1159,7 @@ Permite contenido multimedia → Los correos pueden incluir imágenes, audio, vi
 Soporta múltiples tipos de contenido → Un solo correo puede tener texto en distintos formatos 
 
 
-
-¿Qué es Webmail? 
+Qué es Webmail? 
 
 Webmail es un servicio de correo electrónico que permite a los usuarios acceder y gestionar sus cuentas de correo electrónico a través de un navegador web
 
@@ -1243,26 +1179,6 @@ Yahoo Mail (de Yahoo)
 ProtonMail (enfocado en la privacidad)
 Zoho Mail (orientado a negocios)
 
-
-Haz una comparativa entre tres de ellos.
-
-
-Característica 
-Gmail ( google)
-Outlook.com 
-ProtonMail
-Seguridad
-Filtros avanzados de spam y autenticación en dos pasos
-Integración con Microsoft Defender
-Cifrado de extremo a extremo
-Privacidad 
-Google analiza datos para anuncios
-Puede escanear correos para seguridad
-No escanea correos, cifrado fuerte
-Integración 
-Con Drive, Meet, Docs
-Trabajo, empresas 
-Usuarios que buscan máxima privacidad
 
 
 
