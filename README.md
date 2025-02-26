@@ -622,6 +622,11 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
     
 ## 1.IDEAS PARA EL SEGUNDO PROYECTO
 
+<details>
+  <summary>
+   ▶IDEAS 2ndo PROYECTO 
+  </summary>
+
 ### NUEVAS FUNCIONALIDADES
 
 #### PENDIENTES
@@ -655,8 +660,15 @@ Pero donde si tuvimos muchos errores fue durante la creación de la bbdd, ya que
 - Seguridad:
   - MySQL (crear más de un usuario, securizar la DB, triggers)
   - Protección de código fuente
+
+</details> 
  
 ## 2.FUNCIONALIDADES
+
+<details>
+  <summary>
+   ▶FUNCIONALIDADES
+  </summary>
 
 ![image](https://github.com/user-attachments/assets/ae76384b-944e-404a-8210-133f7ed628f9)
 
@@ -668,32 +680,46 @@ La funcionalidad de la API la hará Pol
 La funcionalidad de cambio de contraseña la hará Quim
 
 La funcionalidad de agregar amigos la haremos cuando acabemos la del Juego Fantasy, ya que preferimos insistir con el tiempo en terminar la funcionalidad del juego fantasy por su gran importancia y valor en nuestro proyecto, ya que es en lo que se basa nuestra idea de proyecto
+</details> 
 
 ## 3.ARQUITECTURA DEL SISTEMA
+
+<details>
+  <summary>
+   ▶ARQUITECTURA DE SISTEMA
+  </summary>
 
 Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es lo que tenemos como idea
 
 ![image](https://github.com/user-attachments/assets/19bd263b-e789-4cd1-b4b9-a880a6ba2c8e)
-
+</details> 
 
 ## 4.DIAGRAMA DE RED
 
+<details>
+  <summary>
+   ▶DIAGRAMA DE RED
+  </summary>
 
 ![image](carpeta_fotos/esquema_red_2.png)
-
+</details> 
 
 
 
 
 ## 5.DIAGRAMA DE LA BASE DE DATOS
 
+<details>
+  <summary>
+   ▶DIAGRAMA BBDD
+  </summary>
 
 Esta es nuetra base de datos, es la misma que la del primer proyecto pero con pequeñas variaciones ya que como comentamos seguimos con el mismo proyecto entonces la infraestructura de la base de datos por narices tiene que ser muy parecida ya que mas o menos ya esta de alguna manera terminada
 
 Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de datos, pero por ahora es lo que tenemos
 
 ![image](https://github.com/user-attachments/assets/c77022c7-f9fa-4e4f-b08c-578abd2a24fb)
-
+</details> 
 
 
 
@@ -1126,7 +1152,7 @@ Una vez ya teniendo todas las configuraciones y ponemos la IP en el navegador ya
 
 
   
-## 13.SERVIDOR DE CORREO  (POSTFIX)
+## 12.SERVIDOR DE CORREO  (POSTFIX)
 
 <details>
   <summary>
@@ -1341,7 +1367,7 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
 </details>
 
 
-## 14.FIREWALL
+## 13.FIREWALL
 
 </details>
 
