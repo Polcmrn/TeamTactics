@@ -1375,7 +1375,8 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
   
 </details>
 
-
+Comentar que son la IPTABLES
+Iptables aplicadas en el Router, etc
 
 
 ## BIBLIOGRAFIA
