@@ -1372,7 +1372,11 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
   <summary>
    Seguridad y Reglas de Red🛡️
   </summary>
-  
+
+Las IpTables son una herramienta de filtrado de paquetes en sistemas Linux que permiten administrar el tráfico de red mediante reglas definidas por el usuario. Funciona como un firewall, controlando qué paquetes pueden entrar, salir o atravesar el sistema según ciertos criterios, como la dirección IP, el puerto, el protocolo y el estado de la conexión.
+
+Al implementarlas en nuestro router nos permitirá configurar políticas de seguridad robustas, bloqueando tráfico no deseado y permitiendo solo las conexiones necesarias. De esta forma, actúan como la primera línea de defensa contra accesos no autorizados y ataques de red.
+
 </details>
 
 Comentar que son la IPTABLES
