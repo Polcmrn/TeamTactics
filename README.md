@@ -1319,6 +1319,8 @@ ACTIVIDAD
 Utiliza Telnet para testear el servicio, por cada uno de los puertos de comunicación correspondientes a POP3, IMAP, SMTP.
 
 ![image](https://github.com/user-attachments/assets/ffcc3e04-b393-4915-bfdf-6080fb950300)
+
+
 ![image](https://github.com/user-attachments/assets/fa161a9e-96af-4a6b-b8d0-49c5700dd352)
 
 Con el comando telnet 192.168.6.100 25, lo que hace el servidor es que responde con un banner de Postfix, indicando que el servicio SMTP está funcionando correctamente.
