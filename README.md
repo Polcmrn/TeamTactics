@@ -1286,7 +1286,7 @@ PARTE PRÁCTICA
 
 Lo primero que hicimos es instalar el Postfix con el comando apt-get install postfix, como podemos observar nos dice que ya está instalado.
 
-![image](https://github.com/user-attachments/assets/74f99917-ed6f-40eb-9edd-77ad6560bb2f
+![image](https://github.com/user-attachments/assets/74f99917-ed6f-40eb-9edd-77ad6560bb2f)
 ![image](https://github.com/user-attachments/assets/0627b92a-73a1-4595-a5e1-5700f7a285c3)
 
 Ahora editamos el fichero main.cf agregando al final de todo la línea home_mailbox = Maildir/. Lo que hacemos con esto es cambiar la configuración y usar Maildir, ya que por defecto de Postfix y Mailutils se utiliza el formato Mbox, pero como que ambos soportan  Maildir lo pondremos así.
