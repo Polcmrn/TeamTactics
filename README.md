@@ -1388,7 +1388,196 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
 
 </details>
 
+## 13.BACKUP🔥
+<details>
+  <summary>
+   BACKUP🛡️
+  </summary>
 
+Introducción
+
+Las copias de seguridad (backups) son esenciales para garantizar la continuidad del negocio, la integridad de los datos y el cumplimiento normativo, asegurando la disponibilidad de los datos incluso en situaciones de fallos técnicos o incidentes como ransomware.
+Este script de backup se encarga de realizar copias de seguridad completas (full) o incrementales de los sistemas de información, garantizando la recuperación de los datos.
+Hemos intentado hacer lo del correo pero no nos ha salido, esperamos que dentro de poco lo tengamos para que también lo podamos tener implementado.
+
+Objetivos
+
+Garantizar la disponibilidad y recuperabilidad de los datos críticos.
+Minimizar el impacto de incidentes como ransomware o fallos técnicos.
+Cumplir con los requisitos legales y regulatorios en materia de protección de datos y resiliencia operativa.
+
+Alcance
+
+Aplica a todos los sistemas de información que gestionen:
+Registros internos: Logs de actividad, configuración de sistemas, etc.
+Archivos de usuarios: Documentos, imágenes o bases de datos alojadas en los servidores.
+
+
+Script de Backup
+
+#!/bin/bash
+
+# Configuración principal
+BACKUP_DIR="/var/backups"
+PARTICION_DIR="/mnt/backup_particion"
+LOG_FILE="/var/log/backup.log"
+ARCHIVO_HASH="/var/backups/backup.hash"
+REMOTE_SERVER="quim@192.168.1.195"    # Dirección del servidor remoto de mi casa
+REMOTE_PATH="/home/quim"              # Ruta de destino en el servidor remoto
+
+# Esto lo que hace es crear los directorios si no existen
+mkdir -p "$BACKUP_DIR" "$PARTICION_DIR"
+
+# Verificamos si el tipo de backup que queremos hacer es full o incremental
+if [ "$1" == "full" ]; then
+    TAR_FILE="$BACKUP_DIR/full_$(date +%F).tar.gz"
+    tar -czf "$TAR_FILE" /home /etc /var
+elif [ "$1" == "incremental" ]; then
+    TAR_FILE="$BACKUP_DIR/incremental_$(date +%F).tar.gz"
+    tar -czf "$TAR_FILE" --newer-mtime="$(date -d 'yesterday' +%F)" /home /etc /var
+else
+    echo "Uso: $0 [full|incremental]"
+    exit 1
+fi
+
+# Esto copia el backup a la partición local
+cp "$TAR_FILE" "$PARTICION_DIR/"
+
+# Generar hash
+sha256sum "$TAR_FILE" > "$ARCHIVO_HASH"
+
+# Registrar en log
+echo "[$(date)] Backup $1 realizado: $TAR_FILE" >> "$LOG_FILE"
+
+# Esto sirve para copiar el archivo al servidor remoto usando rsync
+rsync -avz "$TAR_FILE" "$REMOTE_SERVER:$REMOTE_PATH"
+
+# Esto registra en log que se copió al servidor remoto
+echo "[$(date)] Backup copiado al servidor remoto: $TAR_FILE" >> "$LOG_FILE"
+
+echo "Backup completado y copiado al servidor remoto."
+
+# Envía un correo de reporte (no nos funcionó al final)
+cat "$LOG_FILE" | mail -s "Reporte de Backup" qfernandez2004@gmail.com
+
+
+Script de restauración
+
+#!/bin/bash
+
+# Restauración del backup
+BACKUP_DIR="/var/backups"
+PARTICION_DIR="/mnt/backup_particion"
+LOG_FILE="/var/log/restore.log"
+
+# Verificar si existe el archivo
+if [ -z "$1" ]; then
+    echo "Uso: $0 <archivo_backup>"
+    exit 1
+fi
+
+BACKUP_FILE="$BACKUP_DIR/$1"
+
+if [ ! -f "$BACKUP_FILE" ]; then
+    echo "Error: Archivo de backup no encontrado: $BACKUP_FILE"
+    exit 1
+fi
+
+# Restaurar el archivo
+tar -xzf "$BACKUP_FILE" -C /
+
+# Registrarlo en log
+echo "[$(date)] Restauración realizada: $BACKUP_FILE" >> "$LOG_FILE"
+
+echo "Restauración completada."
+
+
+
+
+Preparación de la máquina
+
+Para comprobar que los scripts funcionan correctamente lo que haremos es preparar la máquina Ubuntu Desktop para así poder hacer uso de los scripts. (Estamos en CMD conectados por SSH a la máquina para comodidad mía).
+
+Creamos dos ubicaciones para almacenar los backups: un directorio local (/var/backups)
+y una partición montada (/mnt/backup_particion)
+
+sudo mkdir -p /var/backups
+sudo mkdir -p /mnt/backup_particion
+
+En  /home/quim creamos los dos scripts.
+
+nano backup.sh
+nano restore.sh
+
+Y les damos permisos.
+
+chmod +x backup.sh restore.sh
+
+
+Prueba de Backup
+
+Ejecutamos el backup de forma full y incremental, y si nos vamos a /var/backups podemos observar que se han realizado correctamente.
+
+![image](https://github.com/user-attachments/assets/f7ab86fc-3f88-4447-8cb7-f494d5f3b692)
+
+![image](https://github.com/user-attachments/assets/5a61aab2-552d-4121-a022-64f85eb25193)
+
+![image](https://github.com/user-attachments/assets/ed352017-9475-4a3e-afcf-30fe3538222f)
+
+También revisamos el log.
+
+![image](https://github.com/user-attachments/assets/2b6e0869-6ad2-4314-a7ef-5287ae27f5c1)
+
+
+Restaurar el Backup
+
+Usamos ./restore.sh full_2025-02-24.tar.gz para restaurar el backup que hemos hecho.
+
+![image](https://github.com/user-attachments/assets/271a19fd-490b-4d4f-aa9b-5008ce5ba837)
+
+
+Y también revisamos el log.
+
+![image](https://github.com/user-attachments/assets/523132ae-0669-4ad3-9970-62b0ecb0176f)
+
+
+Automatización del Proceso de Backup
+
+Con crontab ajustamos a nuestro gusto la automatización del backup, agregando esta línea generamos un backup diario a las 2 AM y otro incremental a las 3 AM. 
+Sabemos que no es la mejor distribución de días para hacer backups pero hemos puesto este como ejemplo rápido para no darle muchas vueltas.
+
+0 2 * * * /usr/bin/rsync -avz /datos/ /backup/completo/
+0 3 * * * /usr/bin/rsync -avz --ignore-existing /datos/ /backup/incremental/
+
+![image](https://github.com/user-attachments/assets/edc8cdf3-81a8-46c0-85a7-72a05c5b0291)
+
+
+Copia al Servidor Remoto
+
+Este es nuestro Ubuntu Server Servidor Externo que usaremos para enviar el backup.
+
+![image](https://github.com/user-attachments/assets/21debb94-912f-4b01-bfec-5d45a4563750)
+
+A través de rsync podemos crear esa copia manualmente ahora a través de este comando, pero hemos añadido en el script el código para que pueda hacerlo automáticamente cada vez que se ejecute grácias al Crontab.
+
+![image](https://github.com/user-attachments/assets/d79739eb-b594-4df0-b26f-95665b929dbd)
+
+Ya tenemos el backup en el Servidor de Ubuntu
+
+![image](https://github.com/user-attachments/assets/d64f7071-fb2b-441f-bef3-310321932746)
+
+
+
+
+
+
+
+
+
+
+
+
+</details>
 ## BIBLIOGRAFIA
 
 https://punkymo.gitbook.io/miwiki
