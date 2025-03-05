@@ -1411,10 +1411,9 @@ Alcance
 Aplica a todos los sistemas de información que gestionen:
 Registros internos: Logs de actividad, configuración de sistemas, etc.
 Archivos de usuarios: Documentos, imágenes o bases de datos alojadas en los servidores.
-### Script de Backup
 
-```bash
 #!/bin/bash
+
 # Configuración principal
 BACKUP_DIR="/var/backups"
 PARTICION_DIR="/mnt/backup_particion"
@@ -1422,36 +1421,43 @@ LOG_FILE="/var/log/backup.log"
 ARCHIVO_HASH="/var/backups/backup.hash"
 REMOTE_SERVER="quim@192.168.1.195" # Dirección del servidor remoto de mi casa
 REMOTE_PATH="/home/quim" # Ruta de destino en el servidor remoto
+
 # Esto lo que hace es crear los directorios si no existen
 mkdir -p "$BACKUP_DIR" "$PARTICION_DIR"
+
 # Verificamos si el tipo de backup que queremos hacer es full o incremental
 if [ "$1" == "full" ]; then
-TAR_FILE="$BACKUP_DIR/full_$(date +%F).tar.gz"
-tar -czf "$TAR_FILE" /home /etc /var
+    TAR_FILE="$BACKUP_DIR/full_$(date +%F).tar.gz"
+    tar -czf "$TAR_FILE" /home /etc /var
 elif [ "$1" == "incremental" ]; then
-TAR_FILE="$BACKUP_DIR/incremental_$(date +%F).tar.gz"
-tar -czf "$TAR_FILE" --newer-mtime="$(date -d 'yesterday' +%F)" /home /etc /var
+    TAR_FILE="$BACKUP_DIR/incremental_$(date +%F).tar.gz"
+    tar -czf "$TAR_FILE" --newer-mtime="$(date -d 'yesterday' +%F)" /home /etc /var
 else
-echo "Uso: $0 [full|incremental]"
-exit 1
+    echo "Uso: $0 [full|incremental]"
+    exit 1
 fi
+
 # Esto copia el backup a la partición local
 cp "$TAR_FILE" "$PARTICION_DIR/"
+
 # Generar hash
 sha256sum "$TAR_FILE" > "$ARCHIVO_HASH"
+
 # Registrar en log
 echo "[$(date)] Backup $1 realizado: $TAR_FILE" >> "$LOG_FILE"
+
 # Esto sirve para copiar el archivo al servidor remoto usando rsync
 rsync -avz "$TAR_FILE" "$REMOTE_SERVER:$REMOTE_PATH"
+
 # Esto registra en log que se copió al servidor remoto
 echo "[$(date)] Backup copiado al servidor remoto: $TAR_FILE" >> "$LOG_FILE"
+
 echo "Backup completado y copiado al servidor remoto."
+
 # Envía un correo de reporte (no nos funcionó al final)
 cat "$LOG_FILE" | mail -s "Reporte de Backup" qfernandez2004@gmail.com
 
 
-#### Script de Restauración:
-```bash
 #!/bin/bash
 
 # Restauración del backup
