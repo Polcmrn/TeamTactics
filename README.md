@@ -1412,8 +1412,12 @@ Aplica a todos los sistemas de información que gestionen:
 Registros internos: Logs de actividad, configuración de sistemas, etc.
 Archivos de usuarios: Documentos, imágenes o bases de datos alojadas en los servidores.
 
+<details>
+  <summary>
+    
 ### Script de Backup
-
+</summary>
+  
 ```bash
 #!/bin/bash
 
@@ -1459,7 +1463,7 @@ echo "Backup completado y copiado al servidor remoto."
 
 # Envía un correo de reporte (no nos funcionó al final)
 cat "$LOG_FILE" | mail -s "Reporte de Backup" qfernandez2004@gmail.com
-```bash
+</details>
 
 
 #!/bin/bash
