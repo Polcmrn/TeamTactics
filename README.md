@@ -1415,7 +1415,7 @@ Archivos de usuarios: Documentos, imágenes o bases de datos alojadas en los ser
 
 
 
-Script de Backup
+```Script de Backup
 
 
 
@@ -1439,7 +1439,7 @@ REMOTE_PATH="/home/quim"              # Ruta de destino en el servidor remoto
  
 mkdir -p "$BACKUP_DIR" "$PARTICION_DIR"
 
-   Verificamos si el tipo de backup que queremos hacer es full o incremental
+Verificamos si el tipo de backup que queremos hacer es full o incremental
 
 if [ "$1" == "full" ]; then
 
