@@ -1450,49 +1450,36 @@ echo "Backup completado y copiado al servidor remoto."
 cat "$LOG_FILE" | mail -s "Reporte de Backup" qfernandez2004@gmail.com
 
 
-### Script de restauración
-
+#### Script de Restauración:
 ```bash
-
 #!/bin/bash
 
-Restauración del backup
- 
+# Restauración del backup
 BACKUP_DIR="/var/backups"
-
 PARTICION_DIR="/mnt/backup_particion"
-
 LOG_FILE="/var/log/restore.log"
 
- Verificar si existe el archivo
- 
+# Verificar si existe el archivo
 if [ -z "$1" ]; then
-
     echo "Uso: $0 <archivo_backup>"
-    
     exit 1
-    
 fi
 
 BACKUP_FILE="$BACKUP_DIR/$1"
 
 if [ ! -f "$BACKUP_FILE" ]; then
-
     echo "Error: Archivo de backup no encontrado: $BACKUP_FILE"
-    
     exit 1
-    
 fi
 
-Restaurar el archivo
-
+# Restaurar el archivo
 tar -xzf "$BACKUP_FILE" -C /
 
-Registrarlo en log
-
+# Registrarlo en log
 echo "[$(date)] Restauración realizada: $BACKUP_FILE" >> "$LOG_FILE"
 
 echo "Restauración completada."
+
 
 
 
