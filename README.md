@@ -1483,6 +1483,10 @@ echo "Backup completado y copiado al servidor remoto."
 cat "$LOG_FILE" | mail -s "Reporte de Backup" qfernandez2004@gmail.com
 
 
+
+
+
+
 Script de restauración
 
 #!/bin/bash
