@@ -1391,7 +1391,7 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
 ## 13.BACKUP🔥
 <details>
   <summary>
-   BACKUP🛡️
+   Copias de Seguridad🛡️
   </summary>
 
   #### Introducción
@@ -1498,7 +1498,7 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
 
 
 
-Preparación de la máquina
+#### Preparación de la máquina
 
 Para comprobar que los scripts funcionan correctamente lo que haremos es preparar la máquina Ubuntu Desktop para así poder hacer uso de los scripts. (Estamos en CMD conectados por SSH a la máquina para comodidad mía).
 
