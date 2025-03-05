@@ -1394,19 +1394,19 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
    BACKUP🛡️
   </summary>
 
-  Introducción
+  #### Introducción
   
   Las copias de seguridad (backups) son esenciales para garantizar la continuidad del negocio, la integridad de los datos y el cumplimiento normativo, asegurando la disponibilidad de los datos incluso en situaciones de fallos técnicos o incidentes como ransomware.
   Este script de backup se encarga de realizar copias de seguridad completas (full) o incrementales de los sistemas de información, garantizando la recuperación de los datos.
   Hemos intentado hacer lo del correo pero no nos ha salido, esperamos que dentro de poco lo tengamos para que también lo podamos tener implementado.
 
-  Objetivos
+  ####  Objetivos
   
   Garantizar la disponibilidad y recuperabilidad de los datos críticos.
   Minimizar el impacto de incidentes como ransomware o fallos técnicos.
   Cumplir con los requisitos legales y regulatorios en materia de protección de datos y resiliencia operativa.
   
-  Alcance
+  #### Alcance
   
   Aplica a todos los sistemas de información que gestionen:
   Registros internos: Logs de actividad, configuración de sistemas, etc.
