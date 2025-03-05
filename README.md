@@ -1608,18 +1608,8 @@ Ya tenemos el backup en el Servidor de Ubuntu
 
 ![image](https://github.com/user-attachments/assets/d64f7071-fb2b-441f-bef3-310321932746)
 
-
-
-
-
-
-
-
-
-
-
-
 </details>
+
 ## BIBLIOGRAFIA
 
 https://punkymo.gitbook.io/miwiki
