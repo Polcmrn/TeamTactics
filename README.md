@@ -1413,7 +1413,11 @@ Registros internos: Logs de actividad, configuración de sistemas, etc.
 Archivos de usuarios: Documentos, imágenes o bases de datos alojadas en los servidores.
 
 
+
+
 Script de Backup
+
+
 
 #!/bin/bash
 
