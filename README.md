@@ -1484,7 +1484,7 @@ echo "Backup completado y copiado al servidor remoto."
 
  Envía un correo de reporte (no nos funcionó al final)
  
-cat "$LOG_FILE" | mail -s "Reporte de Backup" qfernandez2004@gmail.com`
+cat "$LOG_FILE" | mail -s "Reporte de Backup" qfernandez2004@gmail.com ```
 
 
 
