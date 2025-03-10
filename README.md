@@ -1588,7 +1588,7 @@ xmpp és abierto y flexible, lo que significa que se puede adaptar y utilizar en
 
 Pidgin es un programa de mensajería instantánea que permite chatear con amigos a través de diferentes servicios y soporta múltiples redes al mismo tiempo.
 
-
+### Otras alternativas para mensajería instantánea
 
 
 
