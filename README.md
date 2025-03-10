@@ -1579,8 +1579,12 @@ Ya tenemos el backup en el Servidor de Ubuntu
 
 Ejabberd es una plataforma en tiempo real de código abierto, robusta, escalable y extensible creada con Erlang/OTP, que incluye un servidor XMPP, un agente MQTT y un servicio SIP.
 
+ ### ¿Qué es el protocolo xmpp?
 
+El XMPP (Extensible Messaging and Presence Protocol) es un protocolo de comunicación utilizado principalmente para la mensajería instantánea, también permite que las personas se envíen mensajes en tiempo real y compartan su estado de disponibilidad, como "en línea" o "ocupado". 
+xmpp és abierto y flexible, lo que significa que se puede adaptar y utilizar en diferentes aplicaciones de mensajería.
 
+ 
  </details>
 
  
