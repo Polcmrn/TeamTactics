@@ -1584,6 +1584,14 @@ Ejabberd es una plataforma en tiempo real de código abierto, robusta, escalable
 El XMPP (Extensible Messaging and Presence Protocol) es un protocolo de comunicación utilizado principalmente para la mensajería instantánea, también permite que las personas se envíen mensajes en tiempo real y compartan su estado de disponibilidad, como "en línea" o "ocupado". 
 xmpp és abierto y flexible, lo que significa que se puede adaptar y utilizar en diferentes aplicaciones de mensajería.
 
+### Pidgin 
+
+Pidgin es un programa de mensajería instantánea que permite chatear con amigos a través de diferentes servicios y soporta múltiples redes al mismo tiempo.
+
+
+
+
+
  
  </details>
 
