@@ -1385,6 +1385,35 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
 
 ![image](https://github.com/user-attachments/assets/42dd639e-1060-4246-af8f-a544716b9faa)
 
+#### Instalación del Firewall
+
+![image](https://github.com/user-attachments/assets/ae8774f5-dc22-45b1-8e69-39255aa3630e)
+
+![image](https://github.com/user-attachments/assets/94e0f486-0f0b-4ed3-be72-698a9bd73715)
+
+![image](https://github.com/user-attachments/assets/3b5407a1-0afa-4ae9-9216-9b3b691f3bd4)
+
+Configuración
+
+![image](https://github.com/user-attachments/assets/7b18463d-0466-4a46-bb6c-40434ea937b5)
+
+![image](https://github.com/user-attachments/assets/b95c8b3c-08c2-4403-8fb9-6f52d1fbc709)
+
+Instalar el plugin OpenVPN client
+
+
+![image](https://github.com/user-attachments/assets/f7a2dd07-ce0b-4dc5-93b7-a1fc5a9a004f)
+
+![image](https://github.com/user-attachments/assets/8f5073bd-8a82-4d82-97ab-f38bcef14d7b)
+
+Crear la CA (Autoridad de Certificación) 
+
+![image](https://github.com/user-attachments/assets/40590d84-a8ae-4bd4-a9fc-947e5621aa7b)
+
+![image](https://github.com/user-attachments/assets/10abd077-9dc7-42db-97f7-3e3212b1172a)
+
+
+
 
 </details>
 
@@ -1571,30 +1600,6 @@ Ya tenemos el backup en el Servidor de Ubuntu
 ![image](https://github.com/user-attachments/assets/d64f7071-fb2b-441f-bef3-310321932746)
 
 
-![image](https://github.com/user-attachments/assets/ae8774f5-dc22-45b1-8e69-39255aa3630e)
-
-![image](https://github.com/user-attachments/assets/94e0f486-0f0b-4ed3-be72-698a9bd73715)
-
-![image](https://github.com/user-attachments/assets/3b5407a1-0afa-4ae9-9216-9b3b691f3bd4)
-
-Configuración
-
-![image](https://github.com/user-attachments/assets/7b18463d-0466-4a46-bb6c-40434ea937b5)
-
-![image](https://github.com/user-attachments/assets/b95c8b3c-08c2-4403-8fb9-6f52d1fbc709)
-
-Instalar el plugin OpenVPN client
-
-
-![image](https://github.com/user-attachments/assets/f7a2dd07-ce0b-4dc5-93b7-a1fc5a9a004f)
-
-![image](https://github.com/user-attachments/assets/8f5073bd-8a82-4d82-97ab-f38bcef14d7b)
-
-Crear la CA (Autoridad de Certificación) 
-
-![image](https://github.com/user-attachments/assets/40590d84-a8ae-4bd4-a9fc-947e5621aa7b)
-
-![image](https://github.com/user-attachments/assets/10abd077-9dc7-42db-97f7-3e3212b1172a)
 
 
 
