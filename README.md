@@ -1387,13 +1387,21 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
 
 #### Instalación del Firewall
 
+Bueno después de hacer el procedimiento que hemos realizado como lo ponia en el punkymo hemos llegado a esta apartado, donde podemos ver nuestras 2 redes:
+
+- 100.77.20.74 como red WAN, que es la red donde podremos acceder en el navegador
+- 192.168.1.2 como red LAN, que es la red interna de la máquina
+
 ![image](https://github.com/user-attachments/assets/ae8774f5-dc22-45b1-8e69-39255aa3630e)
+
+Una vez ya hemos configurado todo, si vamos al navegador y ponemos la IP que he dicho antes, osea la 100.77.20.74 ya podremos ver la página de pfsense para asi nosotros poder acceder
 
 ![image](https://github.com/user-attachments/assets/94e0f486-0f0b-4ed3-be72-698a9bd73715)
 
+Una vez ya dentro de pfsense, empezamos a configurar todo sobre pfense y básicamente hemos seguido el paso a paso de la configuración del punkymo que es lo que teniamos que seguir para poder realizar todo el procedimiento y entonces ahora pondremos todas las capturas realizadas y completadas para poder completar toda la instalación del pfsense
+
 ![image](https://github.com/user-attachments/assets/3b5407a1-0afa-4ae9-9216-9b3b691f3bd4)
 
-Configuración
 
 ![image](https://github.com/user-attachments/assets/7b18463d-0466-4a46-bb6c-40434ea937b5)
 
