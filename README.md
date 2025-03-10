@@ -1388,7 +1388,7 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
 
 </details>
 
-## 13.BACKUP🔥
+## 14.BACKUP🔥
 <details>
   <summary>
    Copias de Seguridad🛡️
@@ -1572,6 +1572,18 @@ Ya tenemos el backup en el Servidor de Ubuntu
 
 </details>
 
+## 14.Ejabberd🐍
+<details>
+
+  ### Ejabberd
+
+Ejabberd es una plataforma en tiempo real de código abierto, robusta, escalable y extensible creada con Erlang/OTP, que incluye un servidor XMPP, un agente MQTT y un servicio SIP.
+
+
+
+ </details>
+
+ 
 ## BIBLIOGRAFIA
 
 https://punkymo.gitbook.io/miwiki
