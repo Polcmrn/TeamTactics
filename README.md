@@ -1400,7 +1400,11 @@ Una vez ya hemos configurado todo, si vamos al navegador y ponemos la IP que he 
 
 Una vez ya dentro de pfsense, empezamos a configurar todo sobre pfense y básicamente hemos seguido el paso a paso de la configuración del punkymo que es lo que teniamos que seguir para poder realizar todo el procedimiento y entonces ahora pondremos todas las capturas realizadas y completadas para poder completar toda la instalación del pfsense
 
+Esta es la página principal de pfsense como se ve osea la pagina de bienvenida
+
 ![image](https://github.com/user-attachments/assets/3b5407a1-0afa-4ae9-9216-9b3b691f3bd4)
+
+Ahora aquí tenemos que poner algo de información general para seguir con su configuración
 
 
 ![image](https://github.com/user-attachments/assets/7b18463d-0466-4a46-bb6c-40434ea937b5)
@@ -1410,6 +1414,7 @@ Una vez ya dentro de pfsense, empezamos a configurar todo sobre pfense y básica
 Instalar el plugin OpenVPN client
 
 Hemos empezando descargando el paquete que se llama openvpn-client-export que se encuentra en System-Package
+
 ![image](https://github.com/user-attachments/assets/f7a2dd07-ce0b-4dc5-93b7-a1fc5a9a004f)
 
 ![image](https://github.com/user-attachments/assets/8f5073bd-8a82-4d82-97ab-f38bcef14d7b)
