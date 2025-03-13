@@ -1409,17 +1409,21 @@ Una vez ya dentro de pfsense, empezamos a configurar todo sobre pfense y básica
 
 Instalar el plugin OpenVPN client
 
-
+Hemos empezando descargando el paquete que se llama openvpn-client-export que se encuentra en System-Package
 ![image](https://github.com/user-attachments/assets/f7a2dd07-ce0b-4dc5-93b7-a1fc5a9a004f)
 
 ![image](https://github.com/user-attachments/assets/8f5073bd-8a82-4d82-97ab-f38bcef14d7b)
 
 Crear la CA (Autoridad de Certificación) 
 
+Ahora creamos la CA, que es una entidad confiable responsable de emitir y revocar certificados digitales utilizados para transacciones y firmas electrónicas, entonces vamos a System - Certificate Manager y le damos a agregar
+
 ![image](https://github.com/user-attachments/assets/40590d84-a8ae-4bd4-a9fc-947e5621aa7b)
 
 ![image](https://github.com/user-attachments/assets/10abd077-9dc7-42db-97f7-3e3212b1172a)
 
+Luego iriamos a crear el certificado del servidor OpenVPN, que eso se encuentra en System - Certificates y lo que haremos serà agregar un certificado
+Y luego lo que haremos será configurar el servidor de OpenVPN, que se encuentra en Servers, y hacemos la misma configuración que nos comento Alina en el punkymo para poder hacerlo de la forma correcta
 
 
 
