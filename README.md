@@ -1584,7 +1584,7 @@ Y también revisamos el log.
 
 Automatización del Proceso de Backup
 
-Con crontab ajustamos a nuestro gusto la automatización del backup, agregando esta línea generamos un backup diario a las 2 AM y otro incremental a las 3 AM. 
+Ahora con el crontab, lo que haremos será ajustar  a nuestro gusto la automatización del backup, agregando esta línea generamos un backup diario a las 2 AM y otro incremental a las 3 AM. 
 Sabemos que no es la mejor distribución de días para hacer backups pero hemos puesto este como ejemplo rápido para no darle muchas vueltas.
 
 0 2 * * * /usr/bin/rsync -avz /datos/ /backup/completo/
