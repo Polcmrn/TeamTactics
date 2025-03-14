@@ -1423,6 +1423,7 @@ Crear la CA (Autoridad de Certificación)
 
 Ahora creamos la CA, que es una entidad confiable responsable de emitir y revocar certificados digitales utilizados para transacciones y firmas electrónicas, entonces vamos a System - Certificate Manager y le damos a agregar
 
+
 ![image](https://github.com/user-attachments/assets/40590d84-a8ae-4bd4-a9fc-947e5621aa7b)
 
 ![image](https://github.com/user-attachments/assets/10abd077-9dc7-42db-97f7-3e3212b1172a)
@@ -1643,8 +1644,20 @@ xmpp és abierto y flexible, lo que significa que se puede adaptar y utilizar en
 
 Pidgin es un programa de mensajería instantánea que permite chatear con amigos a través de diferentes servicios y soporta múltiples redes al mismo tiempo.
 
-### Otras alternativas para mensajería instantánea
+### Alternativas para mensajería instantánea
 
+
+### Uso de los puertos:  5222, 5223, 5280, 5443, 5269
+
+  -5222:  Usado para la comunicación de cliente a servidor en XMPP. Es el puerto estándar para que los clientes XMPP
+
+  -5223:  Usado para comunicación de cliente a servidor en XMPP, pero con conexiones cifradas mediante SSL
+
+  -5280:  Este puerto es usado para conexiones HTTP a través de la interfaz de administración del servidor XMPP, o en algunos casos, para servicios de mensajería web 
+
+  -5443:  Usado para la comunicación de clientes con servidores XMPP mediante conexiones seguras a través de WebSockets. 
+
+  -5269:  Usado para la comunicación entre servidores XMPP y es el puerto es estándar para la conexión de servidores XMPP que se utilizan para intercambiar información y mensajes entre diferentes servidores
 
 
  
