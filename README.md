@@ -1699,11 +1699,13 @@ Entonces si vamos a Virtual Hosts y vamos Users, se veran los usuarios que hemos
 
 ![image](https://github.com/user-attachments/assets/b73c32db-d965-466a-9f1b-111ee448baa0)
 
-Ahora accedemos a pidgin en las 2 Ubuntus 
 ![image](https://github.com/user-attachments/assets/07d4cc1c-5bce-4e1f-82f6-889a0be785f3)
+
+Ahora accedemos a pidgin en las 2 Ubuntus y primero de todo vamos añadir las cuentas para poder enviar mensajes entre quim y pol, entonces una vez hecho esto y poner el dominio , le damos añadir.
 
 ![image](https://github.com/user-attachments/assets/6d8bea69-a946-4312-ab08-993a00b7b0c2)
 
+Ahora una vez hecho todo, aqui mostramos una captura de en las 2 ubuntus que los 2 usuarios se pueden enviar mensajes y comunicar de forma correcta, como se puede ver en la captura de abajo
 ![image](https://github.com/user-attachments/assets/6d337f5f-480c-4828-9a42-ae86ae176982)
 
 
