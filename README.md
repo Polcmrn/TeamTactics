@@ -1667,6 +1667,7 @@ sudo apt install ejabberd -y
 
 Ahora vamos a entrar a : sudo nano /etc/ejabberd/ejabberd.yml
 Y añadimos el dominio del servidor al host, que el nuestro es soterasdns.soterasdns.local
+El dominio es este, ya que gerard nos presto su maquina de DNS
 
  ![image](https://github.com/user-attachments/assets/6836f18a-a386-4490-9b71-489f69b8840c)
 
@@ -1697,6 +1698,10 @@ Ahor despues de esto si ponemos si ponemos la IP la 192.168.6.100 y vamos al nav
 ![image](https://github.com/user-attachments/assets/a4addc0f-7fe9-404c-b301-6ca9a1469a35)
 
 Entonces si vamos a Virtual Hosts y vamos Users, se veran los usuarios que hemos creado antes y que se puede ver en la captura de antes
+
+Que son:
+-admin: Como administrador
+-users:  Quim y Pol
 
 ![image](https://github.com/user-attachments/assets/b73c32db-d965-466a-9f1b-111ee448baa0)
 
