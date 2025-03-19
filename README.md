@@ -1660,7 +1660,35 @@ Pidgin es un programa de mensajería instantánea que permite chatear con amigos
   -5269:  Usado para la comunicación entre servidores XMPP y es el puerto es estándar para la conexión de servidores XMPP que se utilizan para intercambiar información y mensajes entre diferentes servidores
 
 
- 
+ ![image](https://github.com/user-attachments/assets/6836f18a-a386-4490-9b71-489f69b8840c)
+
+ ![image](https://github.com/user-attachments/assets/ed9b6cf5-f704-40a4-aaba-3d585419d222)
+
+![image](https://github.com/user-attachments/assets/8bcace50-e54e-454e-893f-919596100afa)
+
+![image](https://github.com/user-attachments/assets/2807c1ec-ca2a-4ba3-a5cd-55589d9fb88b)
+
+![image](https://github.com/user-attachments/assets/bd54147e-c61d-43d3-9ae8-fd2adf88f15f)
+
+![image](https://github.com/user-attachments/assets/db92587c-71c9-4260-bb35-2a082ad40755)
+
+![image](https://github.com/user-attachments/assets/a4addc0f-7fe9-404c-b301-6ca9a1469a35)
+
+![image](https://github.com/user-attachments/assets/b73c32db-d965-466a-9f1b-111ee448baa0)
+
+![image](https://github.com/user-attachments/assets/07d4cc1c-5bce-4e1f-82f6-889a0be785f3)
+
+![image](https://github.com/user-attachments/assets/6d8bea69-a946-4312-ab08-993a00b7b0c2)
+
+![image](https://github.com/user-attachments/assets/6d337f5f-480c-4828-9a42-ae86ae176982)
+
+
+
+
+
+
+
+
  </details>
 
  
