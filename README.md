@@ -1659,23 +1659,47 @@ Pidgin es un programa de mensajería instantánea que permite chatear con amigos
 
   -5269:  Usado para la comunicación entre servidores XMPP y es el puerto es estándar para la conexión de servidores XMPP que se utilizan para intercambiar información y mensajes entre diferentes servidores
 
+### INSTALACIÓN
+
+Primero de todo instalamos el ejabber con:
+
+sudo apt install ejabberd -y
+
+Ahora vamos a entrar a : sudo nano /etc/ejabberd/ejabberd.yml
+Y añadimos el dominio del servidor al host, que el nuestro es soterasdns.soterasdns.local
 
  ![image](https://github.com/user-attachments/assets/6836f18a-a386-4490-9b71-489f69b8840c)
 
+Y ahora  vamos a dar permisos de administrador al usuario admin, que es el nombre de nuestro administrador
+
  ![image](https://github.com/user-attachments/assets/ed9b6cf5-f704-40a4-aaba-3d585419d222)
+
+Ahora creamos un usuario administrador del sistema: con el nombre admind, luego el dominio, que es soterasdns.soterasdns.local y la contraseña que es admin
 
 ![image](https://github.com/user-attachments/assets/8bcace50-e54e-454e-893f-919596100afa)
 
+Y aqui vemos todos los nuestros usuarios a parte del admin , que son Quim y Pol
+
 ![image](https://github.com/user-attachments/assets/2807c1ec-ca2a-4ba3-a5cd-55589d9fb88b)
+
+Ahora dentro de las ubuntus hemos de instalar pidgin 
 
 ![image](https://github.com/user-attachments/assets/bd54147e-c61d-43d3-9ae8-fd2adf88f15f)
 
+Y accedemos dentro de las 2 ubuntus a /etc/hosts.
+Y ponemos la IP de la MV DNS y el dominio de antes, que es el soterasdns.soterasdns.local
+
 ![image](https://github.com/user-attachments/assets/db92587c-71c9-4260-bb35-2a082ad40755)
+
+Ahor despues de esto si ponemos si ponemos la IP la 192.168.6.100 y vamos al navegador ya podremos acceder a ejabberd
 
 ![image](https://github.com/user-attachments/assets/a4addc0f-7fe9-404c-b301-6ca9a1469a35)
 
+Entonces si vamos a Virtual Hosts y vamos Users, se veran los usuarios que hemos creado antes y que se puede ver en la captura de antes
+
 ![image](https://github.com/user-attachments/assets/b73c32db-d965-466a-9f1b-111ee448baa0)
 
+Ahora accedemos a pidgin en las 2 Ubuntus 
 ![image](https://github.com/user-attachments/assets/07d4cc1c-5bce-4e1f-82f6-889a0be785f3)
 
 ![image](https://github.com/user-attachments/assets/6d8bea69-a946-4312-ab08-993a00b7b0c2)
