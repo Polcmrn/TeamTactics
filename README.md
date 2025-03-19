@@ -1683,6 +1683,7 @@ Y aqui vemos todos los nuestros usuarios a parte del admin , que son Quim y Pol
 ![image](https://github.com/user-attachments/assets/2807c1ec-ca2a-4ba3-a5cd-55589d9fb88b)
 
 Ahora dentro de las ubuntus hemos de instalar pidgin 
+Ponemos: sudo apt install pidgin
 
 ![image](https://github.com/user-attachments/assets/bd54147e-c61d-43d3-9ae8-fd2adf88f15f)
 
