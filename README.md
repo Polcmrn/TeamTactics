@@ -1706,6 +1706,7 @@ Ahora accedemos a pidgin en las 2 Ubuntus y primero de todo vamos añadir las cu
 ![image](https://github.com/user-attachments/assets/6d8bea69-a946-4312-ab08-993a00b7b0c2)
 
 Ahora una vez hecho todo, aqui mostramos una captura de en las 2 ubuntus que los 2 usuarios se pueden enviar mensajes y comunicar de forma correcta, como se puede ver en la captura de abajo
+
 ![image](https://github.com/user-attachments/assets/6d337f5f-480c-4828-9a42-ae86ae176982)
 
 
