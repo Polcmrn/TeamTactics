@@ -701,7 +701,7 @@ Esta será mas o menos nuestra arquitectura, no es definitivo pero por ahora es 
    Esquema de Conexiones🖧
   </summary>
 
-![image](https://github.com/user-attachments/assets/0a819f44-6860-4f22-acc8-d69b5c1ac519)
+![image](https://github.com/user-attachments/assets/fe1754c7-bb9f-49b0-aad5-28bc79a0d82a)
 
 </details> 
 
