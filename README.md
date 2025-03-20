@@ -718,7 +718,8 @@ Esta es nuetra base de datos, es la misma que la del primer proyecto pero con pe
 
 Si tenemos más tiempo alomejor podemos añadir alguna tabla más a la base de datos, pero por ahora es lo que tenemos
 
-![image](https://github.com/user-attachments/assets/c77022c7-f9fa-4e4f-b08c-578abd2a24fb)
+![image](https://github.com/user-attachments/assets/ebfed1b1-f2a8-4a6b-af22-dba2dc718b2d)
+
 </details> 
 
 
