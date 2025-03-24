@@ -1387,12 +1387,36 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
 
 ![image](https://github.com/user-attachments/assets/42dd639e-1060-4246-af8f-a544716b9faa)
 
+#### Teoria Psense
+
+La primera interfaz se conectará a la WAN (salida hacia Internet), mientras que la segunda se destinará a la LAN (conexión con otras máquinas virtuales del laboratorio):
+
+Adaptador puente para la WAN: Se conecta a la red física del host, permitiendo que pfSense obtenga una dirección IP del router de Internet. Esto es crucial para que pfSense actúe como firewall y router, gestionando el tráfico entre la red interna (LAN) y la externa (Internet).
+
+Red NAT para la LAN: Se utiliza para permitir la conexión entre las máquinas virtuales dentro de la red interna. La tecnología NAT traduce direcciones IP privadas a públicas, lo que es esencial para conservar las direcciones IPv4.
+
+Abajo de esto se vera las capturas de las IPs de las 2 interfaces
+
+QUE ES Psense?
+
+
+pfSense es un firewall y router basado en FreeBSD, ampliamente utilizado en entornos empresariales y redes domésticas avanzadas. Se destaca por su flexibilidad, seguridad y facilidad de configuración. Algunas de sus principales características incluyen:
+
+Firewall y NAT: Reglas avanzadas de filtrado y traducción de direcciones.
+VPN: Soporte para OpenVPN e IPsec, permitiendo conexiones seguras desde el exterior.
+QoS y Traffic Shaping: Control del tráfico para priorizar servicios. Soporte que permite establecer límites de ancho de banda por IP o red.
+Sistema de detección de intrusos (IDS/IPS) con Snort o Suricata.Integración con Snort o Suricata como sistemas de detección y prevención de intrusiones.
+Permitiendo monitorear y bloquear tráfico malicioso en tiempo real
+Portal Cautivo: Control de acceso a la red con autenticación.
+
+
 #### Instalación del Firewall
 
 Una vez que pfSense esté instalado, se te pedirá que configures las interfaces de red, como WAN y LAN.
 
 - 100.77.20.74 como red WAN, que es la red donde podremos acceder en el navegador
 - 192.168.1.2 como red LAN, que es la red interna de la máquina
+
 
 ![image](https://github.com/user-attachments/assets/ae8774f5-dc22-45b1-8e69-39255aa3630e)
 
