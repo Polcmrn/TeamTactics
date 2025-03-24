@@ -1507,8 +1507,6 @@ También suele haber un área con gráficos o tablas que muestran el tráfico de
 
 
 
-![image](https://github.com/user-attachments/assets/b95c8b3c-08c2-4403-8fb9-6f52d1fbc709)
-
 Instalar el plugin OpenVPN client
 
 Hemos empezando descargando el paquete que se llama openvpn-client-export que se encuentra en System-Package
