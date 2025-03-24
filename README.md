@@ -1389,27 +1389,123 @@ Al implementarlas en nuestro router nos permitirá configurar políticas de segu
 
 #### Instalación del Firewall
 
-Bueno después de hacer el procedimiento que hemos realizado como lo ponia en el punkymo hemos llegado a esta apartado, donde podemos ver nuestras 2 redes:
+Una vez que pfSense esté instalado, se te pedirá que configures las interfaces de red, como WAN y LAN.
 
 - 100.77.20.74 como red WAN, que es la red donde podremos acceder en el navegador
 - 192.168.1.2 como red LAN, que es la red interna de la máquina
 
 ![image](https://github.com/user-attachments/assets/ae8774f5-dc22-45b1-8e69-39255aa3630e)
 
+Para acceder a la interfaz web de administración de pfSense desde cualquier navegador, primero debemos deshabilitar temporalmente el firewall. Para ello, dentro de pfSense, seleccionamos la opción 8 (Shell) y ejecutamos el siguiente comando:
+
+pfctl -d: Este comando desactiva el firewall de pfSense de forma temporal, permitiendo el acceso a la GUI sin restricciones.
+
+![image](https://github.com/user-attachments/assets/775212c2-cbd8-4107-a3c8-86cb75470a8a)
+
+Ahora podemos acceder a la interfaz web de pfSense aunque el navegador pueda mostrar una advertencia 
+
+![image](https://github.com/user-attachments/assets/1b827a79-12af-4d7d-b7da-7117464aee55)
+
+
 Una vez ya hemos configurado todo, si vamos al navegador y ponemos la IP que he dicho antes, osea la 100.77.20.74 ya podremos ver la página de pfsense para asi nosotros poder acceder
 
 ![image](https://github.com/user-attachments/assets/94e0f486-0f0b-4ed3-be72-698a9bd73715)
 
-Una vez ya dentro de pfsense, empezamos a configurar todo sobre pfense y básicamente hemos seguido el paso a paso de la configuración del punkymo que es lo que teniamos que seguir para poder realizar todo el procedimiento y entonces ahora pondremos todas las capturas realizadas y completadas para poder completar toda la instalación del pfsense
+Ahora podemos iniciar sesión en la interfaz web de pfSense utilizando las credenciales predeterminadas:
+
+Usuario: admin
+Contraseña: pol
+
+Accederemos a la interfaz web introduciendo https://http://100.77.20.74/ en el navegador, usando "admin" como usuario y "pol"
 
 Esta es la página principal de pfsense como se ve osea la pagina de bienvenida
 
 ![image](https://github.com/user-attachments/assets/3b5407a1-0afa-4ae9-9216-9b3b691f3bd4)
 
-Ahora aquí tenemos que poner algo de información general para seguir con su configuración
+Aquí configuramos el hostname (nombre del equipo), el dominio y los servidores DNS.
+
+Hostname: Nombre que identificará a pfSense en la red. Debe comenzar con una letra y solo puede contener letras, números o guiones
+
+Domain: Dominio al que pertenece el firewall (opcional, útil en redes empresariales).
+
+Servidores DNS: Direcciones de los servidores DNS que pfSense utilizará para resolver nombres de dominio. 
+
 
 
 ![image](https://github.com/user-attachments/assets/7b18463d-0466-4a46-bb6c-40434ea937b5)
+
+En esta sección, se configuran el Time Server Hostname y la Zona Horaria (Time Zone).
+Por defecto, pfSense selecciona un servidor de tiempo adecuado y la zona horaria predeterminada.
+
+![image](https://github.com/user-attachments/assets/4b05de62-059a-414c-93e1-40338e089e53)
+
+hacemos clic en "Next" para continuar con la configuración.
+Si no es necesario realizar ajustes en la configuración puedes simplemente avanzar al siguiente paso sin hacer cambios
+
+![image](https://github.com/user-attachments/assets/30dccf02-3241-4982-8c6d-03d8e1948f79)
+
+Ahora configuramos la interfaz LAN, donde definimos la dirección IP que tendrá pfSense dentro de la red interna.
+
+Aquí podemos establecer una IP estática para el firewall, que servirá como puerta de enlace para los dispositivos de la red local.
+
+![image](https://github.com/user-attachments/assets/cb4ce82e-d3a1-4836-8c8c-a29a49b9c8f4)
+
+En este paso, podemos cambiar la contraseña de acceso a la interfaz web de pfSense.
+
+Una vez realizados los cambios, avanzamos para completar la configuración.
+
+-pol
+-pol
+
+![image](https://github.com/user-attachments/assets/eade089a-c756-44f8-8abd-92e05612c9f7)
+
+Hacemos clic en "Reload" para que pfSense reinicie con la nueva configuración. Después de este paso, ya estaremos listos para acceder a la interfaz web y seguir con la configuración avanzada.
+
+![image](https://github.com/user-attachments/assets/98e24467-d93b-433c-a19e-cc16dfda5a06)
+
+Ya tenemos pfense configurado
+
+![image](https://github.com/user-attachments/assets/9530651c-8a38-4515-bfc1-05d9a226525a)
+
+La pantalla principal o dashboard de pfSense muestra un resumen general del estado del sistema y proporciona acceso rápido a las configuraciones más importantes.
+
+1. Barra de Navegación Superior
+En la parte superior de la página, encontrarás una barra de navegación con las opciones principales:
+
+System: Configuración del sistema, incluyendo reinicios y actualizaciones.
+Interfaces: Configuración de las interfaces de red, como WAN y LAN.
+Firewall: Reglas de firewall, NAT y configuraciones relacionadas.
+Services: Servicios adicionales como VPN, DHCP, DNS, etc.
+Diagnostics: Herramientas de diagnóstico y logs.
+
+2. Resumen del Estado del Sistema
+Debajo de la barra de navegación, se muestra una vista general del estado del sistema:
+
+Estado de las interfaces: Información sobre las interfaces WAN y LAN, incluyendo si están activas y su dirección IP asignada.
+Uso de CPU y memoria: Un gráfico que muestra el uso actual de CPU y memoria del sistema.
+Estado del Firewall: Si el firewall está activo o si hay alguna alerta relevante.
+
+3. Notificaciones y Alertas
+En la parte superior o inferior de la página, puede haber un área para notificaciones y alertas. Aquí se muestran advertencias de seguridad, actualizaciones disponibles, o problemas de configuración.
+
+4. Accesos Rápidos a Funciones Comunes
+En el centro o en el lateral, encontrarás accesos rápidos a tareas comunes, como:
+
+Reiniciar el sistema.
+Ver los logs del sistema.
+Ver las conexiones activas o estadísticas de tráfico.
+
+5. Estadísticas de Tráfico y Conexiones
+También suele haber un área con gráficos o tablas que muestran el tráfico de la red, las conexiones activas, la velocidad de descarga y carga, etc.
+
+
+![image](https://github.com/user-attachments/assets/2a01815e-a5a3-4502-bbd8-e86d30d97846)
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/b95c8b3c-08c2-4403-8fb9-6f52d1fbc709)
 
