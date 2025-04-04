@@ -2232,6 +2232,7 @@ ffmpeg -i video_original.mp4 -vcodec libx265 video_265.mkv
 ¿Qué diferencias hay?
 
 h264 - codec de video que usa la librería libx264
+
 h265 - codec de video que usa la librería libx265
 
 H.264 (libx264) es ideal para la compatibilidad general y la calidad estable, especialmente en resoluciones 1080p o inferiores.
