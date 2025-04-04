@@ -1840,6 +1840,9 @@ Ahora una vez hecho todo, aqui mostramos una captura de en las 2 ubuntus que los
 
 ![image](https://github.com/user-attachments/assets/4f1d87d9-525f-4560-a0b8-75b7138a4ebe)
 
+
+</details> 
+
 ## 16.Video 📹
 
 <details>
