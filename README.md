@@ -2169,6 +2169,75 @@ Ideal para archivos de video de alta calidad, almacenamiento de películas y pro
 
 Usado frecuentemente para archivos de cine en alta definición.
 
+## PRACTICA 
+
+sudo apt update && sudo apt upgrade
+sudo apt-get install ffmpeg
+
+![image](https://github.com/user-attachments/assets/98e01353-1607-45e2-bcb0-a84a720162d8)
+
+![image](https://github.com/user-attachments/assets/1de6f560-430c-4c8f-8436-ff46ac124421)
+
+
+YT-DLP es un fork de youtube-dl, que permite la descarga de contenido multimedia desde diversas fuentes en línea de un modo sencillo y eficiente.
+
+Descargamos la aplicación desde github y lo ubicará en  /usr/local/bin/ haciéndolo accesible desde  cualquier directorio del sistema.
+
+sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+
+![image](https://github.com/user-attachments/assets/e4668eee-87ae-4df0-89b5-3e7fbf40825f)
+
+Para hacer que yt-dlp sea ejecutable, tenemos que darle permisos de ejecución:
+
+sudo chmod a+rx /usr/local/bin/yt-dlp
+
+![image](https://github.com/user-attachments/assets/6627e515-6f62-46a8-ad71-fe9dd7c53d15)
+
+Descarga de videos 
+
+Si queremos ver los formatos disponibles para el vídeo podemos usar la opción «-F»
+
+sudo yt-dlp -F https://www.youtube.com/watch?v=zrnCBt2q-dY 
+
+![image](https://github.com/user-attachments/assets/b4ab7e04-1dbe-4efd-a4b0-eef09c364f0b)
+
+Para descargar uno de los formatos posibles:
+
+sudo yt-dlp -f ID https://www.youtube.com/watch?v=zrnCBt2q-dY 
+
+![image](https://github.com/user-attachments/assets/48d88215-d27c-4c2f-85cd-ff5922038461)
+
+Si quieres descargar el video con la mejor resolución:
+
+yt-dlp -f bv*+ba  https://www.youtube.com/watch?v=bH3NFlkui4Y 
+
+![image](https://github.com/user-attachments/assets/0f384836-57fb-459d-9d6e-5812038dea8a)
+
+![image](https://github.com/user-attachments/assets/b92d8a40-a357-4972-ac0d-06b248fc7af6)
+
+Convierte el video .mp4 en .mkv pero con las opciones siguentes:
+
+ffmpeg -i video_original.mp4 -vcodec libx264 video_264.mkv
+
+![image](https://github.com/user-attachments/assets/7667888b-80f8-491b-ad33-488936263664)
+
+![image](https://github.com/user-attachments/assets/c9cd149c-0ead-41e7-a962-910d1f7a5a99)
+
+ffmpeg -i video_original.mp4 -vcodec libx265 video_265.mkv
+
+![image](https://github.com/user-attachments/assets/c921ee62-badb-42f4-9d10-1644bca7b8d7)
+
+![image](https://github.com/user-attachments/assets/e2bc6a7a-e98e-4cf0-b9bc-588684070297)
+
+¿Qué diferencias hay?
+
+h264 - codec de video que usa la librería libx264
+h265 - codec de video que usa la librería libx265
+
+H.264 (libx264) es ideal para la compatibilidad general y la calidad estable, especialmente en resoluciones 1080p o inferiores.
+
+H.265 (libx265) es mejor para la compresión y la calidad en resoluciones más altas (como 4K) y en situaciones donde el ahorro de espacio es crucial sin perder demasiada calidad.
+
 
 </details> 
 
