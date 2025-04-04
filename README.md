@@ -1855,6 +1855,7 @@ Ahora una vez hecho todo, aqui mostramos una captura de en las 2 ubuntus que los
 Busca información acerca de los siguientes protocolos en cuanto a: funcionalidades principales, latencia, red, seguridad y compatibilidad?
 
 RTMP 
+
 El Protocolo de Mensajería en Tiempo Real (RTMP) es un estándar desarrollado por Adobe para la transmisión en vivo de audio, video y datos a través de Internet. A continuación, se analizan sus características clave en términos de funcionalidades principales, latencia, red, seguridad y compatibilidad:
 1. Funcionalidades principales:
 Transmisión en vivo: RTMP permite la entrega en tiempo real de contenido multimedia desde el emisor hasta el receptor, facilitando interacciones en directo.
@@ -1867,9 +1868,11 @@ Soporte para códecs: Es compatible con códecs de video como H.264 y de audio c
 
 
 2. Latencia:
+   
 RTMP proporciona una latencia baja, generalmente entre 3 y 5 segundos, lo que lo hace adecuado para aplicaciones que requieren interactividad en tiempo real
 
-3. Red:
+4. Red:
+   
 Protocolo de transporte: Funciona sobre TCP (Protocolo de Control de Transmisión), asegurando la entrega confiable de los datos.
 
 
@@ -1877,6 +1880,7 @@ Ancho de banda: Aunque eficiente, el uso de RTMP puede ser intensivo en ancho de
 
 
 4. Seguridad:
+   
 Cifrado: RTMP en su forma básica no incorpora cifrado, lo que puede exponer el contenido a interceptaciones. Sin embargo, variantes como RTMPS implementan cifrado SSL/TLS para proteger las transmisiones.
 
 
@@ -1884,13 +1888,17 @@ Autenticación: Ofrece mecanismos básicos de autenticación, pero no cuenta con
 
 
 5. Compatibilidad:
+   
 Plataformas y dispositivos: Aunque ampliamente soportado en plataformas y software de streaming, la compatibilidad con dispositivos modernos ha disminuido debido al desuso del reproductor Flash, originalmente asociado con RTMP.
 
 
 Software y hardware: Muchos servidores y aplicaciones de streaming aún admiten RTMP, pero su uso ha disminuido en favor de protocolos más recientes y adaptativos.
 
 2. HLS (HTTP Live Streaming)
+
+   
 Funcionalidades principales:
+
 Transmisión adaptativa: HLS es un protocolo de transmisión de video basado en HTTP desarrollado por Apple. Utiliza segmentación en pequeños archivos de video (por lo general, en segmentos de 10 segundos) y un archivo de lista de reproducción (M3U8) para gestionar las solicitudes de video.
 
 
@@ -1898,21 +1906,27 @@ Adaptación de calidad: Permite la transmisión de video con diferentes calidade
 
 
 Latencia:
+
 Alta latencia: La latencia en HLS es generalmente más alta debido a la segmentación de video y el buffering en el cliente. Puede estar entre 10 a 30 segundos o más, dependiendo de los segmentos y la red.
 
 
 Red:
+
 Basado en HTTP: HLS se adapta bien a redes basadas en HTTP/HTTPS, lo que lo hace compatible con las infraestructuras web comunes y redes de entrega de contenido (CDNs).
 
 
-Escalabilidad: Funciona bien con redes de distribución de contenido (CDNs), lo que facilita la escalabilidad global.
+Escalabilidad: 
+
+Funciona bien con redes de distribución de contenido (CDNs), lo que facilita la escalabilidad global.
 
 
 Seguridad:
+
 Cifrado: HLS puede ser protegido mediante cifrado AES para asegurar la transmisión de video. Además, puede integrar autenticación y control de acceso, como el uso de tokens para restringir el acceso.
 
 
 Compatibilidad:
+
 Compatibilidad amplia: Es compatible con una gran cantidad de dispositivos y plataformas, como iOS, Android, navegadores web, Smart TVs, etc.
 
 
@@ -1920,7 +1934,9 @@ Limitaciones: La latencia más alta es una de sus principales limitaciones, lo q
 
 
 3. RTSP (Real-Time Streaming Protocol)
+   
 Funcionalidades principales:
+
 Control de transmisión en tiempo real: RTSP es un protocolo de control que permite la transmisión de medios en tiempo real, como video y audio. Utiliza comandos como PLAY, PAUSE, STOP, SEEK, etc., para controlar la reproducción de medios.
 
 
@@ -1928,10 +1944,12 @@ Orientado a transmisión en vivo: Aunque no es un protocolo de transporte en sí
 
 
 Latencia:
+
 Baja latencia: RTSP tiene menor latencia en comparación con HLS. Dependiendo de la red y la configuración, la latencia puede ser de solo unos pocos segundos (1-3 segundos), lo que lo hace adecuado para transmisiones en vivo interactivas.
 
 
 Red:
+
 Redes TCP/UDP: RTSP puede funcionar tanto sobre TCP como sobre UDP. Cuando se utiliza sobre UDP (a través de RTP), la latencia es más baja, pero puede haber problemas de calidad de transmisión en redes inestables.
 
 
@@ -1939,10 +1957,12 @@ No tan escalable: Aunque RTSP funciona bien para transmisiones en tiempo real, n
 
 
 Seguridad:
+
 Limitada seguridad: RTSP en su versión básica no tiene características de seguridad integradas como el cifrado. Sin embargo, puede usarse sobre protocolos seguros como HTTPS o utilizar transporte mediante TLS/SSL para proteger la transmisión.
 
 
 Compatibilidad:
+
 Compatibilidad moderada: Si bien RTSP es soportado por muchas cámaras IP y dispositivos de videovigilancia, su compatibilidad en dispositivos móviles y navegadores web es limitada.
 
 
@@ -1951,7 +1971,9 @@ Requiere software especial: Para reproducir flujos RTSP en navegadores, generalm
 
 
 4. SRT (Secure Reliable Transport)
+   
 Funcionalidades principales:
+
 Transporte confiable y seguro: SRT es un protocolo de transmisión de video en tiempo real que ofrece una capa de transporte segura y confiable, incluso en redes no confiables como internet público. Utiliza corrección de errores y reintentos para garantizar la entrega de paquetes.
 
 
@@ -1959,10 +1981,12 @@ Optimización de la red: Se adapta a condiciones de red cambiantes, como la late
 
 
 Latencia:
+
 Baja latencia: SRT está diseñado para ofrecer latencia baja, comparable a la de RTSP, pero con la ventaja de ser más robusto en condiciones de red inestables. La latencia puede ser de 1-2 segundos, aunque varía dependiendo de la red.
 
 
 Red:
+
 Optimización en redes inestables: SRT es especialmente útil en redes con alta latencia, pérdidas de paquetes o conexiones inestables, ya que incluye mecanismos de corrección de errores y ajuste dinámico de la tasa de transmisión.
 
 
@@ -1970,10 +1994,12 @@ Mayor resistencia: En comparación con HLS y RTSP, SRT es más resistente a la f
 
 
 Seguridad:
+
 Cifrado y autenticación: SRT incluye cifrado AES de 128 bits para asegurar las transmisiones y mecanismos de autenticación para verificar las conexiones, lo que lo hace más seguro que RTSP y HLS por defecto.
 
 
 Compatibilidad:
+
 Compatibilidad creciente: SRT está ganando soporte en una variedad de plataformas y dispositivos de transmisión en vivo. Muchos servicios de CDN y plataformas de transmisión (como Wowza, Haivision, etc.) lo soportan, pero su adopción no es tan universal como HLS.
 
 
@@ -1983,6 +2009,8 @@ Nuevas soluciones: Aunque SRT está creciendo rápidamente, todavía no es tan c
 
 
 ¿Qué es ffmpeg? 
+
+
 FFmpeg es una herramienta de software de código abierto que se utiliza para procesar archivos multimedia, como video y audio. Es muy popular debido a su capacidad para convertir, grabar, editar y transmitir archivos en casi cualquier formato.
 Algunas de las funciones más comunes de FFmpeg incluyen:
 Conversión de formatos: Puedes cambiar un archivo de video o audio de un formato a otro (por ejemplo, de .mp4 a .avi, o de .mp3 a .ogg).
@@ -2052,6 +2080,7 @@ archivo.mkv: Especifica el archivo de salida (MKV).
 
 
 Ventajas:
+
 Sin pérdida de calidad: No se recodifica, por lo que no hay cambios en el contenido ni pérdida de calidad.
 
 
@@ -2064,6 +2093,7 @@ Compatibilidad: No todos los dispositivos o reproductores soportan MKV tan ampli
 
 
 ¿Qué características tienen los MP4 y los MKV?
+
 MP4 (MPEG-4 Part 14)
 Compatibilidad:
 
@@ -2105,13 +2135,6 @@ Es el formato de contenedor más utilizado para contenido comprimido.
 
 
 MKV (Matroska Video)
-Compatibilidad:
-
-
-	Aunque más flexible, la compatibilidad de MKV no es tan amplia como la de MP4 en algunos 		dispositivos, como teléfonos móviles y ciertos reproductores de hardware (aunque hay 			reproductores que lo soportan sin problemas, como VLC).
-
-
-		Ideal para almacenamiento y distribución en PC.
 
 
 Códecs soportados:
