@@ -2348,15 +2348,16 @@ rtmp {
 	    record off;
      
 	 }
+
   
-   }
-   
-} 
+ 
 
 
 ![image](https://github.com/user-attachments/assets/d7db9e76-7e11-45ff-b5f5-5adb25b74d31)
 
-Y ponemos esto:  ffmpeg -re -i video.mp4 -c:v copy -c:a aac -ar 44100 -ac 1 -f flv 
+Y ponemos esto:
+	
+ ffmpeg -re -i video.mp4 -c:v copy -c:a aac -ar 44100 -ac 1 -f flv 
 
 Y vamos al multimedia y ponemos:
 
