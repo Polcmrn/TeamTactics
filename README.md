@@ -2378,13 +2378,20 @@ Uso para Streaming:
 
 
 Configurar Escenas y Fuentes: Creas "Escenas" que representan lo que quieres mostrar. Dentro de cada escena, añades "Fuentes": tu cámara web, la captura de una pantalla, un juego, imágenes, texto, un navegador web, etc. Puedes organizar varias fuentes en una escena.
+
 Configurar Audio: En el "Mezclador de Audio", ajustas los niveles de tus micrófonos, el audio del escritorio, etc. Puedes añadir filtros como supresión de ruido.
+
 Configurar la Salida (Codificación): Vas a Archivo > Ajustes > Salida. En el modo "Sencillo" puedes elegir un bitrate de video y el codificador (x264 - software, o NVENC/AMF/QSV si tienes hardware compatible). En modo "Avanzado" tienes más control:
+
 Pestaña Emisión: Seleccionas el Codificador de video (H.264 es lo estándar), Control de frecuencia (CBR es común para streaming), Tasa de bits (ej: 3000-6000 Kbps para 1080p, depende de tu subida), Intervalo de fotogramas clave (usualmente 2 s), y un Preajuste (calidad vs uso de CPU/GPU). Configuras también el Codificador de audio (AAC) y su Tasa de bits (ej: 128-160 Kbps).
+
 Configurar el Destino (RTMP): Vas a Archivo > Ajustes > Emisión.
+
 Seleccionas el Servicio (ej: Twitch, YouTube - RTMPS, Facebook Live). Si tu servicio está en la lista, a menudo solo necesitas conectar tu cuenta o pegar la Clave de transmisión. El servidor se suele configurar automáticamente.
 Si no está en la lista o usas un servidor propio, seleccionas Personalizado.... Aquí introduces manualmente la URL del Servidor RTMP/RTMPS y la Clave de transmisión que te haya proporcionado tu plataforma.
+
 Iniciar Transmisión: Una vez todo configurado, vuelves a la ventana principal de OBS y haces clic en el botón Iniciar transmisión. OBS se conectará al servidor RTMP y empezará a enviar tu video y audio. Para detenerla, usas el botón Detener transmisión.
+
 Monitorizar: Durante la transmisión, OBS muestra información útil en la barra inferior, como el estado de la conexión, el uso de CPU, si hay fotogramas perdidos (por problemas de red o de rendimiento del PC), y la tasa de bits actual.
 
 
