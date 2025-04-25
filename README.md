@@ -2435,31 +2435,32 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 
 
 2. Primer inicio
-		Abre el navegador y ve a: http://localhost:8096
+	1. Abre el navegador y ve a: http://localhost:8096
 		
-		Sigue el asistente:
+	2. Sigue el asistente:
 		
-		Crea un usuario administrador.
+	-Crea un usuario administrador.
 		
-		Define los idiomas.
+	-Define los idiomas.
 		
-		Añade las rutas a tus carpetas multimedia (películas, series, música).
+	-Añade las rutas a tus carpetas multimedia (películas, series, música).
 		
-		Configura el tipo de biblioteca (películas, TV, música, etc.).
+	-Configura el tipo de biblioteca (películas, TV, música, etc.).
 
 
 3. Administración básica
-		Accede como admin → “Panel de administración”:
 		
-		Usuarios: Añadir o restringir usuarios.
-		
-		Bibliotecas: Agregar o editar rutas multimedia.
-		
-		Transcodificación: Ajustar calidad para streaming remoto.
-		
-		Plugins: Instalar subtítulos, buscadores de metadatos, etc.
-		
-		Red: Permitir acceso externo (requiere redirección de puertos).
+	Desde el Panel de administración puedes:
+
+	👥 Gestionar usuarios.
+
+	📁 Agregar o editar bibliotecas multimedia.
+
+	🔄 Configurar transcodificación.
+
+	🧩 Instalar plugins (metadatos, subtítulos, etc.).
+
+	🌐 Configurar acceso remoto (requiere redirección de puertos o VPN).
 
 **🤜 Jellyfin vs Plex**
 
