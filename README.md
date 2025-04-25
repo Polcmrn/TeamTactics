@@ -2404,22 +2404,26 @@ Monitorizar: Durante la transmisión, OBS muestra información útil en la barra
 
 #### TEORIA
 
-¿Qué es Jellyfin?
+**🧊 ¿Qué es Jellyfin?**
 
- [Jellyfin](https://jellyfin.org) es un **servidor multimedia gratuito y de código abierto** que te permite organizar, gestionar y transmitir tus películas, series, música y fotos desde tu red local o por internet.
+Jellyfin es un servidor multimedia gratuito y de código abierto que te permite organizar, gestionar y transmitir tus películas, series, música y fotos en tu red local o de forma remota. Es una alternativa libre a Plex y Emby.
 
-- 🔓 100% libre, sin funciones bloqueadas por pago.
-- 🖥️ Funciona en Windows, Linux, macOS, Docker y más.
-- 📱 Compatible con navegadores, apps móviles, Smart TV, Roku, etc.
+🔓 100% libre, sin coste ni funciones premium.
 
----
+🖥️ Puedes usarlo en Windows, Linux, macOS, Docker y NAS.
 
-## ⚙️ Guía Rápida de Configuración
+📱 Clientes para navegador, Android, iOS, Smart TV, Roku, etc.
 
-### 1. Instalación
+**⚙️ Breve tutorial: Configuración y administración**
 
-#### 📦 Docker
-```bash
+1. Instalación
+En Windows/Linux/macOS: Descárgalo desde https://jellyfin.org e instálalo.
+
+En Docker:
+
+bash
+Copiar
+Editar
 docker run -d \
   --name jellyfin \
   -v /ruta/config:/config \
@@ -2427,7 +2431,7 @@ docker run -d \
   -p 8096:8096 \
   jellyfin/jellyfin
 
-  
+
 2. Primer inicio
 Abre el navegador y ve a: http://localhost:8096
 
@@ -2441,6 +2445,7 @@ Añade las rutas a tus carpetas multimedia (películas, series, música).
 
 Configura el tipo de biblioteca (películas, TV, música, etc.).
 
+
 3. Administración básica
 Accede como admin → “Panel de administración”:
 
@@ -2453,6 +2458,17 @@ Transcodificación: Ajustar calidad para streaming remoto.
 Plugins: Instalar subtítulos, buscadores de metadatos, etc.
 
 Red: Permitir acceso externo (requiere redirección de puertos).
+
+**🤜 Jellyfin vs Plex**
+
+Característica	Jellyfin	Plex
+Licencia	100% libre y de código abierto	Gratuito con funciones premium
+Precio	Gratis, sin versión de pago	Plex Pass opcional
+Acceso remoto	Manual (puertos o VPN)	Automático (con cuenta Plex)
+Transcodificación HW	Solo con configuración específica	Incluida con Plex Pass
+Plugins y personalización	Alta (open source)	Limitada en versión gratuita
+Facilidad de uso	Algo más técnico	Muy amigable para principiantes
+Privacidad	Total (datos solo locales)	Requiere cuenta, datos en la nube
 
 #### PRACTICA 
 
