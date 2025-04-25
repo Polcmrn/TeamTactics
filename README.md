@@ -2402,11 +2402,11 @@ Monitorizar: Durante la transmisión, OBS muestra información útil en la barra
    JellyFinn🛢️
   </summary>
 
-### TEORIA
+#### TEORIA
 
 
 
-### PRACTICA 
+#### PRACTICA 
 
 
 </details> 
