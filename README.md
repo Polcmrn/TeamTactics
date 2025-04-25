@@ -2508,18 +2508,23 @@ Suricata es útil para:
 
 **Ventajas y Desventajas de Suricata**
 
-| **Ventaja/Desventaja**                 | **Descripción**                                                                                                                                                  |
-|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **💻 Código abierto y gratuito**      | Suricata es completamente **gratis** y accesible para todos. Puedes modificarlo según tus necesidades sin coste adicional.                                       |
-| **⚡ Rendimiento y escalabilidad**    | Está optimizado para manejar grandes volúmenes de tráfico, lo que lo hace ideal para redes **grandes** o **complejas**.                                           |
-| **⏱️ Detección en tiempo real**      | Permite detectar intrusiones mientras suceden, lo que **previene** ataques antes de que causen daños.                                                              |
-| **🌐 Compatible con varios protocolos** | Suricata puede inspeccionar múltiples tipos de tráfico de red, como **HTTP**, **DNS**, **FTP**, entre otros.                                                       |
-| **🔒 Integración con otras herramientas de seguridad** | Suricata puede conectarse con sistemas de gestión de eventos de seguridad (SIEM) para centralizar alertas y registros.                                               |
-| **⚙️ Requiere configuración técnica** | Aunque es poderoso, puede ser más **complejo** de configurar en comparación con otras soluciones comerciales.                                                      |
-| **🔋 Consumo de recursos**           | Dependiendo del volumen de tráfico y las reglas de detección, puede consumir una cantidad significativa de **recursos** del sistema.                             |
-| **❌ Falsos positivos**               | Suricata puede generar alertas que no son amenazas reales, lo que puede requerir tiempo adicional para investigar.                                                  |
-| **🔧 Necesita intervención humana**  | Aunque puede bloquear algunas amenazas, en ocasiones es necesario ajustar las reglas o tomar decisiones manuales para enfrentar ataques avanzados.                |
 
+| **Ventajas**                       | **Descripción**                                                                                             |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **💻 Código abierto y gratuito**   | Suricata es **totalmente gratis** y accesible para todos. No necesitas pagar por licencias ni costos adicionales. |
+| **⚡ Rendimiento y escalabilidad** | Está optimizado para redes **grandes** y con **alto volumen de tráfico**, sin sacrificar el rendimiento.       |
+| **⏱️ Detección en tiempo real**   | Detecta intrusiones en **tiempo real**, lo que permite prevenir ataques antes de que causen daño.              |
+| **🌐 Compatible con varios protocolos** | Es capaz de inspeccionar una amplia variedad de protocolos de red como **HTTP**, **DNS**, **FTP**, entre otros.  |
+| **🔒 Integración con otras herramientas de seguridad** | Se puede integrar con sistemas de **gestión de eventos de seguridad (SIEM)**, facilitando la centralización de alertas. |
+
+<br>
+
+| **Desventajas**                    | **Descripción**                                                                                             |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **⚙️ Requiere configuración técnica** | Ofrece **gran flexibilidad**, pero su configuración es más **compleja** en comparación con soluciones comerciales más fáciles de implementar. |
+| **🔋 Consumo de recursos**         | Puede consumir muchos **recursos** (CPU y RAM) si no se configura adecuadamente o si el tráfico es muy elevado. |
+| **❌ Falsos positivos**            | **Genera alertas falsas** que pueden hacer perder tiempo investigando incidentes que no son reales.            |
+| **🔧 Necesita intervención humana**| Aunque puede bloquear amenazas, **requiere ajustes manuales** y supervisión para enfrentar ataques más complejos. |
 <br>
 
 
