@@ -2460,7 +2460,8 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 
 	🧩 Instalar plugins (metadatos, subtítulos, etc.).
 
-	🌐 Configurar acceso remoto (requiere redirección de puertos o VPN).
+	🌐 Configurar acceso remoto (requiere redirección de puertos o VPN).<br><br><br>
+
 
 **🤜 Jellyfin vs Plex**
 
@@ -2473,6 +2474,8 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 | Plugins y personalización  | Alta (open source)                     | Limitada en versión gratuita         |
 | Facilidad de uso           | Algo más técnico                       | Muy amigable para principiantes      |
 | Privacidad                 | Total (datos solo locales)             | Requiere cuenta, datos en la nube    |
+
+<br><br><br>
 
 ### PRACTICA 
 
