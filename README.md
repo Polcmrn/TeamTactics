@@ -2419,47 +2419,47 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 **⚙️ Breve tutorial: Configuración y administración**
 
 1. Instalación
-En Windows/Linux/macOS: Descárgalo desde https://jellyfin.org e instálalo.
-
-En Docker:
-
-bash
-Copiar
-Editar
-docker run -d \
-  --name jellyfin \
-  -v /ruta/config:/config \
-  -v /ruta/medios:/media \
-  -p 8096:8096 \
-  jellyfin/jellyfin
+		En Windows/Linux/macOS: Descárgalo desde https://jellyfin.org e instálalo.
+		
+		En Docker:
+		
+		bash
+		Copiar
+		Editar
+		docker run -d \
+		  --name jellyfin \
+		  -v /ruta/config:/config \
+		  -v /ruta/medios:/media \
+		  -p 8096:8096 \
+		  jellyfin/jellyfin
 
 
 2. Primer inicio
-Abre el navegador y ve a: http://localhost:8096
-
-Sigue el asistente:
-
-Crea un usuario administrador.
-
-Define los idiomas.
-
-Añade las rutas a tus carpetas multimedia (películas, series, música).
-
-Configura el tipo de biblioteca (películas, TV, música, etc.).
+		Abre el navegador y ve a: http://localhost:8096
+		
+		Sigue el asistente:
+		
+		Crea un usuario administrador.
+		
+		Define los idiomas.
+		
+		Añade las rutas a tus carpetas multimedia (películas, series, música).
+		
+		Configura el tipo de biblioteca (películas, TV, música, etc.).
 
 
 3. Administración básica
-Accede como admin → “Panel de administración”:
-
-Usuarios: Añadir o restringir usuarios.
-
-Bibliotecas: Agregar o editar rutas multimedia.
-
-Transcodificación: Ajustar calidad para streaming remoto.
-
-Plugins: Instalar subtítulos, buscadores de metadatos, etc.
-
-Red: Permitir acceso externo (requiere redirección de puertos).
+		Accede como admin → “Panel de administración”:
+		
+		Usuarios: Añadir o restringir usuarios.
+		
+		Bibliotecas: Agregar o editar rutas multimedia.
+		
+		Transcodificación: Ajustar calidad para streaming remoto.
+		
+		Plugins: Instalar subtítulos, buscadores de metadatos, etc.
+		
+		Red: Permitir acceso externo (requiere redirección de puertos).
 
 **🤜 Jellyfin vs Plex**
 
