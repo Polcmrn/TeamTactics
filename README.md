@@ -2419,9 +2419,9 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 **⚙️ Breve tutorial: Configuración y administración**
 
 1. Instalación
-		En Windows/Linux/macOS: Descárgalo desde https://jellyfin.org e instálalo.
+	En Windows/Linux/macOS: Descárgalo desde https://jellyfin.org e instálalo.
 		
-		En Docker:
+	En Docker:
 		
 		bash
 		Copiar
