@@ -1555,7 +1555,7 @@ Y luego lo que haremos será configurar el servidor de OpenVPN, que se encuentra
 
 </details>
 
-## 14.BACKUP🔥
+## 14.BACKUP🏦
 <details>
   <summary>
    Copias de Seguridad🛡️
@@ -1751,7 +1751,7 @@ Ya tenemos el backup en el Servidor de Ubuntu
 ## 15.Ejabberd🐍
 <details>
 
-  ### Ejabberd
+  ### Ejabberd📘
 
 Ejabberd es una plataforma en tiempo real de código abierto, robusta, escalable y extensible creada con Erlang/OTP, que incluye un servidor XMPP, un agente MQTT y un servicio SIP.
 
@@ -2243,11 +2243,11 @@ H.265 (libx265) es mejor para la compresión y la calidad en resoluciones más a
 </details> 
 
 
-## 17.RTMP
+## 17.RTMP🛢️
 
 <details>
   <summary>
-   RTMP🛢️
+   RTMP🎙️
   </summary>
 
 ### TEORIA
@@ -2395,11 +2395,11 @@ Iniciar Transmisión: Una vez todo configurado, vuelves a la ventana principal d
 Monitorizar: Durante la transmisión, OBS muestra información útil en la barra inferior, como el estado de la conexión, el uso de CPU, si hay fotogramas perdidos (por problemas de red o de rendimiento del PC), y la tasa de bits actual.
 </details> 
 
-## 18.JellyFinn
+## 18.JellyFinn🧩
 
 <details>
   <summary>
-   JellyFinn🧩
+   JellyFinn🎞️
   </summary>
 
 ### TEORIA
