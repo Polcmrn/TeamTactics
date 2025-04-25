@@ -2506,22 +2506,7 @@ Suricata es útil para:
 - **Generación de alertas en tiempo real** ⏰: Informa al administrador de red sobre incidentes de seguridad.
 <br><br>
 
-**Ventajas de Suricata**
-
-1. **💻 Código abierto y gratuito**: Suricata es completamente **gratis** y accesible para todos. Puedes modificarlo según tus necesidades sin coste adicional.
-   
-2. **⚡ Rendimiento y escalabilidad**: Está optimizado para manejar grandes volúmenes de tráfico, lo que lo hace ideal para redes **grandes** o **complejas**.
-
-3. **⏱️ Detección en tiempo real**: Permite detectar intrusiones mientras suceden, lo que **previene** ataques antes de que causen daños.
-
-4. **🌐 Compatible con varios protocolos**: Suricata puede inspeccionar múltiples tipos de tráfico de red, como **HTTP**, **DNS**, **FTP**, entre otros.
-
-5. **🔒 Integración con otras herramientas de seguridad**: Suricata puede conectarse con sistemas de gestión de eventos de seguridad (SIEM) para centralizar alertas y registros.
-<br><br>
-
-**Desventajas de Suricata** ⚠️
-
-**🤔 Ventajas y Desventajas de Suricata**
+**Ventajas y Desventajas de Suricata**
 
 | **Ventaja/Desventaja**                 | **Descripción**                                                                                                                                                  |
 |---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
