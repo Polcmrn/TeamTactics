@@ -2492,8 +2492,51 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 
 ### TEORIA
 
+**¿Qué es Suricata?**
 
-<br><br><br>
+**Suricata** es un sistema de **detección y prevención de intrusiones (IDS/IPS)** de código abierto, diseñado para proteger las redes al **monitorizar el tráfico** y detectar actividades maliciosas. Su objetivo principal es detectar **intrusiones** y **prevenir ataques** en tiempo real, protegiendo así a los sistemas de posibles amenazas cibernéticas.<br><br>
+
+**¿Para qué sirve Suricata?**
+
+Suricata es útil para:
+
+- **Detección de intrusiones** 🕵️‍♂️: Identifica y alerta sobre actividades sospechosas o maliciosas.
+- **Prevención de ataques** 🚫: Bloquea tráfico peligroso antes de que llegue a los sistemas.
+- **Análisis de tráfico de red** 🌐: Inspecciona los datos que pasan por la red para detectar vulnerabilidades.
+- **Generación de alertas en tiempo real** ⏰: Informa al administrador de red sobre incidentes de seguridad.
+<br><br>
+
+**Ventajas de Suricata**
+
+1. **💻 Código abierto y gratuito**: Suricata es completamente **gratis** y accesible para todos. Puedes modificarlo según tus necesidades sin coste adicional.
+   
+2. **⚡ Rendimiento y escalabilidad**: Está optimizado para manejar grandes volúmenes de tráfico, lo que lo hace ideal para redes **grandes** o **complejas**.
+
+3. **⏱️ Detección en tiempo real**: Permite detectar intrusiones mientras suceden, lo que **previene** ataques antes de que causen daños.
+
+4. **🌐 Compatible con varios protocolos**: Suricata puede inspeccionar múltiples tipos de tráfico de red, como **HTTP**, **DNS**, **FTP**, entre otros.
+
+5. **🔒 Integración con otras herramientas de seguridad**: Suricata puede conectarse con sistemas de gestión de eventos de seguridad (SIEM) para centralizar alertas y registros.
+<br><br>
+
+**Desventajas de Suricata** ⚠️
+
+**🤔 Ventajas y Desventajas de Suricata**
+
+| **Ventaja/Desventaja**                 | **Descripción**                                                                                                                                                  |
+|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **💻 Código abierto y gratuito**      | Suricata es completamente **gratis** y accesible para todos. Puedes modificarlo según tus necesidades sin coste adicional.                                       |
+| **⚡ Rendimiento y escalabilidad**    | Está optimizado para manejar grandes volúmenes de tráfico, lo que lo hace ideal para redes **grandes** o **complejas**.                                           |
+| **⏱️ Detección en tiempo real**      | Permite detectar intrusiones mientras suceden, lo que **previene** ataques antes de que causen daños.                                                              |
+| **🌐 Compatible con varios protocolos** | Suricata puede inspeccionar múltiples tipos de tráfico de red, como **HTTP**, **DNS**, **FTP**, entre otros.                                                       |
+| **🔒 Integración con otras herramientas de seguridad** | Suricata puede conectarse con sistemas de gestión de eventos de seguridad (SIEM) para centralizar alertas y registros.                                               |
+| **⚙️ Requiere configuración técnica** | Aunque es poderoso, puede ser más **complejo** de configurar en comparación con otras soluciones comerciales.                                                      |
+| **🔋 Consumo de recursos**           | Dependiendo del volumen de tráfico y las reglas de detección, puede consumir una cantidad significativa de **recursos** del sistema.                             |
+| **❌ Falsos positivos**               | Suricata puede generar alertas que no son amenazas reales, lo que puede requerir tiempo adicional para investigar.                                                  |
+| **🔧 Necesita intervención humana**  | Aunque puede bloquear algunas amenazas, en ocasiones es necesario ajustar las reglas o tomar decisiones manuales para enfrentar ataques avanzados.                |
+
+<br>
+
 
 ### PRACTICA 
 
