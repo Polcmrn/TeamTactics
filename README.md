@@ -2414,6 +2414,8 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 
 📱 Clientes para navegador, Android, iOS, Smart TV, Roku, etc.
 
+
+
 **⚙️ Breve tutorial: Configuración y administración**
 
 1. Instalación
