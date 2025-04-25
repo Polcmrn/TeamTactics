@@ -2482,6 +2482,27 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 
 </details> 
 
+
+## 19.Suricata🌐
+
+<details>
+  <summary>
+   Suricata🕵️‍♂️
+  </summary>
+
+### TEORIA
+
+
+<br><br><br>
+
+### PRACTICA 
+
+
+</details> 
+
+
+
+
  </details>
 
  
