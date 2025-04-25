@@ -2412,7 +2412,7 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 
 🖥️ Puedes usarlo en Windows, Linux, macOS, Docker y NAS.
 
-📱 Clientes para navegador, Android, iOS, Smart TV, Roku, etc.
+📱 Clientes para navegador, Android, iOS, Smart TV, Roku, etc.<br><br>
 
 
 
