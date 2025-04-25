@@ -2399,7 +2399,7 @@ Monitorizar: Durante la transmisión, OBS muestra información útil en la barra
 
 <details>
   <summary>
-   JellyFinn🛢️
+   JellyFinn🧩
   </summary>
 
 ### TEORIA
