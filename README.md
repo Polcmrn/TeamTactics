@@ -1850,7 +1850,7 @@ Ahora una vez hecho todo, aqui mostramos una captura de en las 2 ubuntus que los
    Teoria y Instalación🎆 
   </summary>
 
-## TEORIA 
+#### TEORIA 
 
 Busca información acerca de los siguientes protocolos en cuanto a: funcionalidades principales, latencia, red, seguridad y compatibilidad?
 
@@ -2169,7 +2169,7 @@ Ideal para archivos de video de alta calidad, almacenamiento de películas y pro
 
 Usado frecuentemente para archivos de cine en alta definición.
 
-## PRACTICA 
+#### PRACTICA 
 
 sudo apt update && sudo apt upgrade
 sudo apt-get install ffmpeg
@@ -2250,7 +2250,7 @@ H.265 (libx265) es mejor para la compresión y la calidad en resoluciones más a
    RTMP🛢️
   </summary>
 
-## TEORIA
+#### TEORIA
 
 ¿Cuáles son las ventajas y desventajas del uso del protocolo RTMP?
 
@@ -2307,7 +2307,7 @@ SRT (Secure Reliable Transport) – Mayor seguridad y estabilidad en conexiones 
 
 Haz un resumen de la configuración y uso de RTMP
 
-## PRACTICA 
+#### PRACTICA 
 
 Comprobar Hostname :
 
