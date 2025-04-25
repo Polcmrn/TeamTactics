@@ -2475,7 +2475,7 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 | Facilidad de uso           | Algo más técnico                       | Muy amigable para principiantes      |
 | Privacidad                 | Total (datos solo locales)             | Requiere cuenta, datos en la nube    |
 
-<br><br><br>
+<br><br>
 
 ### PRACTICA 
 
