@@ -2406,13 +2406,53 @@ Monitorizar: Durante la transmisión, OBS muestra información útil en la barra
 
 ¿Qué es Jellyfin?
 
-¨Jellyfin¨es un servidor multimedia gratuito y de código abierto que te permite organizar, gestionar y transmitir tus películas, series, música y fotos en tu red local o de forma remota. Es una alternativa libre a Plex y Emby.
+ [Jellyfin](https://jellyfin.org) es un **servidor multimedia gratuito y de código abierto** que te permite organizar, gestionar y transmitir tus películas, series, música y fotos desde tu red local o por internet.
 
-🔓 100% libre, sin coste ni funciones premium.
+- 🔓 100% libre, sin funciones bloqueadas por pago.
+- 🖥️ Funciona en Windows, Linux, macOS, Docker y más.
+- 📱 Compatible con navegadores, apps móviles, Smart TV, Roku, etc.
 
-🖥️ Puedes usarlo en Windows, Linux, macOS, Docker y NAS.
+---
 
-📱 Clientes para navegador, Android, iOS, Smart TV, Roku, etc.
+## ⚙️ Guía Rápida de Configuración
+
+### 1. Instalación
+
+#### 📦 Docker
+```bash
+docker run -d \
+  --name jellyfin \
+  -v /ruta/config:/config \
+  -v /ruta/medios:/media \
+  -p 8096:8096 \
+  jellyfin/jellyfin
+
+  
+2. Primer inicio
+Abre el navegador y ve a: http://localhost:8096
+
+Sigue el asistente:
+
+Crea un usuario administrador.
+
+Define los idiomas.
+
+Añade las rutas a tus carpetas multimedia (películas, series, música).
+
+Configura el tipo de biblioteca (películas, TV, música, etc.).
+
+3. Administración básica
+Accede como admin → “Panel de administración”:
+
+Usuarios: Añadir o restringir usuarios.
+
+Bibliotecas: Agregar o editar rutas multimedia.
+
+Transcodificación: Ajustar calidad para streaming remoto.
+
+Plugins: Instalar subtítulos, buscadores de metadatos, etc.
+
+Red: Permitir acceso externo (requiere redirección de puertos).
 
 #### PRACTICA 
 
