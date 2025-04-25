@@ -2406,7 +2406,7 @@ Monitorizar: Durante la transmisión, OBS muestra información útil en la barra
 
 ¿Qué es Jellyfin?
 
-Jellyfin es un servidor multimedia gratuito y de código abierto que te permite organizar, gestionar y transmitir tus películas, series, música y fotos en tu red local o de forma remota. Es una alternativa libre a Plex y Emby.
+¨Jellyfin¨es un servidor multimedia gratuito y de código abierto que te permite organizar, gestionar y transmitir tus películas, series, música y fotos en tu red local o de forma remota. Es una alternativa libre a Plex y Emby.
 
 🔓 100% libre, sin coste ni funciones premium.
 
