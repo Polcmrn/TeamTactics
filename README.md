@@ -2461,14 +2461,15 @@ Red: Permitir acceso externo (requiere redirección de puertos).
 
 **🤜 Jellyfin vs Plex**
 
-Característica	Jellyfin	Plex
-Licencia	100% libre y de código abierto	Gratuito con funciones premium
-Precio	Gratis, sin versión de pago	Plex Pass opcional
-Acceso remoto	Manual (puertos o VPN)	Automático (con cuenta Plex)
-Transcodificación HW	Solo con configuración específica	Incluida con Plex Pass
-Plugins y personalización	Alta (open source)	Limitada en versión gratuita
-Facilidad de uso	Algo más técnico	Muy amigable para principiantes
-Privacidad	Total (datos solo locales)	Requiere cuenta, datos en la nube
+| Característica              | Jellyfin                              | Plex                                 |
+|----------------------------|----------------------------------------|--------------------------------------|
+| Licencia                   | 100% libre y de código abierto         | Gratuito con funciones premium       |
+| Precio                     | Gratis, sin versión de pago            | Plex Pass opcional                   |
+| Acceso remoto              | Manual (puertos o VPN)                 | Automático (con cuenta Plex)         |
+| Transcodificación HW       | Solo con configuración específica      | Incluida con Plex Pass               |
+| Plugins y personalización  | Alta (open source)                     | Limitada en versión gratuita         |
+| Facilidad de uso           | Algo más técnico                       | Muy amigable para principiantes      |
+| Privacidad                 | Total (datos solo locales)             | Requiere cuenta, datos en la nube    |
 
 #### PRACTICA 
 
