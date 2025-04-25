@@ -2393,16 +2393,23 @@ Si no está en la lista o usas un servidor propio, seleccionas Personalizado....
 Iniciar Transmisión: Una vez todo configurado, vuelves a la ventana principal de OBS y haces clic en el botón Iniciar transmisión. OBS se conectará al servidor RTMP y empezará a enviar tu video y audio. Para detenerla, usas el botón Detener transmisión.
 
 Monitorizar: Durante la transmisión, OBS muestra información útil en la barra inferior, como el estado de la conexión, el uso de CPU, si hay fotogramas perdidos (por problemas de red o de rendimiento del PC), y la tasa de bits actual.
+</details> 
+
+## 18.JellyFinn
+
+<details>
+  <summary>
+   JellyFinn🛢️
+  </summary>
+
+## TEORIA
 
 
 
-
-
+## PRACTICA 
 
 
 </details> 
-
-
 
  </details>
 
