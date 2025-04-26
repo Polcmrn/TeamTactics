@@ -1381,7 +1381,7 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
    Seguridad y Reglas de Red🛡️
   </summary>
 
-### Teoria Psense
+### **Teórica**
 
 La primera interfaz se conectará a la WAN (salida hacia Internet), mientras que la segunda se destinará a la LAN (conexión con otras máquinas virtuales del laboratorio):
 
@@ -1391,10 +1391,10 @@ Red NAT para la LAN: Se utiliza para permitir la conexión entre las máquinas v
 
 Abajo de esto se vera las capturas de las IPs de las 2 interfaces
 
-QUE ES Psense?
+**Que es pfSense?**
 
 
-pfSense es un firewall y router basado en FreeBSD, ampliamente utilizado en entornos empresariales y redes domésticas avanzadas. Se destaca por su flexibilidad, seguridad y facilidad de configuración. Algunas de sus principales características incluyen:
+**pfSense** es un firewall y router basado en FreeBSD, ampliamente utilizado en entornos empresariales y redes domésticas avanzadas. Se destaca por su flexibilidad, seguridad y facilidad de configuración. Algunas de sus principales características incluyen:
 
 Firewall y NAT: Reglas avanzadas de filtrado y traducción de direcciones.
 VPN: Soporte para OpenVPN e IPsec, permitiendo conexiones seguras desde el exterior.
@@ -1404,7 +1404,7 @@ Permitiendo monitorear y bloquear tráfico malicioso en tiempo real
 Portal Cautivo: Control de acceso a la red con autenticación.</br></br>
 
 
-### Instalación del Firewall
+#### **Instalación del Firewall**
 
 Una vez que pfSense esté instalado, se te pedirá que configures las interfaces de red, como WAN y LAN.
 
@@ -1543,7 +1543,12 @@ Ahora creamos la CA, que es una entidad confiable responsable de emitir y revoca
 ![image](https://github.com/user-attachments/assets/10abd077-9dc7-42db-97f7-3e3212b1172a)
 
 Luego iriamos a crear el certificado del servidor OpenVPN, que eso se encuentra en System - Certificates y lo que haremos serà agregar un certificado
-Y luego lo que haremos será configurar el servidor de OpenVPN, que se encuentra en Servers, y hacemos la misma configuración que nos comento Alina en el punkymo para poder hacerlo de la forma correcta
+Y luego lo que haremos será configurar el servidor de OpenVPN, que se encuentra en Servers, y hacemos la misma configuración que nos comento Alina en el punkymo para poder hacerlo de la forma correcta</br></br>
+
+### Práctica
+
+
+
 
 
 
