@@ -1375,7 +1375,7 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
 </details>
 
 
-## 13.FIREWALL🔥
+## 13.FIREWALL🔥 - pfSense
 <details>
   <summary>
    Seguridad y Reglas de Red🛡️
