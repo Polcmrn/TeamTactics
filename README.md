@@ -1576,7 +1576,15 @@ Aquí podemos ver como ambas Ubuntu Cliente conectan perfectamente con la máqui
  
 #### 5. Realiza pruebas de conexión entre los dispositivos.
  
-        
+#### 6. Configuración de un servidor FTP en la VM de la DMZ
+
+![image](https://github.com/user-attachments/assets/3daf55f4-c710-4566-8160-f43b69953a22)
+
+![image](https://github.com/user-attachments/assets/a96f76b3-72bf-44d0-a389-14b408da8b65)
+
+![image](https://github.com/user-attachments/assets/970f7086-826c-4092-9b49-ec8c508a2a12)
+
+
 
 </details>
 
