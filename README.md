@@ -1545,12 +1545,38 @@ Ahora creamos la CA, que es una entidad confiable responsable de emitir y revoca
 Luego iriamos a crear el certificado del servidor OpenVPN, que eso se encuentra en System - Certificates y lo que haremos serà agregar un certificado
 Y luego lo que haremos será configurar el servidor de OpenVPN, que se encuentra en Servers, y hacemos la misma configuración que nos comento Alina en el punkymo para poder hacerlo de la forma correcta</br></br>
 
-### Práctica
+### PARTE PRÁCTICA
+
+#### 1. Las dos VM se conectan a la DMZ y 6. Comprueba que el firewall está brindando servicio de DHCP a los equipos.
+
+Hemos creado las dos VM que en nuestro caso son Ubuntu Cliente, ambas con adaptador de red Solo Anfitrión (DMZ).
+
+![image](https://github.com/user-attachments/assets/bedd76f6-30ad-4bea-b5dd-f6d9ed723854)
+
+Aquí podemos ver como ambas Ubuntu Cliente conectan perfectamente con la máquina PfSense, es mas tienen la IP 192.168.10.100 y 101 del rango que le hemos configurado a PfSense, y nos deja entrar en Admin poniendo la IP 192.168.1.186 que es la IP WAN de la VM PfSense. 
+
+![image](https://github.com/user-attachments/assets/a3418d96-da53-435c-9711-d0dc70ce992b)
 
 
+![image](https://github.com/user-attachments/assets/8a02b50d-998b-492b-bab8-052448f5ed50)
 
+   
+#### 2. El equipo anfitrión se conecta a la LAN
+   
+#### 3. Configura el port forward para acceder por SSH a la VM de la DMZ
 
+![image](https://github.com/user-attachments/assets/1bca5198-38e9-4c0a-a491-e74fcd14dabb)
 
+![image](https://github.com/user-attachments/assets/83d2df3e-3321-4f23-80f5-5ff3aa0cef86)
+   
+#### 4. Configura el port forward para visualizar la página web de la VM de la DMZ
+
+![image](https://github.com/user-attachments/assets/e3b34164-a974-47b8-b73b-75376963e499)
+
+ 
+#### 5. Realiza pruebas de conexión entre los dispositivos.
+ 
+        
 
 </details>
 
