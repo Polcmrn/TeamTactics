@@ -1381,13 +1381,7 @@ Comprobamos que en el servidor se puede ver el mensaje para verificar que el pro
    Seguridad y Reglas de Red🛡️
   </summary>
 
-Las IpTables son una herramienta de filtrado de paquetes en sistemas Linux que permiten administrar el tráfico de red mediante reglas definidas por el usuario. Funciona como un firewall, controlando qué paquetes pueden entrar, salir o atravesar el sistema según ciertos criterios, como la dirección IP, el puerto, el protocolo y el estado de la conexión.
-
-Al implementarlas en nuestro router nos permitirá configurar políticas de seguridad robustas, bloqueando tráfico no deseado y permitiendo solo las conexiones necesarias. De esta forma, actúan como la primera línea de defensa contra accesos no autorizados y ataques de red.
-
-![image](https://github.com/user-attachments/assets/42dd639e-1060-4246-af8f-a544716b9faa)
-
-#### Teoria Psense
+### Teoria Psense
 
 La primera interfaz se conectará a la WAN (salida hacia Internet), mientras que la segunda se destinará a la LAN (conexión con otras máquinas virtuales del laboratorio):
 
@@ -1407,10 +1401,10 @@ VPN: Soporte para OpenVPN e IPsec, permitiendo conexiones seguras desde el exter
 QoS y Traffic Shaping: Control del tráfico para priorizar servicios. Soporte que permite establecer límites de ancho de banda por IP o red.
 Sistema de detección de intrusos (IDS/IPS) con Snort o Suricata.Integración con Snort o Suricata como sistemas de detección y prevención de intrusiones.
 Permitiendo monitorear y bloquear tráfico malicioso en tiempo real
-Portal Cautivo: Control de acceso a la red con autenticación.
+Portal Cautivo: Control de acceso a la red con autenticación.</br></br>
 
 
-#### Instalación del Firewall
+### Instalación del Firewall
 
 Una vez que pfSense esté instalado, se te pedirá que configures las interfaces de red, como WAN y LAN.
 
