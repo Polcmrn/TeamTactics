@@ -2716,6 +2716,7 @@ Seleccionar Prometheus.
 
 QUE HARIAMOS CON SI TUVIERAMOS MAS TIEMPO
 
+Podriamos Monitorización de Contenedores Docker/Kubernetes con Grafana
 
 </details> 
 
