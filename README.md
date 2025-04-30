@@ -2594,9 +2594,26 @@ Accedemos al suricata.yaml y editamos el archivo de configuración principal de 
 ![image](https://github.com/user-attachments/assets/2c92fcdb-7499-49a1-b1ec-7f9068646ceb)
 ![image](https://github.com/user-attachments/assets/4807cfad-6d31-415e-9dad-7fd499e6a082)
 
+ sudo systemctl restart suricata
 
+ Se reinicia el servicio para aplicar los cambios realizados en la configuración
+ 
 ![image](https://github.com/user-attachments/assets/08b83324-0a8a-42c0-bae3-5e72a86e5cb5)
+
+sudo tail -f /var/log/suricata/suricata.log
+
+Se monitorean los registros en tiempo real para verificar que Suricata esté funcionando correctamente
+
 ![image](https://github.com/user-attachments/assets/74498d6a-6250-4347-8a8d-9cd0b7d6f03a)
+
+curl http://testmynids.org/uid/index.html y el resultado en /var/log/suricata/fast.log.
+
+Se realiza una prueba para verificar que Suricata detecte tráfico malicioso
+
+wget https://rules.emergingthreats.net/open/suricata/emerging.rules.tar.gz
+
+Se descargan reglas actualizadas para mejorar la detección de amenazas
+
 ![image](https://github.com/user-attachments/assets/a72314a9-95ff-4a69-be55-806d9cfe06a5)
 ![image](https://github.com/user-attachments/assets/371b4670-c551-441b-908d-10ffd4bcaab6)
 
