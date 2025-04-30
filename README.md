@@ -2716,7 +2716,9 @@ Seleccionar Prometheus.
 
 QUE HARIAMOS CON SI TUVIERAMOS MAS TIEMPO
 
-Podriamos Monitorización de Contenedores Docker/Kubernetes con Grafana
+Podriamos Monitorización de Contenedores con  Grafana + Prometheus + cAdvisor y asi teamtactics tendria un sistema completo de monitorización para Docker, con gráficos en tiempo real, históricos y alertas proactivas y asi nos ayudaria a optimizar recursos, detectar problemas y mejorar la estabilidad de nuestros contenedores.
+
+cAdvisor,  es una herramienta de monitorización de contenedores que proporciona métricas sobre CPU, memoria, red, disco y más y  expone las métricas en formato Prometheus para su integración con herramientas como Grafana
 
 </details> 
 
