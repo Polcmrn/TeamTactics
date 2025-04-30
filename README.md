@@ -2563,6 +2563,54 @@ Suricata es útil para:
 
 ### PRACTICA 
 
+sudo apt update
+
+![image](https://github.com/user-attachments/assets/89cd8fbf-71b4-49a3-8c27-8932b6f86aaf)
+
+AÑADIR SURICATA AL REPOSITORIO, para obtener la versión estable más reciente.
+
+sudo add-apt-repository ppa:oisf/suricata-stable
+
+![image](https://github.com/user-attachments/assets/c071abfc-670d-4733-b1f5-4abfa4624700)
+
+sudo apt update  para que encuentre el repositorio
+
+sudo apt install suricata jq
+
+Se instala Suricata junto con jq que es una herramienta para procesar JSON en la terminal
+
+![image](https://github.com/user-attachments/assets/60258766-4098-4d23-9243-05a4b6c24b32)
+
+sudo suricata --build-info
+
+verifica la versión instalada y las características soportadas por Suricata.
+![image](https://github.com/user-attachments/assets/6d883c69-597b-4ee7-a9df-f2629870e6b3)
+
+
+sudo systemctl status suricata
+
+Accedemos al suricata.yaml
+![image](https://github.com/user-attachments/assets/2c92fcdb-7499-49a1-b1ec-7f9068646ceb)
+![image](https://github.com/user-attachments/assets/4807cfad-6d31-415e-9dad-7fd499e6a082)
+![image](https://github.com/user-attachments/assets/822805dd-f684-4b10-8734-a48ca5813237)
+![image](https://github.com/user-attachments/assets/08b83324-0a8a-42c0-bae3-5e72a86e5cb5)
+![image](https://github.com/user-attachments/assets/74498d6a-6250-4347-8a8d-9cd0b7d6f03a)
+![image](https://github.com/user-attachments/assets/a72314a9-95ff-4a69-be55-806d9cfe06a5)
+![image](https://github.com/user-attachments/assets/371b4670-c551-441b-908d-10ffd4bcaab6)
+
+
+prometheus
+![image](https://github.com/user-attachments/assets/4e3aded2-9b28-4876-a09c-947f75b406e4)
+![image](https://github.com/user-attachments/assets/adb17336-d620-487a-95c3-33990f6d6ea3)
+![image](https://github.com/user-attachments/assets/57f52021-ba5d-4ffb-a455-ebabb1bd4ecc)
+
+GRAFANA
+![image](https://github.com/user-attachments/assets/7eefebdd-0fd3-43d9-b481-f144fb910949)
+![image](https://github.com/user-attachments/assets/c4fe15ac-5640-4881-bef2-45672b479dac)
+![image](https://github.com/user-attachments/assets/a4181e35-c2c5-4f3c-a66a-ef4cba7eb845)
+![image](https://github.com/user-attachments/assets/e5f070cc-5468-41e9-95ac-64ea3a22cb02)
+![image](https://github.com/user-attachments/assets/f7379210-5dc1-4058-914d-bfb9cd3bb615)
+
 
 </details> 
 
