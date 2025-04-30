@@ -2589,10 +2589,12 @@ verifica la versión instalada y las características soportadas por Suricata.
 
 sudo systemctl status suricata
 
-Accedemos al suricata.yaml
+Accedemos al suricata.yaml y editamos el archivo de configuración principal de Suricata para ajustar parámetros como la interfaz de red (enp0s3) y el modo de operación (af-packet).
+
 ![image](https://github.com/user-attachments/assets/2c92fcdb-7499-49a1-b1ec-7f9068646ceb)
 ![image](https://github.com/user-attachments/assets/4807cfad-6d31-415e-9dad-7fd499e6a082)
-![image](https://github.com/user-attachments/assets/822805dd-f684-4b10-8734-a48ca5813237)
+
+
 ![image](https://github.com/user-attachments/assets/08b83324-0a8a-42c0-bae3-5e72a86e5cb5)
 ![image](https://github.com/user-attachments/assets/74498d6a-6250-4347-8a8d-9cd0b7d6f03a)
 ![image](https://github.com/user-attachments/assets/a72314a9-95ff-4a69-be55-806d9cfe06a5)
