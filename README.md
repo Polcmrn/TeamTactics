@@ -2618,17 +2618,103 @@ Se descargan reglas actualizadas para mejorar la detección de amenazas
 ![image](https://github.com/user-attachments/assets/371b4670-c551-441b-908d-10ffd4bcaab6)
 
 
-prometheus
+PROMETHEUS
+
+Prometheus es un sistema de monitoreo y alerta de código abierto diseñado para aplicaciones y servicios en entornos distribuidos. Recopila métricas en tiempo real, las almacena en una base de datos de series temporales y permite consultarlas mediante un lenguaje propio (PromQL).
+
+Es ampliamente utilizado  para supervisar el rendimiento, detectar anomalías y generar alertas.
+
+
+Características Principales
+
+✅ Recolección de métricas:
+
+Recopila datos mediante un modelo de "extracción" (pull) sobre HTTP.
+
+Soporta múltiples formatos de exportación (client libraries para Python, Go, Java, etc.).
+
+✅ Almacenamiento eficiente:
+
+Usa una base de datos de series temporales optimizada para consultas rápidas.
+
+✅ Alertas:
+
+Integra Alertmanager para notificaciones (email, Slack, etc.) basadas en reglas predefinidas.
+
+✅ Integración con Grafana:
+
+Permite visualizar métricas en dashboards interactivos.
+
+✅ Escalabilidad:
+
+Soporta federación para entornos distribuidos.
+
+sudo apt install prometheus
+
+Instala Prometheus y configura automáticamente el servicio para iniciarse con systemd
+
 ![image](https://github.com/user-attachments/assets/4e3aded2-9b28-4876-a09c-947f75b406e4)
+
+Tras la instalación, Prometheus escucha en el puerto 9090 (HTTP), y esto lo verificamos con:
+
+sudo lsof -i -P -n 
+Mediante la inspeccion de los puertos abiertos
+
 ![image](https://github.com/user-attachments/assets/adb17336-d620-487a-95c3-33990f6d6ea3)
+
+http://100.77.20.41 :9090
+Desde el navegador, permite ejecutar consultas en PromQL 
+
 ![image](https://github.com/user-attachments/assets/57f52021-ba5d-4ffb-a455-ebabb1bd4ecc)
 
 GRAFANA
+
+Grafana es una herramienta de visualización y monitoreo de código abierto que permite crear dashboards interactivos para métricas, logs y datos de series temporales. Es compatible con múltiples fuentes de datos, incluyendo Prometheus, bases de datos SQL, Elasticsearch
+
+Características clave:
+✅ Dashboards personalizables: Gráficos, tablas, mapas de calor, etc.
+✅ Soporte para alertas: Notificaciones basadas en umbrales.
+✅ Integración con Prometheus: Ideal para monitorizar Suricata y otros servicios.
+✅ Multiplataforma: Funciona en Linux, Windows, Docker, y en la nube.
+
+sudo apt-get install -y adduser libfontconfig1 musl
+
+adduser: Para gestionar usuarios (necesario para el servicio de Grafana).
+
+libfontconfig1: Librería para renderizar fuentes en los dashboards.
+
+musl: Librería estándar ligera para C (requerida por Grafana)
+
+Descargar e Instalar Grafana
+Se descarga el paquete .deb desde el sitio oficial
+
+wget https://dl.grafana.com/enterprise/release/grafana-enterprise_11.6.0_amd64.deb
+sudo dpkg -i grafana-enterprise_11.6.0_amd64.deb
+
 ![image](https://github.com/user-attachments/assets/7eefebdd-0fd3-43d9-b481-f144fb910949)
+
+Tras la instalación, grafana escucha en el puerto 3000 (HTTP), y esto lo verificamos con:
+
+sudo lsof -i -P -n 
+Mediante la inspeccion de los puertos abiertos
+
 ![image](https://github.com/user-attachments/assets/c4fe15ac-5640-4881-bef2-45672b479dac)
+
+Acceder a la Interfaz Web con: http://100.77.20.41 :3000
+
 ![image](https://github.com/user-attachments/assets/a4181e35-c2c5-4f3c-a66a-ef4cba7eb845)
+
+Tras iniciar sesión, vamos a Configuration (engranaje) > Data Sources.
+
+Seleccionar Prometheus.
+
+ Y configuramos la URL de Prometheus: http://100.77.20.41 :9090, luego guardamos y probamos la conexión
+ 
 ![image](https://github.com/user-attachments/assets/e5f070cc-5468-41e9-95ac-64ea3a22cb02)
 ![image](https://github.com/user-attachments/assets/f7379210-5dc1-4058-914d-bfb9cd3bb615)
+
+
+QUE HARIAMOS CON SI TUVIERAMOS MAS TIEMPO
 
 
 </details> 
