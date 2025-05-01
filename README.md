@@ -2512,6 +2512,60 @@ Jellyfin es un servidor multimedia gratuito y de código abierto que te permite 
 
 ### PRACTICA 
 
+Primero de todo empezamos con un:
+
+ sudo apt install apt-transport-https
+
+ ![image](https://github.com/user-attachments/assets/caf44c29-31c3-4b82-a258-54611732febe)
+
+
+Que basicamente instala el paquete apt-transport-https, que permite al gestor de paquetes APT para acceder a repositorios de software que usan el protocolo HTTPS 
+
+Luego seguimos con:
+
+echo "deb [arch=$(dpkg --print-architecture)] https://repo.jellyfin.org/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/jellyfin.list
+
+Para  agregar el repositorio de Jellyfin
+
+![image](https://github.com/user-attachments/assets/4889b8bd-6d4c-4c88-9348-f3e7aa59eb6a)
+
+Hacemos un apt update y apt upgrade
+
+![image](https://github.com/user-attachments/assets/8153af32-c4c6-46c4-b735-1c649cd1233d)
+
+
+
+Luego descargamos e importamos la clave GPG de Jellyfin:
+
+wget -O - https://repo.jellyfin.org/jellyfin_team.gpg.key | sudo apt-key add -
+
+![image](https://github.com/user-attachments/assets/c24c0560-8184-4eb1-aa16-483adbb34a4c)
+
+
+Ahora hacemos un mkdir -p para crear una carpeta que se  llama accion dentro de la ruta /home/series/
+
+![image](https://github.com/user-attachments/assets/31dd9440-381f-4c07-9d3c-471001d60571)
+
+
+Hacemos un systemctl status y vemos que jellyfin esta running
+
+Y ahora configuramos permisos para el usuario jellyfin
+
+con: setfacl -R -m u:jellyfin:rx /home/series/
+
+
+Ahora una vez si ponemos todo esto, si ponemos la IP en el navegador ya podriamos acceder a Jellyfin, entonces una vez allí, si vamos a elegir ruta y ponemos la que hemos puesto antes, ya nos saldria la opcion de YA ESTA
+
+
+![image](https://github.com/user-attachments/assets/e31344a0-ca66-4af0-8638-b1d0e7641b13)
+
+![image](https://github.com/user-attachments/assets/70c764c9-a513-42d9-9aff-5ca27d876a53)
+
+Luego de esto, una vez puesto todo esto y nuestro usuario, ya veremos que tenemos accesso y que la instalacion ha sido correcta
+
+![image](https://github.com/user-attachments/assets/ad9d18f3-1c1b-48bc-9cd8-06399c6662fb)
+
+
 
 </details> 
 
@@ -2562,6 +2616,12 @@ Suricata es útil para:
 
 
 ### PRACTICA 
+
+
+
+
+
+
 
 sudo apt update
 
