@@ -2790,11 +2790,13 @@ cAdvisor,  es una herramienta de monitorización de contenedores que proporciona
    TODOS LOS CANVIOS
   </summary>
 
-### INTRODUCCIÓN
+
 
 Ahora que estamos en la parte final del proyecto vamos a explicar de forma muy especifica todas las novedades que hemos realizado en comparación con la 1 UF de proyecto.
 
 Para empezar, hablaremos sobre las funcionalidades que hemos aplicado  a nuestro proyecto, que han sido bastantes de verdad para ser un equipo de dos, y basicamente aqui tanto Quim y Pol no podemos decir que cada cosa ha hecho cada uno ya que hemos ido trabajado de forma conjunta como un equipo de verdad
+
+### FUNCIONALIDADES
 
 1. Una funcionalidad que hemos aplicado a sido la del canvio de contraseña para que los usuarios cuando se registran, este botón de canvio de contraseña se encuentra
    
@@ -2814,7 +2816,21 @@ Ahora vamos a ampliar un poco de explicación de como lo hemos realizado, basica
 
 7. CHATBOX, está ha sido la última que haremos, esta basicamente arriba y  te sale una opción de chatbox, donde un bot te pone unas respuestas establecidas estonces, tu puedes ir clickando sobre opciones y además si por ejemplo tienes alguna duda sobre algun sitio como estadisticas, te puede llevar allí directamente. 
    
+### BASE DE DATOS
 
+Basicamente, en nuestra base de datos, en este segundo trimestre no hemos tocado mucho ya que en el primer trimestre hicimos basicamente la gran mayoria de trabajo, sobretodo en la parte de equipos, en esta segunda UF lo hemos tocado para contacto y cambio de contraseña, para que así se guarden las personas que hos han enviado un mensaje de contacto y también esas contraseñas estas hasheada, mostramos imagen para verificar que es verdad y que no nos inventamos nada:
+
+
+
+### ESQUEMA DE RED
+
+
+### CONCLUSIÓN
+
+Bueno para hacer una conclusión sobre este trabajo, creemos tanto Quim y Pol hemos aprendido muchísimo durante estas 2 UF de proyecto con Alina, ya que nos ha enseñado todo tipo de nuevas tecnologias que possiblemente nunca habíamos escuchado anteriormente.
+Hablando del trabajo, creemos que hemos ido trabajo semanalmente de forma correcta para que estos últimos días poder estar tranquilos por el trabjo diario y constante, nuestra web de teamtactics, ha ido mejorando paso a paso con todas las nuevas funcionalidades que hemos ido aplicando durante esta última UF, como por ejemplo el CHATBOX, que es brutal y también la zona de contacto que también siendo honesto es bantante interesante y possiblemente explicaremos en la presentación para que los possibles proyectos puedan tener esta función.
+
+También, creo que hace falta decir, que en enero perdimos nuestro primer proxmox, es decir nuestro PC donde estaba montado todo nuestro proyecto de la UF 1 y lo que nos hizo perder todo lo trabajo y a la vez nos hizo perder mucho tiempo ya que confiamos que lo encontrariamos por alguna clase de IFP, pero no. Entonces nos obligo a Quim y Pol literalmente volar ya que sinó no llegariamos a donde estamos ahora ni de coña, y siendo honestos nunca me imagine tener el proyecto a los últimos dias de forma tan tranqula
 
 
 
