@@ -2825,6 +2825,8 @@ Basicamente, en nuestra base de datos, en este segundo trimestre no hemos tocado
 
 ### ESQUEMA DE RED
 
+![image](https://github.com/user-attachments/assets/10bbad05-e968-4a78-a390-03811b205198)
+
 
 ### CONCLUSIÓN
 
