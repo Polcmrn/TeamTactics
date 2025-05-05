@@ -2820,6 +2820,7 @@ Ahora vamos a ampliar un poco de explicación de como lo hemos realizado, basica
 
 Basicamente, en nuestra base de datos, en este segundo trimestre no hemos tocado mucho ya que en el primer trimestre hicimos basicamente la gran mayoria de trabajo, sobretodo en la parte de equipos, en esta segunda UF lo hemos tocado para contacto y cambio de contraseña, para que así se guarden las personas que hos han enviado un mensaje de contacto y también esas contraseñas estas hasheada, mostramos imagen para verificar que es verdad y que no nos inventamos nada:
 
+![image](https://github.com/user-attachments/assets/43d78bee-407d-4a2c-b1eb-605f9234fd8f)
 
 
 ### ESQUEMA DE RED
