@@ -2798,6 +2798,19 @@ Ahora que estamos en la parte final del proyecto vamos a explicar de forma muy e
 
 Para empezar, hablaremos sobre las funcionalidades que hemos aplicado  a nuestro proyecto, que han sido bastantes de verdad para ser un equipo de dos, y basicamente aqui tanto Quim y Pol no podemos decir que cada cosa ha hecho cada uno ya que hemos ido trabajado de forma conjunta como un equipo de verdad
 
+### HISTORIA DEL UF2
+
+Basicamente, esta segunda UF, empezamos perdiendo nuestro ordenador de proxmox, y entonces empezamos a instalar proxmox en un nuevo PC, entonces empezamos a hacer las primeras configuración de Docker, ( todo esto esta comentado en la parte de Docker en el indice principal) seguimos con pfsense y iptables donde nos detuvimos algo de tiempo ya que no nos salía, y a la vez estabamos realiando las funcionalidades preestablecidas de esta segunda UF. 
+
+Y hablando un poco de história de la web, hemos aplicado nuevas funcionalidades que estan abajo bien explicadas y también una nueva página dentro de la web que también esta explicada en la parte de funcionalidades, y con estas nuevas funcionalidades hemos acabado con nuestra web de teamtactics
+
+
+### IDEAS IMPOSIBLES
+
+Basicamente, teniamos la idea principal de hacer la web funcional, es decir que los usuarios puedan hacer sus propios equipos y cosas asi, pero cuando el tiempo avanzaba y viendo que teniamos cosas que realizar, vemos que no llegabamos ni de broma, entonces nos decidimos en acabar de una vez la web de teamtactics y completar las nuevas funcionalidades ya que creemos que son super positivas para nuestra web
+
+Otra idea que hemos tenido, ha sido la de la API, pero como buscamos durante mucho tiempo sobre el tema de las API, y que todas, pero digo todas eran de pagos, decidimos parar de buscar ya que notabamos que siempre estabamos quietos, pensando que algun dia encontraremos una pero nunca llego ese dia mientras cada dia de búsqueda notabamos que era un dia perdido
+
 ### FUNCIONALIDADES
 
 1. Una funcionalidad que hemos aplicado a sido la del canvio de contraseña para que los usuarios cuando se registran tengan esa opción de canvio de contraseña para así de una forma segurizar las contraseñas de los usuarios que se registran en nuestra web, este botón de canvio de contraseña se encuentra en la parte inferior de donde el usuario se registra con su correo y contraseña
