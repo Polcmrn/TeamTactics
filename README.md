@@ -1547,7 +1547,7 @@ Y luego lo que haremos será configurar el servidor de OpenVPN, que se encuentra
 
 ### PARTE PRÁCTICA
 
-#### 1. Las dos VM se conectan a la DMZ y 6. Comprueba que el firewall está brindando servicio de DHCP a los equipos.
+#### 1. Las dos VM se conectan a la DMZ y comprueba que el firewall está brindando servicio de DHCP a los equipos.
 
 Hemos creado las dos VM que en nuestro caso son Ubuntu Cliente, ambas con adaptador de red Solo Anfitrión (DMZ).
 
