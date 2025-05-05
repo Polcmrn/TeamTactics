@@ -2798,7 +2798,7 @@ Para empezar, hablaremos sobre las funcionalidades que hemos aplicado  a nuestro
 
 ### FUNCIONALIDADES
 
-1. Una funcionalidad que hemos aplicado a sido la del canvio de contraseña para que los usuarios cuando se registran, este botón de canvio de contraseña se encuentra
+1. Una funcionalidad que hemos aplicado a sido la del canvio de contraseña para que los usuarios cuando se registran tengan esa opción de canvio de contraseña para así de una forma segurizar las contraseñas de los usuarios que se registran en nuestra web, este botón de canvio de contraseña se encuentra en la parte inferior de donde el usuario se registra con su correo y contraseña
    
 2. Otra funcionalidad que hemos aplicado a sido la de que cuando un usuario accede a nuestra página web, no se le puede permitar inspeccionar, ya que de esta manera, aplicamos seguridad dentro de nuestra web y así de alguna forma proteger nuestro código para que no pueda ser reutilizado por otros usuarios a la vez que acceden a nuestra web
 
