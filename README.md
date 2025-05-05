@@ -2792,7 +2792,7 @@ cAdvisor,  es una herramienta de monitorización de contenedores que proporciona
 
 
 
-Ahora que estamos en la parte final del proyecto vamos a explicar de forma muy especifica todas las novedades que hemos realizado en comparación con la 1 UF de proyecto.
+Ahora que estamos en la parte final del proyecto vamos a explicar de forma muy especifica todas las novedades que hemos realizado en comparación con la 1 UF de proyecto, antes de esto, vamos hacer una pequeña introducción sobre todos los canvios que se veran aquí abajo, bueno aquí se verá una mayor explicación de todas las nuevas funcionalidades realizadas de esta UF2, también mostraremos como ha quedado de forma difinitiva el esquema de red final y muchas cosas más que podreis ver aqui abajo 👌
 
 Para empezar, hablaremos sobre las funcionalidades que hemos aplicado  a nuestro proyecto, que han sido bastantes de verdad para ser un equipo de dos, y basicamente aqui tanto Quim y Pol no podemos decir que cada cosa ha hecho cada uno ya que hemos ido trabajado de forma conjunta como un equipo de verdad
 
