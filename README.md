@@ -2792,6 +2792,28 @@ cAdvisor,  es una herramienta de monitorización de contenedores que proporciona
 
 ### INTRODUCCIÓN
 
+Ahora que estamos en la parte final del proyecto vamos a explicar de forma muy especifica todas las novedades que hemos realizado en comparación con la 1 UF de proyecto.
+
+Para empezar, hablaremos sobre las funcionalidades que hemos aplicado  a nuestro proyecto, que han sido bastantes de verdad para ser un equipo de dos, y basicamente aqui tanto Quim y Pol no podemos decir que cada cosa ha hecho cada uno ya que hemos ido trabajado de forma conjunta como un equipo de verdad
+
+1. Una funcionalidad que hemos aplicado a sido la del canvio de contraseña para que los usuarios cuando se registran, este botón de canvio de contraseña se encuentra
+   
+2. Otra funcionalidad que hemos aplicado a sido la de que cuando un usuario accede a nuestra página web, no se le puede permitar inspeccionar, ya que de esta manera, aplicamos seguridad dentro de nuestra web y así de alguna forma proteger nuestro código para que no pueda ser reutilizado por otros usuarios a la vez que acceden a nuestra web
+
+3. Otra funcionalidad que hemos realizado ha sido que dentro de nuestra web, arriba derecha hay un titulo de Contacto, y allí es donde el usuario puede poner algun comentario sobre nuestra web
+
+4. Una funcionalidad que creemos que ha sido muy importante para la parte final, ha sido la parte de classificación, hace falta decir que en esta parte queriamos aplicar la API, pero por problemas económicos, ya que tener una API es bastante costosa la verdad, hemos decidido hacer esta parte de la web mediante codigo, donde el usuario  puede poner diferentes equipos como en un partido, para ver si el que pierda o gana como quedaría en la classificació, esta parte dentro de la web ha quedado bastante estética y es fundamental para poder mejorar nuestra web de teamtactics
+
+5. Centro de soporte, esta es otra funcionalidad que hemos creado, esta, se basa que cuando accedemos a la página principal de nuestra web, abajo derecha aparece una opción de chat, como de centro de soporte
+
+
+Ahora vamos a ampliar un poco de explicación de como lo hemos realizado, basicamente descubrimos por nuestra propia cuenta, que existe una web que se llama TIDIO, y basicamente, te da la opción de que dar un link para ponerlo en tu html y funciona como un chat, entonces, dentro de la web nuestra, existe está opción de chatear, y entonces dentro de tidio, tenemos una parte de donde a nuestro correo de usuario, es decir el de contacto, nos llegan todos los mensajes de los usuarios que han chateado con el chat de la web
+
+
+6. BACKUP, otra funcionalidad ha sido la del backup, ya que basicamente aplicamos seguridad si por alguna razón perdemos algo, y así de paso hacemos otra funcionalidad y además es algo bastante importante para de una forma segurizar nuestro largo trabajo constante de estos últimos meses
+
+7. CHATBOX, está ha sido la última que haremos, esta basicamente arriba y  te sale una opción de chatbox, donde un bot te pone unas respuestas establecidas estonces, tu puedes ir clickando sobre opciones y además si por ejemplo tienes alguna duda sobre algun sitio como estadisticas, te puede llevar allí directamente. 
+   
 
 
 
